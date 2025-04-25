@@ -14,6 +14,8 @@ body {
 
   // only allow synthesizing italics but not bold
   font-synthesis: style;
+  // 设置正文字体大小，这里设置为 1.1rem，你可以按需调整
+  font-size: 1rem; 
 }
 
 img[src*="banner.svg"] {
@@ -54,7 +56,7 @@ hr {
   width: 100%;
 
   &:after {
-    content: "* * *";
+    content: "· · ─────── · 🌿 · ─────── · ·";
     display: inline-block;
     margin: -1em 0 0.5em;
     font-size: 1.5em;
@@ -65,15 +67,16 @@ hr {
 
 pre.poetry {
   font-size: 1.2rem;
-  font-family: biro_script_standardRgus;
+  font-family: Dynalight-Regular;
   border: none;
   padding: 0;
   position: unset;
 }
 
+
 .meta,
 .content-meta {
-  font-family: biro_script_standardRgus, var(--bodyFont);
+  font-family: Dynalight-Regular, var(--bodyFont);
 }
 
 audio::-webkit-media-controls-panel {
@@ -139,8 +142,8 @@ body.animation-ready #quartz-body {
   --day: #fffdfa;
   --evening: #fccc83;
   --dusk: #db7a2a;
-  --night: #0f131c;
-  --dawn: #16132b;
+  --night: #004033;
+  --dawn: #005947;
   --morning: #9fb3bf;
 
   --shadow: #1a1917;
@@ -356,4 +359,29 @@ body.animation-ready #quartz-body {
   100% {
     transform: rotateX(0deg) rotateY(0deg) scale(1);
   }
+}    
+
+/* 引入 Tagesschrift-Regular.ttf 字体 */
+@font-face {
+  font-family: 'JetBrainsMono-VariableFont_wght';
+  src: url('../static/font/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
 }
+
+/* 引入 屏幕阅读版.ttf 字体 */
+@font-face {
+  font-family: 'ScreenReadingVersion';
+  src: url('../static/font/屏幕阅读版.ttf') format('truetype');
+}
+
+/* 引入 润植家如印奏章楷.ttf 字体 */
+@font-face {
+  font-family: '寒蝉正楷体 简';
+  src: url('../static/font/寒蝉正楷体 简.ttf') format('truetype');
+}
+
+:root {
+  --bodyFont: 'ScreenReadingVersion', sans-serif !important;
+  --headerFont: '寒蝉正楷体 简', sans-serif !important;
+  --codeFont: 'JetBrainsMono-VariableFont_wght', monospace !important;
+}
+
