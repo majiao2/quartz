@@ -28,6 +28,10 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
+      - name: Create target directory
+        run: mkdir -p public/static/font
+      - name: Copy font files
+        run: cp -r quartz/static/font/* public/static/font/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -43,3 +47,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+    
