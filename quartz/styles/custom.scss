@@ -364,19 +364,19 @@ body.animation-ready #quartz-body {
 /* 引入 Tagesschrift-Regular.ttf 字体 */
 @font-face {
   font-family: 'JetBrainsMono-VariableFont_wght';
-  src: url('../static/font/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+  src: url('/static/font/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
 }
 
 /* 引入 屏幕阅读版.ttf 字体 */
 @font-face {
   font-family: 'ScreenReadingVersion';
-  src: url('../static/font/屏幕阅读版.ttf') format('truetype');
+  src: url('/static/font/屏幕阅读版.ttf') format('truetype');
 }
 
 /* 引入 润植家如印奏章楷.ttf 字体 */
 @font-face {
   font-family: '寒蝉正楷体 简';
-  src: url('../static/font/寒蝉正楷体 简.ttf') format('truetype');
+  src: url('/static/font/寒蝉正楷体 简.ttf') format('truetype');
 }
 
 :root {
