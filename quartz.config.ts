@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "blog.jwanlf.asia/quartz/",
     ignorePatterns: ["private", "templates"],
     defaultDateType: "created",
     theme: {
