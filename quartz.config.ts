@@ -21,7 +21,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       fontOrigin: "local",
-      cdnCaching: ture,
+      cdnCaching: false,
       typography: {
         header: {
           name: "Tagesschrift",
