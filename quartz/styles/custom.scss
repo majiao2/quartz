@@ -15,7 +15,7 @@ body {
   // only allow synthesizing italics but not bold
   font-synthesis: style;
   // 设置正文字体大小，这里设置为 1.1rem，你可以按需调整
-  font-size: 1rem; 
+  font-size: 1.05rem; 
 }
 
 img[src*="banner.svg"] {
@@ -364,21 +364,21 @@ body.animation-ready #quartz-body {
 /* 引入 Tagesschrift-Regular.ttf 字体 */
 @font-face {
   font-family: 'JetBrainsMono-VariableFont_wght';
-  src: url('/quartz/static/font/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+  src: url('/static/font/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
 }
 
 /* 引入 屏幕阅读版.ttf 字体 */
 @font-face {
   font-family: '屏幕阅读版';
   font-weight: normal;
-  src: url('/quartz/static/font/屏幕阅读版.woff') format('woff');
+  src: url('/static/font/LXGW.ttf') format('truetype');
 }
 
 /* 引入 润植家如印奏章楷.ttf 字体 */
 @font-face {
   font-family: '寒蝉正楷体 简';
   font-weight: bold;
-  src: url('/quartz/static/font/寒蝉正楷体 简.woff') format('woff');
+  src: url('/static/font/寒蝉正楷体 简.woff') format('woff');
 }
 
 :root {
