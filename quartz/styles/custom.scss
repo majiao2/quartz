@@ -369,9 +369,9 @@ body.animation-ready #quartz-body {
 
 /* 引入 屏幕阅读版.ttf 字体 */
 @font-face {
-  font-family: '屏幕阅读版';
+  font-family: 'pingmuyuedu';
   font-weight: normal;
-  src: url('/quartz/static/font/屏幕阅读版.ttf') format('truetype');
+  src: url('/quartz/static/font/pingmuyuedu.woff') format('woff');
 }
 
 /* 引入 润植家如印奏章楷.ttf 字体 */
@@ -382,7 +382,7 @@ body.animation-ready #quartz-body {
 }
 
 :root {
-  --bodyFont: '屏幕阅读版', sans-serif !important;
+  --bodyFont: 'pingmuyuedu', sans-serif !important;
   --headerFont: '寒蝉正楷体 简', sans-serif !important;
   --codeFont: 'JetBrainsMono-VariableFont_wght', monospace !important;
 }
