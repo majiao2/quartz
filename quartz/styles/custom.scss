@@ -368,12 +368,7 @@ body.animation-ready #quartz-body {
   src: url('/quartz/static/font/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
 }
 
-/* 引入 屏幕阅读版.ttf 字体 */
-@font-face {
-  font-family: '屏幕阅读版';
-  font-weight: normal;
-  src: url('/quartz/static/font/LXGW.ttf') format('truetype');
-}
+
 
 /* 引入 润植家如印奏章楷.ttf 字体 */
 @font-face {
@@ -382,8 +377,16 @@ body.animation-ready #quartz-body {
   src: url('/quartz/static/font/寒蝉正楷体 简.woff') format('woff');
 }
 
-:root {
-  --bodyFont: '屏幕阅读版', sans-serif !important;
-  --headerFont: '寒蝉正楷体 简', sans-serif !important;
-  --codeFont: 'JetBrainsMono-VariableFont_wght', monospace !important;
+
+/* 引入 屏幕阅读版.ttf 字体 */
+@font-face {
+  font-family: 'LXGWM';
+  font-weight: normal;
+  src: url('/quartz/static/font/LXGW.ttf') format('truetype');
 }
+
+:root {
+  --headerFont: '寒蝉正楷体 简', sans-serif !important;
+  --bodyFont: 'LXGWM', sans-serif !important;
+  --codeFont: 'JetBrainsMono-VariableFont_wght', monospace !important;
+}    
