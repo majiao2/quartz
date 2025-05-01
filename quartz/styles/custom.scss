@@ -380,13 +380,13 @@ body.animation-ready #quartz-body {
 
 /* 引入 屏幕阅读版.ttf 字体 */
 @font-face {
-  font-family: 'LXGWM';
+  font-family: '寒蝉正楷体 简';
   font-weight: normal;
-  src: url('/quartz/static/font/LXGW.ttf') format('truetype');
+  src: url('/quartz/static/font/寒蝉正楷体 简.woff') format('woff');
 }
 
 :root {
   --headerFont: '寒蝉正楷体 简', sans-serif !important;
-  --bodyFont: 'LXGWM', sans-serif !important;
+  --bodyFont: '寒蝉正楷体 简', sans-serif !important;
   --codeFont: 'JetBrainsMono-VariableFont_wght', monospace !important;
 }    
