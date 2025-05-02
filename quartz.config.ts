@@ -27,8 +27,14 @@ const config: QuartzConfig = {
           name: "Tagesschrift",
           weights: [400],
         },
-        body: "LXGW WenKai TC",
-        code: "JetBrains Mono",
+        body: {
+          name: "Tagesschrift",
+          weights: [400],
+        },
+        code: {
+          name: "Tagesschrift",
+          weights: [400],
+        },
       },
       colors: {
         lightMode: {
