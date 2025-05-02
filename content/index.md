@@ -8,7 +8,7 @@ title: 在灵魂原野上，种一片星云
 **这是我的灵魂原野，每一寸土地都盛放着生命的万千姿态**
 
 ```poetry
-**This is the wilderness of my soul, where every inch of soil teems with the myriad forms of life.**
+This is the wilderness of my soul, where every inch of soil teems with the myriad forms of life.
 ```
 
 ## 在这里
