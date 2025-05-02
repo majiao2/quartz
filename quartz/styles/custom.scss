@@ -365,26 +365,26 @@ body.animation-ready #quartz-body {
 /* 引入 Tagesschrift-Regular.ttf 字体 */
 @font-face {
   font-family: 'JetBrainsMono-VariableFont_wght';
-  src: url('/quartz/static/font/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+  src: url('/static/font/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
 }
 
 /* 引入 屏幕阅读版.ttf 字体 */
 @font-face {
   font-family: 'kule';
   font-weight: normal;
-  src: url('/quartz/static/font/方正萤雪简体.woff') format('woff');
+  src: url('/static/font/方正萤雪简体.woff') format('woff');
 }
 
 /* 引入 润植家如印奏章楷.ttf 字体 */
 @font-face {
   font-family: '寒蝉正楷体 简';
   font-weight: bold;
-  src: url('/quartz/static/font/方正萤雪简体 简.woff') format('woff');
+  src: url('/static/font/方正萤雪简体1.woff') format('woff');
 }
 
 :root {
   --bodyFont: 'kule', sans-serif !important;
-  --headerFont: 'kule', sans-serif !important;
+  --headerFont: '寒蝉正楷体 简', sans-serif !important;
   --codeFont: 'JetBrainsMono-VariableFont_wght', monospace !important;
 }
 
