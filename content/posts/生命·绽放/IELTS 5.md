@@ -25,6 +25,7 @@ niggle n.轻微的抱怨
 detach v.分开
 toddler n.蹒跚学步的人
 docket n.标签
+rail n.货架
 
 
 
