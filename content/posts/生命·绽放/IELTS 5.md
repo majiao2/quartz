@@ -12,6 +12,9 @@ provisional 临时的
 
 cot
 verdict
+rust
+niggle
+detach
 
 
 ## Reading
