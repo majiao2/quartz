@@ -10,6 +10,9 @@ reptile 爬行动物
 cancellation 取消
 provisional 临时的
 
+cot
+verdict
+
 
 ## Reading
 ## Writing
