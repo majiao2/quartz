@@ -9,6 +9,13 @@ tags:
 reptile 爬行动物
 cancellation 取消
 provisional 临时的
+provisional booking
+ostrich 鸵鸟
+cobra 眼镜蛇
+poisonous 眼镜蛇
+crocodile 鳄鱼
+chameleon 变色龙
+drifting 漂流
 
 cot
 verdict
