@@ -28,6 +28,10 @@ tags:
 > > - <span style="background:#d3f8b6">Web servers</span> make such resources available to web clients
 > > - Popular web servers include Apache’s HTTP Server and Microsoft’s Internet Information Services (IIS)
 > - Let’s examine the components of a URL
-> 
+> > - "http://" indicates that the HyperText Transfer Protocol (HTTP) should be used to obtain the resource
+> > - Next in the URL is the server’s fully qualified <span style="background:#d3f8b6">hostname</span> (e.g., www.deitel.com)—the name of the web-server computer on which the resource resides
+> > - This computer is referred to as the <span style="background:#d3f8b6">host</span>, because it houses and maintains resources
+> > - The hostname www.deitel.com is translated into an <span style="background:#d3f8b6">IP (Internet Protocol) address</span>
+> > - An Internet <span style="background:#d3f8b6">Domain Name System (DNS) server</span> maintains a database of hostnames and their corresponding IP addresses and performs the translations automatically
 
 
