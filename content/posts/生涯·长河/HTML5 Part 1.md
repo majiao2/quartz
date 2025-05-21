@@ -30,6 +30,8 @@ tags:
 > 
 > ![[Pasted image 20250521212821.png]]
 
+---
+
 > [!done] Head Section Elements
 - Title
 ```html
@@ -87,17 +89,85 @@ tags:
 </head>
 ```
 
+---
+
 > [!done] Body Section Elements
 - Heading elements (h1 - h6)
+```html
+  <h1>主标题</h1>
+  <h2>副标题</h2>
+  <h3>子标题</h3>
+```
 - Paragraph (strong, em)
+```html
+<p>这是普通文本，<strong>这是加粗文本</strong>，<em>这是斜体文本</em></p>
+```
 - Linking (a)
+```html
+<a href="https://www.example.com">外部链接</a>
+```
 - Internal Linking (a with #)
+```html
+<a href="#section2">跳转到第二部分</a>
+<!-- 需配合目标元素的id属性 -->
+<h2 id="section2">第二部分内容</h2>
+```
 - Image and Image Linking (img)
+```html
+<img src="image.jpg" alt="图片描述">
+<a href="https://www.example.com">
+  <img src="logo.png" alt="链接图片">
+</a>
+```
 - Lists (unordered list, ordered list, list item, nested lists)
+```html
+<ul>
+  <li>无序列表项1</li>
+  <li>无序列表项2</li>
+</ul>
+<ol>
+  <li>有序列表项1</li>
+  <li>有序列表项2</li>
+  <ul>
+    <li>嵌套列表项1</li>
+    <li>嵌套列表项2</li>
+  </ul>
+</ol>
+```
 - Tables (table, thead, tbody, tr, th, td)
+```html
+<table>
+  <thead>
+    <tr>
+      <th>表头1</th>
+      <th>表头2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>单元格1</td>
+      <td>单元格2</td>
+    </tr>
+  </tbody>
+</table>
+```
 - Grouping elements (div, span)
+```html
+<div class="container">
+  <span style="color:red">红色文本</span>
+  <p>段落内容</p>
+</div>
+```
 - Line breaks (br)
+```html
+<p>第一行<br>第二行</p>
+```
 - [Special characters](e.g., © & copy; )
+```html
+<p>版权符号: &copy; 注册商标: &reg; 欧元符号: &euro;</p>
+```
+
+---
 
 > [!done] Block-Level and Inline Elements
 - Source: [https://www.w3schools.com/html/html_blocks.asp](https://www.w3schools.com/html/html_blocks.asp)
