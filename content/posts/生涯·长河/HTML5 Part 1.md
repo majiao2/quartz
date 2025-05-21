@@ -19,7 +19,7 @@ tags:
 - **Void element**: An element that has no mark up text, nor the end tag
     - e.g., `<meta charset="utf-8">` or `<meta charset="utf-8" />`
 
-> [!info]+ Required HTML Sections
+> [!info] Required HTML Sections
 >- **Head Section (invisible)**
 >    - A container for all head elements, defined using the `<head>` and `</head>` tags.
 >    - The title element is required.
@@ -28,7 +28,7 @@ tags:
 >    - Defines the document body, using `<body>` and `</body>` tags.
 >    - Can use many HTML elements, including text, paragraph, image, hyperlink, table, form, etc.
 > 
-> ![[Pasted image 20250521212821.png]]
+> ![[Pasted image 20250521212821.png|240]]
 
 ---
 
