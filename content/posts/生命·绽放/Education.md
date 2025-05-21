@@ -18,7 +18,11 @@ students' autonomy 自我管理
 self-discipline 自制力  
 fall short of someone's expectations  
 cannot be guaranteed success  
-cover a lot of ground 
-
-
-
+cover a lot of ground   
+be well-rounded  
+comprehensive coverage of sth
+core curriculum  
+extra-curricular activities
+<span style="background:#fff88f">irrespective of</span> their fields of interest
+academic attainment  
+an outlet for creativity and problem-solving  
