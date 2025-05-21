@@ -29,3 +29,12 @@ tags:
 >    - Can use many HTML elements, including text, paragraph, image, hyperlink, table, form, etc.
 ![[Pasted image 20250521212821.png]]
 
+> [!done]+ Body Section Elements
+> - Title
+> - Meta
+>     - Charset
+>     - Keywords
+    - Description
+    - Etc.
+- Style
+- Script
