@@ -27,35 +27,81 @@ tags:
 >- **Body Section (visible)**
 >    - Defines the document body, using `<body>` and `</body>` tags.
 >    - Can use many HTML elements, including text, paragraph, image, hyperlink, table, form, etc.
+> 
+> ![[Pasted image 20250521212821.png]]
 
-![[Pasted image 20250521212821.png]]
+> [!done] Head Section Elements
+- Title
+```html
+<head>
+  <title>我的个人博客</title>
+</head>
+```
+- Meta
+   - Charset
+```html
+<head>
+  <meta charset="utf - 8">
+</head>
+```
+   - Keywords
+```html
+<head>
+  <meta name="keywords" content="旅游, 景点, 攻略">
+</head>
+```
+   - Description
+```html
+<head>
+  <meta name="description" content="提供全球热门旅游景点攻略和旅行资讯，助您规划完美旅程。">
+</head>
+```
+   - Etc.
+```html
+<head>
+  <meta name="viewport" content="width=device-width, initial - scale = 1.0">
+</head>
+```
+   - Style
+```html
+<head>
+  <style>
+    body {
+      background - color: lightblue;
+    }
+    h1 {
+      color: white;
+      text - align: center;
+    }
+  </style>
+</head>
+```
+   - Script
+```html
+<head>
+  <script>
+    function greet() {
+      alert('欢迎访问本网页！');
+    }
+  </script>
+</head>
+```
 
-> [!done]+ Body Section Elements
-> - Title
-> - Meta
->     - Charset
->     - Keywords
->     - Description
->     - Etc.
-> - Style
-> - Script
+> [!done] Body Section Elements
+- Heading elements (h1 - h6)
+- Paragraph (strong, em)
+- Linking (a)
+- Internal Linking (a with #)
+- Image and Image Linking (img)
+- Lists (unordered list, ordered list, list item, nested lists)
+- Tables (table, thead, tbody, tr, th, td)
+- Grouping elements (div, span)
+- Line breaks (br)
+- [Special characters](e.g., © & copy; )
 
-> [!done]+ Body Section Elements
-> - Title
-> - Meta
->     - Charset
->     - Keywords
->     - Description
->     - Etc.
-> - Style
-> - Script
-
-> [!done]+ Body Section Elements
-> - Title
-> - Meta
->     - Charset
->     - Keywords
->     - Description
->     - Etc.
-> - Style
-> - Script
+> [!done] Block-Level and Inline Elements
+- Source: [https://www.w3schools.com/html/html_blocks.asp](https://www.w3schools.com/html/html_blocks.asp)
+- Block-level elements are enclosed in an invisible rectangular box. They always start on a new line and take up the full width available.
+    - Examples: h1-h6, ol, ul, li, p, div, table
+- Inline elements do not start on a new line and only take up as much width as necessary. They can be embedded in a line
+    - Examples: a, img, strong, em, span, br
