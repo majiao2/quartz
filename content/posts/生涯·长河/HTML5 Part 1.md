@@ -27,6 +27,7 @@ tags:
 >- **Body Section (visible)**
 >    - Defines the document body, using `<body>` and `</body>` tags.
 >    - Can use many HTML elements, including text, paragraph, image, hyperlink, table, form, etc.
+
 ![[Pasted image 20250521212821.png]]
 
 > [!done]+ Body Section Elements
@@ -34,7 +35,27 @@ tags:
 > - Meta
 >     - Charset
 >     - Keywords
-    - Description
-    - Etc.
-- Style
-- Script
+>     - Description
+>     - Etc.
+> - Style
+> - Script
+
+> [!done]+ Body Section Elements
+> - Title
+> - Meta
+>     - Charset
+>     - Keywords
+>     - Description
+>     - Etc.
+> - Style
+> - Script
+
+> [!done]+ Body Section Elements
+> - Title
+> - Meta
+>     - Charset
+>     - Keywords
+>     - Description
+>     - Etc.
+> - Style
+> - Script
