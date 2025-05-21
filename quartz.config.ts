@@ -28,7 +28,7 @@ const config: QuartzConfig = {
           weights: [400],
         },
         body: {
-          name: "Tagesschrift",
+          name: "Ancizar Serif",
           weights: [400],
         },
         code: {
