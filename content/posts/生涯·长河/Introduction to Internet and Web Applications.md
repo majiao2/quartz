@@ -4,6 +4,7 @@ date: 2025-05-21
 tags:
   - MISY350
 ---
+
 > [!note]+ Introduction
 > - The Internet and web programming technologies are designed to be <font color="#c0504d"><span style="background:#d3f8b6">portable (portability)</span></font>, allowing you to design web pages and applications that run across an enormous range of Internet enabled devices.
 > - <span style="background:#d3f8b6">Client-side</span> programming: technologies are used to build web pages and applications that are run on the client (i.e., in the browser on the user’s device).
@@ -34,8 +35,11 @@ tags:
 > > - The hostname www.deitel.com is translated into an <span style="background:#d3f8b6">IP (Internet Protocol) address</span>
 > > - An Internet <span style="background:#d3f8b6">Domain Name System (DNS) server</span> maintains a database of hostnames and their corresponding IP addresses and performs the translations automatically
 
-> [!success] Model-View-Controller (MVC)
+> [!success]+ Model-View-Controller (MVC)
 > - Model: Represents application data and business rules that govern data accessing and updates
 >   View: Renders the user interface
 >   Controller: Interprets user actions and events and maps them into actions in the model or the view
-> - 
+
+# Web Developer Readmap
+[Developer Roadmaps - roadmap.sh](https://roadmap.sh/)
+
