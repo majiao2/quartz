@@ -7,7 +7,11 @@ tags:
 an arduous process 艰苦努力  
 someone's aspiration/pursuit  
 use lateral thinking 横向思维 unconventional  
-rely on linear thinking / innovatively  
+rely on linear thinking / think more innovatively  
+break the mould  
+academic qualifications  
+rote memorisation 机械记忆
+read extensively  
 
 
 
