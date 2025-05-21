@@ -6,6 +6,7 @@ tags:
 ---
 an arduous process 艰苦努力  
 someone's aspiration/pursuit  
-use lateral thinking 横向思维 unconventional
-rely on linear thinking / innovatively
+use lateral thinking 横向思维 unconventional  
+rely on linear thinking / innovatively  
+
 
