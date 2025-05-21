@@ -12,6 +12,13 @@ break the mould
 academic qualifications  
 rote memorisation 机械记忆
 read extensively  
+induce cramming 导致考前突击  
+standard of upright conduct 行为准则  
+students' autonomy 自我管理  
+self-discipline 自制力  
+fall short of someone's expectations  
+cannot be guaranteed success  
+cover a lot of ground 
 
 
 
