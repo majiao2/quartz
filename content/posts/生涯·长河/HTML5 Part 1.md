@@ -4,6 +4,7 @@ date: 2025-05-21
 tags:
   - MISY350
 ---
+[[Introduction to Internet and Web Applications]]
 # Intro to HTML
 - HTML, which stands for **HyperText Markup Language**, is the standard markup language for creating web pages.
 - It is used to specify the content and structure of a web page, enabling the creation of visually engaging web pages with images, text, and interactive forms.
