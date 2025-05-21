@@ -388,3 +388,15 @@ body.animation-ready #quartz-body {
   --codeFont: 'JetBrainsMono-VariableFont_wght', monospace !important;
 }
 
+// center fig caption
+figure:has(img) {
+  margin-top: -1rem;
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: -1rem;
+  font-style: italic;
+  font-size: 0.9rem;
+}
