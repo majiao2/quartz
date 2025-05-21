@@ -26,3 +26,6 @@ extra-curricular activities
 <span style="background:#fff88f">irrespective of</span> their fields of interest
 academic attainment  
 an outlet for creativity and problem-solving  
+repress individuality 压制个性
+joys and sorrows of adolescence   
+
