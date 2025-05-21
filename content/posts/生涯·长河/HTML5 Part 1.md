@@ -176,6 +176,3 @@ tags:
     - Examples: h1-h6, ol, ul, li, p, div, table
 - Inline elements do not start on a new line and only take up as much width as necessary. They can be embedded in a line
     - Examples: a, img, strong, em, span, br
-
-
-![[Pasted image 20250521223136.png]]
