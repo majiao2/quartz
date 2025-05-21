@@ -38,10 +38,22 @@ tags:
 > [!cite]+ *HTTP GET* and *POST Requests*
 > - The two most common <span style="background:#fff88f">HTTP request types</span> (also known as <span style="background:#fff88f">request methods</span>) are GET and POST.
 > - A **GET** request typically gets (or retrieves) information from a server, such as an HTML document, an image or search results based on a user-submitted search term.
-> - How a GET request works
-> 	- 
+> - *How a GET request works*
+>	- A GET request appends data to the URL, e.g., [www.google.com/search?q=deitel&sourceid=chrome](https://www.google.com/search?q=deitel&sourceid=chrome).
+>	- In this case search is the name of Google’s server - side form handler, q is the name of a variable in Google’s search form and deitel is the search term.
+>	- The ? in the preceding URL separates the query string from the rest of the URL in a request.
+>	- A name/value pair is passed to the server with the name and the value separated by an equals sign (=).
+>	- If more than one name/value pair is submitted, each pair is separated by an ampersand (&).
+>	- The server uses data passed in a query string to retrieve an appropriate resource from the server.
+>	- The server then sends a response to the client. A GET request may be initiated by submitting an HTML form whose method attribute is set to "GET", or by typing the URL (possibly containing a query string) directly into the browser’s address bar.
 > - A **POST** request typically posts (or sends) data to a server.
 > - <u>However, both request types can send data from the client to a server</u>
+> - *How a POST request works*
+>	- A POST request sends form data <span style="background:#fff88f">as part of the HTTP message, not as part of the URL</span>.
+>	- A GET request typically limits the query string (i.e., everything to the right of the ?) to a specific number of characters, so it's often necessary to send large amounts of information using the post method.
+>	- The POST method is also sometimes preferred because it hides the submitted data from the user by embedding it in an HTTP message.
+>	- If a form submits several hidden input values along with user - submitted data, the POST method might generate a URL like [www.searchengine.com/search](https://www.searchengine.com/search).
+>	- The form data still reaches the server and is processed in a similar fashion to a GET request, but the user does not see the exact information sent.
 
 > [!success]+ Model-View-Controller (MVC)
 > - Model: Represents application data and business rules that govern data accessing and updates
@@ -50,4 +62,3 @@ tags:
 
 # Web Developer Readmap
 [Developer Roadmaps - roadmap.sh](https://roadmap.sh/)
-
