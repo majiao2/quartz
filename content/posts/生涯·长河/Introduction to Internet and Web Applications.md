@@ -17,7 +17,7 @@ tags:
 > > - When the user clicks a hyperlink, a web request is sent to a <span style="background:#d3f8b6">web server</span>, which locates the requested web page and sends it back to the user’s web browser.
 > > - Similarly, the user can type the address of a web page into the browser’s address field and press Enter to view the specified page.
 > > - Hyperlinks can reference other web pages, e-mail addresses, files and more.
-> > - If a hyperlink’s URL is in the form mailto:emailAddress, clicking the link loads your default e-mail program and opens a new message window addressed to the specified e mail address.
+> > - If a hyperlink’s URL is in the form mail to: emailAddress, clicking the link loads your default e-mail program and opens a new message window addressed to the specified e mail address.
 > > - If a hyperlink references a file that the browser is incapable of displaying, the browser prepares to <span style="background:#d3f8b6">download</span> the file, and generally prompts the user for information about how the file should be stored.
 > > 
 > > 
