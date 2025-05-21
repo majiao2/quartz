@@ -10,3 +10,4 @@ use lateral thinking 横向思维 unconventional
 rely on linear thinking / innovatively  
 
 
+
