@@ -22,3 +22,18 @@ tags:
 > [W3C CSS 验证服务](https://jigsaw.w3.org/css-validator/)  
 
 # A Style Sheet  
+![[Pasted image 20250522151253.png]]  
+
+> [!note]+ Style Classes
+> - Style-class declarations are preceded by a period (.).
+> - Use attribute class to define a class in HTML  
+> ![[Pasted image 20250522151405.png]]  
+
+> [!note]+ Pseudo Classes
+> - A pseudo class give access to information not declared in the HTML document  
+> - Examples: hover, visited (visited links), link (unvisited links)  
+> - Complete list of pseudo classes can be found at [Title Unavailable \| Site Unreachable](http://www.w3schools.com/css/css_pseudo_classes.asp)  
+
+> [!note]+ Conflicting Styles
+> 
+> Contents
