@@ -33,15 +33,16 @@ make order out of 使……有序
 <span style="background:#fff88f">circumscribe 限制，约束  </span>
 <span style="background:#fff88f">heyday 全盛时期  </span>
 <span style="background:#fff88f">in instalments 分期地</span>  
-garret 阁楼  
-rickety 不牢固的  
-originality 独创性  
+<span style="background:#fff88f">garret 阁楼  </span>
+<span style="background:#fff88f">rickety 不牢固的</span>  
+<span style="background:#fff88f">originality 独创性 </span> 
 heroic 宏大的  
 synthesis 整合  
+heroic synthesis
 predecessor 先驱者  
 precedent 先例  
 rival 对抗  
-vicissitude 变故  
+<span style="background:#fff88f">vicissitude 变故  </span>
 landmark 里程碑  
 patronage 赞助  
 obscurity n.隐秘
