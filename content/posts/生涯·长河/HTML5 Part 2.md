@@ -66,3 +66,4 @@ tags:
 | `article` | 独立内容单元      | 是   | 可包含完整的文章结构             |
 | `section` | 文档逻辑章节      | 部分  | 包含相关内容块                |
 | `details` | 交互式折叠面板     | 否   | 包含`summary`和展开内容       |
+[How to Use The HTML5 Sectioning Elements \[Article\] \| Treehouse Blog](https://blog.teamtreehouse.com/use-html5-sectioning-elements)
