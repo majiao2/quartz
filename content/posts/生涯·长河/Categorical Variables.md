@@ -25,6 +25,8 @@ tags:
 > - When data values can be ordered, we say that the variable has <span style="background:#fff88f">ordinal values</span> 有序变量. For example, employees can be ranked according to the number of months employed
 
 > [!hint]+ Cross-Sectional vs Time Series
-> - Variables that are measured at regular intervals over time are called a time series  
+> - Variables that are measured at regular intervals over time are called <span style="background:#fff88f">a time series</span>  
 > 	- Typical measuring points are months, quarters, or years  
-> - 
+> - When several variables are all measured at the same time point for a specific population, the data is called <span style="background:#fff88f">cross-sectional data</span> 
+> 	- For example, data on sales revenue, number of customers, and expenses at each Starbucks (more than 20,000 locations) at one point in time would be cross-sectional data  
+
