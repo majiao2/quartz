@@ -12,8 +12,19 @@ tags:
 
 ==Some variables can be <span style="background:#fff88f">both categorical and quantitative</span>. How data are classified depends on why we are collecting the data.==
 
-> [!tip]+ Identifiers
+> [!tip]+ Identifiers 标识符变量
 > - An <span style="background:#fff88f">identifier variable</span> is a unique identifier assigned to each individual or item in a group.  
 > - For example, <span style="background:#fff88f">social security numbers</span>, <span style="background:#fff88f">student ID numbers</span>, <span style="background:#fff88f">tracking numbers</span>, <span style="background:#fff88f">transactions numbers</span>, etc. are all identifier variables for people or items.  
->> - do not 
+>> - do not have unites  
+>> - are a special kind of <span style="background:#fff88f">categorial variable</span>  
+>> - are useful in combining data from different sources to avoid duplication  
+>> - are not variables to be analyzed
 
+> [!hint]+ Nomianal vs Ordinal
+> - Categorical variables used only to name categories (that don’t have order) are sometimes called nominal variables  
+> - When data values can be ordered, we say that the variable has <span style="background:#fff88f">ordinal values</span> 有序变量. For example, employees can be ranked according to the number of months employed
+
+> [!hint]+ Cross-Sectional vs Time Series
+> - Variables that are measured at regular intervals over time are called a time series  
+> 	- Typical measuring points are months, quarters, or years  
+> - 
