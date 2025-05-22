@@ -44,11 +44,11 @@ precedent 先例
 rival 对抗  
 <span style="background:#fff88f">vicissitude 变故  </span>
 landmark 里程碑  
-patronage 赞助  
-obscurity n.隐秘
-eccentricity n.古怪
-analogy v.对比  
-ascertain v.主动  
+<span style="background:#fff88f">patronage 赞助  </span>
+<span style="background:#fff88f">obscurity n.隐秘</span>
+<span style="background:#fff88f">eccentricity n.古怪</span>
+<span style="background:#fff88f">analogy v.对比  </span>
+ascertain v.查明，确定
 confer on 给予  
 prevail upon sb to do sth. 劝说  
 
