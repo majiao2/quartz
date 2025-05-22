@@ -55,6 +55,13 @@ prevail upon sb to do sth. 劝说
 subtle
 **subtlety** n.微妙  
 
+denounce 谴责  
+psychiatrist 精神病医生  
+psychologist 心理学家  
+comply with 遵守  
+administer 执行  
+call upon  
+severity 严重性  
 
   
 
