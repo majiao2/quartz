@@ -62,19 +62,19 @@ comply with 遵守
 administer 执行  
 call upon  
 severity 严重性  
-writhe 扭动身体  
+<span style="background:#fff88f">writhe 扭动身体 </span> 
 assortment 混杂物  
-expletive 咒骂语  
+<span style="background:#fff88f">expletive 咒骂语  </span>
 as per 按照  
 	- as per uaual
-balk v.畏缩不前  
-with revulsion n.厌恶  
+<span style="background:#fff88f">balk v.畏缩不前  </span>
+<span style="background:#fff88f">with revulsion n.厌恶 </span> 
 - feel revulsion
-lunatic 疯狂的  
-fringe n.边缘  
-obedient 服从的  
-discrepancy 差异  
-fluster 使不安  
+<span style="background:#fff88f">lunatic 疯狂的 </span> 
+<span style="background:#fff88f">fringe n.边缘  </span>
+<span style="background:#fff88f">obedient 服从的  </span>
+<span style="background:#fff88f">discrepancy 差异  </span>
+<span style="background:#fff88f">fluster 使不安</span>  
 pent-up 积压的  
 primal 原始的  
 remnant 残余物
