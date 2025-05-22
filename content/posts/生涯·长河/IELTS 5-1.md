@@ -30,7 +30,7 @@ rail n.货架
 # Reading  
 scholarly 博学的  
 make order out of 使……有序  
-circumscribe 限制，约束  
+<span style="background:#fff88f">circumscribe 限制，约束  </span>
 heyday 全盛时期  
 in instalments 分期地  
 garret 阁楼  
@@ -45,7 +45,12 @@ vicissitude 变故
 landmark 里程碑  
 patronage 赞助  
 obscurity n.隐秘
-  
+eccentricity n.古怪
+analogy v.对比  
+ascertain v.主动  
+confer on 给予  
+prevail upon sb to do sth. 劝说  
+
 
   
 
