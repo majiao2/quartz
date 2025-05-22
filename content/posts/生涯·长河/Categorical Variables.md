@@ -40,9 +40,8 @@ tags:
 > - Variables may be restricted to show the distribution for just those cases that satisfy a specified condition. This is called a **conditional distribution**  
 > - The more interesting questions are <span style="background:#fff88f">contingent on</span> something  
 
+> [!quote] C
 - Side-by-side Bar Chart
 - Segmented Bar Chart
 	- Mosaic Plot
-
-
 
