@@ -10,7 +10,7 @@ tags:
 - A variable that can take on one of a limited, and usually fixed, number of possible values is called a **categorical** or **qualitative variable** 
 - When a variable has **numerical value**s with units and tells us about the quantity of what it measures, it is called a **quantitative variable**.
 
-==Some variables can be <span style="background:#fff88f">both categorical and quantitative</span>. How data are classified depends on why we are collecting the data.==
+<u>Some variables can be <span style="background:#fff88f">both categorical and quantitative</span>. How data are classified depends on why we are collecting the data.</u>
 
 > [!tip]+ Identifiers 标识符变量
 > - An <span style="background:#fff88f">identifier variable</span> is a unique identifier assigned to each individual or item in a group.  
