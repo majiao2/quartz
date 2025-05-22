@@ -128,11 +128,12 @@ p {
 	- Relative font-size values are preferred over points, because an author does not know the specific measurements of each client’s display.
 	- Relative values permit more flexible viewing of web pages.
 	    - For example, users can change font sizes the browser displays for readability.
-- 
-- A point size value is formed by:
-    - an optional + or -
-    - followed by a number
-    - followed by a two-letter abbreviation indicating the unit (There are no spaces in the middle of the value)
-    - Example: `p {font-size: 0.4em}`
+	- A point size value is formed by:
+	    - an optional + or -
+	    - followed by a number
+		    - followed by a two-letter abbreviation indicating the unit (There are no spaces in the middle of the value)
+	    - Example: `p {font-size: 0.4em}`
     - Units include px(pixels), em(size of letter M), ex(size of letter x), in (inch), cm(centimeter)
-- Allows you to set text to none, italic or oblique
+	- Allows you to set text to none, italic or oblique
+# CSS Text  
+
