@@ -35,6 +35,19 @@ heyday 全盛时期
 in instalments 分期地  
 garret 阁楼  
 rickety 不牢固的  
+originality 独创性  
+heroic 宏大的  
+synthesis 整合  
+predecessor 先驱者  
+precedent 先例  
+rival 对抗  
+vicissitude 变故  
+landmark 里程碑  
+patronage 赞助  
+obscurity n.隐秘
+  
+
+  
 
 # Writing
 # Speaking
