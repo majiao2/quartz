@@ -4,6 +4,7 @@ date: 2025-05-22
 tags:
   - MISY350
 ---
+[[HTML5 Part 2]]
 # Introduction  
 - Two aspects of any document are **content** and **style**
     - Content: information to be presented
