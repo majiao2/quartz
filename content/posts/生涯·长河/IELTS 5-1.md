@@ -79,9 +79,9 @@ pent-up 积压的
 primal 原始的  
 remnant 残余物
 legitimacy 合法性  
-evoke 引发  
+<span style="background:#fff88f">evoke 引发</span>  
 institutional 制度上的  
-malevolent 恶毒的  
+<span style="background:#fff88f">malevolent 恶毒的  </span>
 forgo 放弃  
 plausible 看似合理的  
 
