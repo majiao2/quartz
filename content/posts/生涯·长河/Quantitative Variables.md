@@ -29,4 +29,16 @@ tags:
 	- its center
 		- The median is said to be **resistant** because it isn’t affected by unusual observations or by the shape of the distribution
 	- its spread
-		- 
+		- The interquartile range (IQR) is defined to be the difference between the two quartile values
+			- $$IQR = Q 3 - Q 1$$
+		- Like the mean, the standard deviation is appropriate only for symmetric distributions and can be influenced by outlying observations.
+		- Standard Deviation
+			- $$s^{2}=\frac{\sum(y - \bar{y})^{2}}{n - 1}$$
+- Which measures of center and spread should be used for a distribution?
+	- If the shape is skewed, the median and IQR should be reported
+	- If the shape is unimodal and symmetric, the mean and standard deviation and possibly the median and IQR should be reported
+
+
+
+
+
