@@ -66,6 +66,7 @@ writhe 扭动身体
 assortment 混杂物  
 expletive 咒骂语  
 as per 按照  
+	- as per uaual
 balk v.畏缩不前  
 with revulsion n.厌恶  
 - feel revulsion
@@ -73,8 +74,17 @@ lunatic 疯狂的
 fringe n.边缘  
 obedient 服从的  
 discrepancy 差异  
+fluster 使不安  
+pent-up 积压的  
+primal 原始的  
+remnant 残余物
+legitimacy 合法性  
+evoke 引发  
+institutional 制度上的  
+malevolent 恶毒的  
+forgo 放弃  
+plausible 看似合理的  
 
-  
 
 # Writing
 # Speaking
