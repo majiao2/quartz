@@ -43,7 +43,58 @@ tags:
 >> - Styles defined by the user take precedence over styles defined by the user agent.  
 > 
 
+|Style Source|Priority|Description|
+|---|---|---|
+|**Author Styles**|Highest|CSS rules written by developers|
+|**User Styles**|Medium|Styles set by users through browser settings|
+|**User - Agent Styles**|Lowest|Default styles built into browsers|
+
 # Three Ways to Specify CSS Styles  
-- 
+- **Inline styles**
+    - Styles declared in HTML elements
+    - Only apply to the element where style is declared
+    - Do not truly separate presentation from content
+```html
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
+<body>
+  <p style="font-size: 20pt; color: deepskyblue;">
+    This is an inline-style example.
+  </p>
+</body>
+
+</html>
+```
+- **Embedded styles**
+    - Styles declared in an HTML document's head section
+    - Apply to the entire HTML document
+![[Pasted image 20250522152606.png]]
+- **External styles (preferred)**
+    - Styles defined in external style sheets
+    - Apply to all HTML documents on a site
+		- <u>Linking External CSS</u>
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linking External Style Sheets</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <h1>这是一个链接外部CSS的示例</h1>
+  <p>通过外部CSS来设置我的样式。</p>
+</body>
+
+</html>
+```
