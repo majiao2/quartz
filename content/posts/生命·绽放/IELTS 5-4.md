@@ -5,3 +5,6 @@ tags:
   - IELTS
 ---
 # Listening  
+skeleton 骨骼  
+cartilage 软骨  
+pliable 易弯曲的
