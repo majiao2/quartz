@@ -27,26 +27,6 @@ toddler n.蹒跚学步的人
 docket n.标签  
 rail n.货架  
 
-
-
-## Reading
-## Writing
-## Speaking
-
-# Test 2
-## Listening
-## Reading
-## Writing
-## Speaking
-
-# Test 3
-## Listening
-## Reading
-## Writing
-## Speaking
-
-# Test 4
-## Listening
-## Reading
+# Reading
 ## Writing
 ## Speaking
