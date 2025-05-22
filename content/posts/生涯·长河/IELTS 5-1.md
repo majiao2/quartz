@@ -27,6 +27,14 @@ toddler n.蹒跚学步的人
 docket n.标签  
 rail n.货架  
 
-# Reading
+# Reading  
+scholarly 博学的  
+make order out of 使……有序  
+circumscribe 限制，约束  
+heyday 全盛时期  
+in instalments 分期地  
+garret 阁楼  
+rickety 不牢固的  
+
 # Writing
 # Speaking
