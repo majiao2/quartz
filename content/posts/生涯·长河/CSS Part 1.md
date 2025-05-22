@@ -140,8 +140,9 @@ p {
 	- underline
 	- overline
 	- line-through
-	- 
-- **color property**
+	- blink
+- **color property** specifies the color of text
+	- In CSS you can (see above) use three-hex values: "06f" is equal to "0066ff".
 ```css
 {
   color: keyword |
