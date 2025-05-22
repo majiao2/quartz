@@ -80,8 +80,9 @@ tags:
     - Styles defined in external style sheets
     - Apply to all HTML documents on a site
 		- <u>Linking External CSS</u>
+index. html
 ```html
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
@@ -98,3 +99,40 @@ tags:
 
 </html>
 ```
+style. css
+```css
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+```
+
+# CSS Fonts  
+- `font-weight` property specifies the “boldness” of text. Possible values are:
+    - `bold`
+    - `normal` (the default)
+    - `bolder` (bolder than bold text)
+    - `lighter` (lighter than normal text)
+    - Boldness also can be specified with multiples of 100, from 100 to 900 (e.g., 100, 200, …, 900). Text specified as normal is equivalent to 400, and bold text is equivalent to 700
+- `font-family` property specifies the name of the font to use.
+    - Generic font families allow authors to specify a type of font instead of a specific font, in case a browser does not support a specific font.
+    - Times New Roman is outdated
+    - Use Arial, Helvetica, and Sans-serif
+- `font-size` property specifies the size used to render the font.
+	- You can specify a point size or a relative value such as xx-small, x-small, small, smaller, medium, large, larger, x-large and xx-large.
+	- Relative font-size values are preferred over points, because an author does not know the specific measurements of each client’s display.
+	- Relative values permit more flexible viewing of web pages.
+	    - For example, users can change font sizes the browser displays for readability.
+- 
+- A point size value is formed by:
+    - an optional + or -
+    - followed by a number
+    - followed by a two-letter abbreviation indicating the unit (There are no spaces in the middle of the value)
+    - Example: `p {font-size: 0.4em}`
+    - Units include px(pixels), em(size of letter M), ex(size of letter x), in (inch), cm(centimeter)
+- Allows you to set text to none, italic or oblique
