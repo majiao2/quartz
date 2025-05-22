@@ -35,5 +35,15 @@ tags:
 > - Complete list of pseudo classes can be found at [Title Unavailable \| Site Unreachable](http://www.w3schools.com/css/css_pseudo_classes.asp)  
 
 > [!note]+ Conflicting Styles
+> - Most styles defined for parent elements are also i**nherited** by child (nested) elements.
+> - Styles specified for child elements have higher specificity and take precedence over styles defined for their parent elements
+> - Styles may be defined by an <span style="background:#fff88f">author (us!)</span>, a <span style="background:#fff88f">user</span>, or a <span style="background:#fff88f">user agent (browser)</span>.  
+>> - Styles **cascade** (and hence the term “Cascading Style Sheets”), or flow together, such that the ultimate appearance of elements on a page results from combining styles defined in several ways.  
+>> - Styles defined by authors take precedence over styles defined by the user.  
+>> - Styles defined by the user take precedence over styles defined by the user agent.  
 > 
-> Contents
+
+# Three Ways to Specify CSS Styles  
+- 
+
+
