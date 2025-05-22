@@ -28,11 +28,11 @@ docket n.标签
 rail n.货架  
 
 # Reading  
-scholarly 博学的  
+<span style="background:#fff88f">scholarly 博学的  </span>
 make order out of 使……有序  
 <span style="background:#fff88f">circumscribe 限制，约束  </span>
-heyday 全盛时期  
-in instalments 分期地  
+<span style="background:#fff88f">heyday 全盛时期  </span>
+<span style="background:#fff88f">in instalments 分期地</span>  
 garret 阁楼  
 rickety 不牢固的  
 originality 独创性  
