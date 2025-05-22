@@ -7,4 +7,6 @@ tags:
 # Listening  
 skeleton 骨骼  
 cartilage 软骨  
-pliable 易弯曲的
+pliable 易弯曲的  
+barb 尖刺  
+scavenge 觅食  
