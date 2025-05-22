@@ -62,6 +62,17 @@ comply with 遵守
 administer 执行  
 call upon  
 severity 严重性  
+writhe 扭动身体  
+assortment 混杂物  
+expletive 咒骂语  
+as per 按照  
+balk v.畏缩不前  
+with revulsion n.厌恶  
+- feel revulsion
+lunatic 疯狂的  
+fringe n.边缘  
+obedient 服从的  
+discrepancy 差异  
 
   
 
