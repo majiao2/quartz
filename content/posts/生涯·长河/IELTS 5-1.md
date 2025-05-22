@@ -51,8 +51,9 @@ landmark 里程碑
 ascertain v.查明，确定
 confer on 给予  
 prevail upon sb to do sth. 劝说  
-
-
+<span style="background:#fff88f">contemporary 同时代的</span>  
+subtle
+**subtlety** n.微妙
   
 
 # Writing
