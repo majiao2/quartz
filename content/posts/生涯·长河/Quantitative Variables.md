@@ -40,6 +40,11 @@ tags:
 
 # Standardizing Variables  
 
-$$
+$$Z = \frac{x - \bar{x}}{s}$$
+- Shifts the mean to 0
+- Changes the standard deviation to 1
+- Does not change the shape
+- Removes the units
+
 
 
