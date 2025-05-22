@@ -42,4 +42,5 @@ tags:
 
 - Side-by-side Bar Chart
 - Segmented Bar Chart
-- 
+	- Mosaic Plot
+
