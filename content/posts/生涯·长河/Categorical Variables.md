@@ -37,4 +37,9 @@ tags:
 - Rather than displaying the data as counts, a table may display the data as a percentage – as a total percent, row percent, or column percent, which show percentages **with respect to the total count, row count, or column count, respectively**
 
 > [!attention]+ Conditional probability
-> Content
+> - Variables may be restricted to show the distribution for just those cases that satisfy a specified condition. This is called a **conditional distribution**  
+> - The more interesting questions are <span style="background:#fff88f">contingent on</span> something  
+
+- Side-by-side Bar Chart
+- Segmented Bar Chart
+- 
