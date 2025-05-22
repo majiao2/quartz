@@ -136,4 +136,23 @@ p {
     - Units include px(pixels), em(size of letter M), ex(size of letter x), in (inch), cm(centimeter)
 	- Allows you to set text to none, italic or oblique
 # CSS Text  
+- **text-decoration property**
+	- underline
+	- overline
+	- line-through
+	- 
+- **color property**
+```css
+{
+  color: keyword |
+         #hex hex hex |
+         #hex hex hex hex hex hex |
+         rgb(int int int) |
+         rgb(%%%)
+}
+```
 
+- **text-aligh property**
+	- Text in an element can be centered using `text-align: center;`; other values for the text-align property are `left` and `right`
+- **text-indent property**
+	- Indents the first line of text in the element by the specified amount
