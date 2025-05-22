@@ -30,3 +30,11 @@ tags:
 > - When several variables are all measured at the same time point for a specific population, the data is called <span style="background:#fff88f">cross-sectional data</span> 
 > 	- For example, data on sales revenue, number of customers, and expenses at each Starbucks (more than 20,000 locations) at one point in time would be cross-sectional data  
 
+# Contigency Table  
+列联表（交叉表）  
+- The marginal distribution of a variable in a contingency table is the total count that occurs <span style="background:#fff88f">when the value of that variable is held constant</span>
+- Each cell of a contingency table (any intersection of a row and column of the table) gives the count for a <span style="background:#fff88f">combination of values of the two variables</span>
+- Rather than displaying the data as counts, a table may display the data as a percentage – as a total percent, row percent, or column percent, which show percentages **with respect to the total count, row count, or column count, respectively**
+
+> [!attention]+ Conditional probability
+> Content
