@@ -30,3 +30,40 @@
 | Don’t Take Notes   | 4             |
 |                    | **Total**: 43 |  
 
+# Calculate appropriate percentages (relative frequencies)  
+#### **Variable 1: Commuting Methods**
+| Commuting Method | Frequency | Relative Frequency (%) |
+| ---------------- | --------- | ---------------------- |
+| Walk             | 24        | 55.81%                 |
+| Drive            | 4         | 9.30%                  |
+| Public Transit   | 10        | 23.26%                 |
+| Bike/Scooter     | 5         | 11.63%                 |
+#### **Variable 2: Study Environment Sound**
+|Environment Sound|Frequency|Relative Frequency (%)|
+|---|---|---|
+|Silent|27|62.79%|
+|Background Noise|6|13.95%|
+|Music|10|23.26%|
+#### **Variable 3: Beverage Habits**
+|Beverage Type|Frequency|Relative Frequency (%)|
+|---|---|---|
+|None|15|34.88%|
+|Regular|19|44.19%|
+|Specialty Drinks|9|20.93%|
+#### **Variable 4: Note-Taking Methods**
+|Note-Taking Method|Frequency|Relative Frequency (%)|
+|---|---|---|
+|Laptop|12|27.91%|
+|Tablet|15|34.88%|
+|Handwritten|12|27.91%|
+|Don’t Take Notes|4|9.30%|
+# Examine relationships between two variables using contingency tables  
+To examine the relationship between **study environment sound** (Silent, Background noise, Music) and **note-taking methods** (Laptop, Tablet, Handwritten, Don’t take notes), we create a **contingency table** (also called a cross-tabulation) to show the frequency distribution of the two variables.  
+### **Contingency Table: Study Environment Sound vs. Note-Taking Methods**
+| **Note-Taking Method** | **Silent** | **Background Noise** | **Music** | **Row Total** |
+| ---------------------- | ---------- | -------------------- | --------- | ------------- |
+| Laptop                 | 7          | 1                    | 3         | 11            |
+| Tablet                 | 2          | 1                    | 4         | 7             |
+| Handwritten            | 8          | 2                    | **?**     | 12            |
+| Don’t take notes       | 2          | 1                    | 1         | 4             |
+| **Column Total**       | 27         | 6                    | 10        | **43**        |
