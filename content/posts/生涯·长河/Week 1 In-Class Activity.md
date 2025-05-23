@@ -148,6 +148,28 @@ Thus, there is no reversal of trends between the individual environments and the
 We also tried other combinations and did not find any potential instances of Simpson's Paradox.
 
 # What patterns did you discover?  
+1. **Overall Preferences**
+    
+    - **Commuting:** A majority walk (≈56%), with public transit (23%), biking/scootering (12%) and driving (9%) much less common.
+        
+    - **Study Environment:** Most students prefer silence (≈63%), followed by music (23%) and only a small segment working amid background noise (14%).
+        
+    - **Beverage Habits:** Nearly half drink “regular” drinks (≈44%), about a third abstain (35%), and specialty beverages account for the remaining fifth (21%).
+        
+    - **Note-Taking:** Tablets are the single most popular tool (≈35%), followed by laptops and handwriting (each ≈28%), with about 9% not taking notes at all.
+        
+2. **Environment vs. Note-Taking**
+    
+    - **Silent Settings:** Strongly favored across all methods; tablets (33%), laptops (30%), and handwriting (30%) are nearly tied here, with “no notes” rare (7%).
+        
+    - **Music Settings:** Digital note-taking (tablets 40%, laptops 30%) outpaces handwriting (20%) and no-note takers (10%).
+        
+    - **Background Noise:** Very low overall; tablets and handwriting share the lead (each 33%), while laptops and no-notes lag (17% each).
+        
+        
+3. **No Simpson’s Paradox**
+    
+    - The pattern “tablet most popular,” “laptop second,” “handwritten third” holds true both within each environment subgroup and in the aggregated data—there’s no reversal of trends when you combine across environments.
 # Which visualization method was most effective and why?  
 # Were there surprising relationships between variables?  
 # How could this data be used to make a decision?
