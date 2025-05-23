@@ -4,6 +4,7 @@ date: 2025-05-21
 tags:
   - MISY350
 ---
+[[Business Application Development]]
 # Internet & World Wide Web
 > [!note]+ Introduction
 > - The Internet and web programming technologies are designed to be <font color="#c0504d"><span style="background:#d3f8b6">portable (portability)</span></font>, allowing you to design web pages and applications that run across an enormous range of Internet enabled devices.
