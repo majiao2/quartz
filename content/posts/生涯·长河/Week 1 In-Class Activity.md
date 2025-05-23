@@ -28,7 +28,7 @@
 | Tablet             | 15            |
 | Handwritten        | 12            |
 | Don’t Take Notes   | 4             |
-|                    | **Total**: 43 |  
+|                    | **Total**: 43 |
 
 # Calculate appropriate percentages (relative frequencies)  
 #### **Variable 1: Commuting Methods**
@@ -91,7 +91,7 @@ The contingency table suggests **moderate associations** between environment a
 - **Background noise** shows little relationship with any note-taking method, likely due to low sample size in this category.
 
 # Create appropriate visualizations (bar charts, pie charts, or segmented bar charts)  
-
+![[Pasted image 20250523195336.png]]![[Pasted image 20250523195341.png]]![[Pasted image 20250523195348.png]]
 
 
 
