@@ -109,8 +109,8 @@ Based on the provided data, we analyze the potential presence of **Simpson's Par
 | ------------------------------ | ------ | ------ | ----------- | ---------------- | --------- |
 | **Silent**                     | 29.6%  | 33.3%  | 29.6%       | 7.4%             | 1         |
 | **Background Noise**           | 16.7%  | 33.3%  | 33.3%       | 16.7%            | 1         |
-| **Music**                      | 30.0%  | 40%    | 20%         | 10%              | 1         |
-| **Total**                      | 12     | 15     | 12          | 4                | 1         |
+| **Music**                      | 30.0%  | 40.0%  | 20.0%       | 10.0%            | 1         |
+| **Total**                      | 27.9%  | 34.9%  | 27.9%       | 9.3%             | 1         |
 ## Observations:
 
 1. **Within each environment**:
@@ -130,7 +130,7 @@ Based on the provided data, we analyze the potential presence of **Simpson's Par
     - **Handwritten** and **Don’t Take Notes** follow with 12 (27.9%) and 4 (9.3%) occurrences, respectively.
         
 
-### Analyzing Simpson's Paradox:
+## Analyzing Simpson's Paradox:
 
 - **Individual Environment Trends**:
     
@@ -141,7 +141,11 @@ Based on the provided data, we analyze the potential presence of **Simpson's Par
 - **Overall Trends (Total Data)**:
     
     - When we combine all environments, **Tablet** becomes the most common note-taking method overall (34.9%), followed by **Laptop** (27.9%).
+## Conclusion:
 
+Simpson's Paradox is **not** present in this dataset. The trends within each study environment (Silent, Background Noise, Music) are consistent with the overall trends when aggregated. For example, **Tablet** is consistently the most common method in both the **Silent** and **Music** environments, and it also becomes the most common method when the data is combined.
+Thus, there is no reversal of trends between the individual environments and the overall data that would characterize **Simpson's Paradox**.
+We also tried other combinations and did not find any potential instances of Simpson's Paradox.
 
 # What patterns did you discover?  
 # Which visualization method was most effective and why?  
