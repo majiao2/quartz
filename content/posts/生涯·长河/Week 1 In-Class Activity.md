@@ -91,9 +91,9 @@ The contingency table suggests **moderate associations** between environment a
 - **Background noise** shows little relationship with any note-taking method, likely due to low sample size in this category.
 
 # Create appropriate visualizations (bar charts, pie charts, or segmented bar charts)  
-![[Pasted image 20250523195336.png]]![[Pasted image 20250523195341.png]]![[Pasted image 20250523195348.png]]
-
-
+![[Pasted image 20250523195336.png|315]] ![[Pasted image 20250523195341.png|315]] ![[Pasted image 20250523195348.png|315]] ![[Pasted image 20250523195403.png|315]]
+![[Pasted image 20250523195621.png|315]] ![[Pasted image 20250523195630.png|315]] ![[Pasted image 20250523195634.png|315]] ![[Pasted image 20250523195639.png|315]]
+![[Pasted image 20250523195756.png|475]]![[Pasted image 20250523195807.png|475]]
 
 # Look for potential instances of Simpson's Paradox  
 # What patterns did you discover?  
