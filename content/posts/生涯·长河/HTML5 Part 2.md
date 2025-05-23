@@ -96,3 +96,46 @@ tags:
 - `<textarea>` 标签用于创建一个多行文本输入区域，用户可以在其中输入较长的文本内容，比如评论等。`name="comments"` 为其指定名称，用于表单提交时标识数据。这里 `id` 属性也为空，同样可优化为设置合适的 `id` 值以便于通过 CSS 或 JavaScript 操作。
 - 外层 `<label>` 标签关联该文本区域，提供标注说明。
 
+```html
+<label for="">Password:
+    <input type="password" name="password">
+</label>
+<br><br>
+```
+- `<input type="password">` 是密码输入框，用户输入的内容会以掩码形式（如星号或圆点）显示，保护密码隐私。`name="password"` 为其指定名称，用于表单提交时标识密码数据。
+
+```html
+<label for="">Things You Liked: <br>
+    <label for="">Site Design
+        <input type="checkbox" name="thingsliked">
+    </label>
+    <label for="">Links
+        <input type="checkbox" name="thingsliked">
+    </label>
+</label>
+<br><br>
+```
+
+- `<input type="checkbox">` 是复选框元素，用户可以勾选或取消勾选。这里两个复选框的 `name` 属性值相同，在表单提交时，服务器会接收到用户勾选的对应值（默认勾选状态下的值为 `on` ，也可通过 `value` 属性自定义） 。
+- 每个复选框都被包含在一个 `<label>` 标签内，提供相应的文本描述，便于用户理解。
+
+```html
+  <select name="rating" id="">
+        <option value="5">Amazing</option>
+        <option value="4">Very Good</option>
+        <option value="3">Good</option>
+        <option value="2">Bad</option>
+        <option value="1">Terrible</option>
+    </select>
+</label>
+<br><br>
+```
+- `<select>` 标签创建一个下拉选择框，用户可以从中选择一个选项。`name="rating"` 为其指定名称，用于表单提交时标识评分数据。
+- `<option>` 标签定义下拉选项，每个 `<option>` 的 `value` 属性指定了该选项对应的值，在表单提交时会被发送到服务器，标签内的文本（如 `Amazing` 等）是用户看到的显示文本。
+
+```html
+<input type="submit" name="submit" value="Submit">
+<input type="reset" value="Clear">
+```
+- `<input type="submit">` 创建一个提交按钮，当用户点击该按钮时，表单数据会按照 `<form>` 标签指定的 `method` 和 `action` 发送到服务器。`name="submit"` 为其指定名称，`value="Submit"` 设置按钮上显示的文本。
+- `<input type="reset">` 创建一个重置按钮，用户点击该按钮时，表单内所有元素会恢复到初始状态（如文本框清空、复选框取消勾选等 ），`value="Clear"` 设置按钮上显示的文本。
