@@ -87,6 +87,5 @@ forgo 放弃
 plausible 看似合理的  
 
 
-![[【456合辑】剑桥雅思真题精讲456合辑.pdf]]
 # Writing
 # Speaking
