@@ -66,4 +66,33 @@ tags:
 | `article` | 独立内容单元      | 是   | 可包含完整的文章结构             |
 | `section` | 文档逻辑章节      | 部分  | 包含相关内容块                |
 | `details` | 交互式折叠面板     | 否   | 包含`summary`和展开内容       |
-[How to Use The HTML5 Sectioning Elements](https://blog.teamtreehouse.com/use-html5-sectioning-elements)
+[How to Use The HTML5 Sectioning Elements](https://blog.teamtreehouse.com/use-html5-sectioning-elements)  
+
+# demo  
+```html
+<form method="post" action="html1demo.html">
+```
+
+- `<form>` 标签用于定义一个表单，是整个表单内容的容器。
+- `method="post"` 表示表单数据提交的方式为 POST 方法，这种方式会将数据封装在请求体中发送到服务器，相比 GET 方法更安全，适合提交敏感信息（如密码等） 。
+- `action="html1demo.html"` 指定了表单数据提交的目标页面，这里是名为 `html1demo.html` 的页面，当用户点击提交按钮时，表单数据会被发送到该页面进行处理。
+
+```html
+<label for="">Name:
+    <input type="text" name="name">
+</label>
+<br><br>
+```
+
+- `<label>` 标签用于为表单元素定义标注（标记），它能让文本与对应的表单元素关联起来，提高用户体验（比如点击文本也能聚焦到对应表单元素）。这里 `for` 属性为空，最佳实践是应与关联的表单元素的 `id` 属性值一致。
+- `<input type="text">` 是一个文本输入框，用户可以在其中输入文本内容。`name="name"` 为该输入框指定了名称，在表单提交时，这个名称会作为键，用户输入的内容会作为值被发送到服务器。
+
+```html
+<label for="">Comments: <br>
+    <textarea name="comments" id=""></textarea>
+</label>
+<br><br>
+```
+- `<textarea>` 标签用于创建一个多行文本输入区域，用户可以在其中输入较长的文本内容，比如评论等。`name="comments"` 为其指定名称，用于表单提交时标识数据。这里 `id` 属性也为空，同样可优化为设置合适的 `id` 值以便于通过 CSS 或 JavaScript 操作。
+- 外层 `<label>` 标签关联该文本区域，提供标注说明。
+
