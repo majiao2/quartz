@@ -6,6 +6,9 @@ tags:
 ---
 # Listening  
 # Reading  
+Belgian 比利时的  
+synthetic 合成的  
+
  
 # Writing  
 # Speaking
