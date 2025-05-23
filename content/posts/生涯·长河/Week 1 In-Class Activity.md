@@ -58,12 +58,3 @@
 |Handwritten|12|27.91%|
 |Don’t Take Notes|4|9.30%|
 # Examine relationships between two variables using contingency tables  
-To examine the relationship between **study environment sound** (Silent, Background noise, Music) and **note-taking methods** (Laptop, Tablet, Handwritten, Don’t take notes), we create a **contingency table** (also called a cross-tabulation) to show the frequency distribution of the two variables.  
-### **Contingency Table: Study Environment Sound vs. Note-Taking Methods**
-| **Note-Taking Method** | **Silent** | **Background Noise** | **Music** | **Row Total** |
-| ---------------------- | ---------- | -------------------- | --------- | ------------- |
-| Laptop                 | 7          | 1                    | 3         | 11            |
-| Tablet                 | 2          | 1                    | 4         | 7             |
-| Handwritten            | 8          | 2                    | **?**     | 12            |
-| Don’t take notes       | 2          | 1                    | 1         | 4             |
-| **Column Total**       | 27         | 6                    | 10        | **43**        |
