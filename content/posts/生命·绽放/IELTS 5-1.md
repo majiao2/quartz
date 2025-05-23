@@ -4,7 +4,7 @@ date: 2025-05-07
 tags:
   - IELTS
 ---
-[BBC Learning English - Learn English with BBC Learning English - Homepage](https://www.bbc.co.uk/learningenglish)
+[BBC Learning English - 5 days to become a better listener / Day 1. What's Tim's tip?](https://www.bbc.co.uk/learningenglish/english/features/themed_weeks/ep-201005)
 # Test 1
 ## Listening
 reptile 爬行动物  
@@ -87,6 +87,6 @@ forgo 放弃
 plausible 看似合理的  
 
 
-
+![[【456合辑】剑桥雅思真题精讲456合辑.pdf]]
 # Writing
 # Speaking
