@@ -58,3 +58,29 @@
 |Handwritten|12|27.91%|
 |Don’t Take Notes|4|9.30%|
 # Examine relationships between two variables using contingency tables  
+To examine the relationships between **note-taking method** (Laptop, Tablet, Handwritten, Don’t take notes) and **environment type** (Silent, Background noise, Music), we analyze the contingency table.  
+
+| Environment/Note-Taking Method | Laptop | Tablet | Handwritten | Don’t Take Notes | **Total** |
+| ------------------------------ | ------ | ------ | ----------- | ---------------- | --------- |
+| Silent                         | 8      | 9      | 8           | 2                | 27        |
+| Background Noise               | 1      | 2      | 2           | 1                | 6         |
+| Music                          | 3      | 4      | 2           | 1                | 10        |
+| **Total**                      | 12     | 15     | 12          | 4                | **43**    |
+## Key Observations
+
+1. **Silent Environment Dominance**:
+    
+    - Most note-takers (27/43 ≈ 62.8%) prefer a silent environment, with **Tablet users** (9) and **Laptop users** (8) being the most frequent in this category.
+    - Only 2 users in the "Don’t take notes" group are in a silent environment, suggesting note-takers generally prefer silence.
+2. **Low Preference for Background Noise**:
+    
+    - Only 6 users (14.0%) are in a background noise environment, with similar small counts across all note-taking methods (1–2 users each).
+    - This implies a weak relationship between background noise and note-taking preference.
+3. **Music Environment Trends**:
+    
+    - In a music environment (10 users, 23.3%), **Tablet users** (4) and **Laptop users** (3) are more common than handwritten (2) or "Don’t take notes" (1).
+    - This suggests a mild association between music and digital note-taking (laptop/tablet) compared to handwritten methods or no note-taking.
+4. **Note-Taking Method Totals**:
+    
+    - **Tablet users** (15 total) are the largest group, with a strong presence in silent (9) and music (4) environments.
+    - **Don’t take notes** (4 total) is the smallest group, with most (2) in silent environments.
