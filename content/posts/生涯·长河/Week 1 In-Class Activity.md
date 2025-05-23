@@ -95,6 +95,20 @@ The contingency table suggests **moderate associations** between environment a
 ![[Pasted image 20250523195621.png|315]] ![[Pasted image 20250523195630.png|315]] ![[Pasted image 20250523195634.png|315]] ![[Pasted image 20250523195639.png|315]]
 ![[Pasted image 20250523195756.png|475]] ![[Pasted image 20250523195807.png|475]] ![[Pasted image 20250523200050.png|475]]
 # Look for potential instances of Simpson's Paradox  
+| Environment          | Laptop | Tablet | Handwritten | Don’t Take Notes | **Total** |
+| -------------------- | ------ | ------ | ----------- | ---------------- | --------- |
+| **Silent**           | 0.296  | 0.333  | 0.296       | 0.074            | 1.0       |
+| **Background Noise** | 0.167  | 0.333  | 0.333       | 0.167            | 1.0       |
+| **Music**            | 0.300  | 0.400  | 0.200       | 0.100            | 1.0       |
+
+| Note-Taking Method   | Silent | Background Noise | Music | **Total** |
+| -------------------- | ------ | ---------------- | ----- | --------- |
+| **Laptop**           | 0.667  | 0.083            | 0.250 | 1.0       |
+| **Tablet**           | 0.600  | 0.133            | 0.267 | 1.0       |
+| **Handwritten**      | 0.667  | 0.167            | 0.167 | 1.0       |
+| **Don’t Take Notes** | 0.500  | 0.250            | 0.250 | 1.0       |
+
+
 
 # What patterns did you discover?  
 # Which visualization method was most effective and why?  
