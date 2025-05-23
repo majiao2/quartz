@@ -5,8 +5,7 @@ tags:
   - IELTS
 ---
 [BBC Learning English - 5 days to become a better listener / Day 1. What's Tim's tip?](https://www.bbc.co.uk/learningenglish/english/features/themed_weeks/ep-201005)
-# Test 1
-## Listening
+# Listening
 reptile 爬行动物  
 cancellation 取消  
 provisional 临时的  
@@ -94,6 +93,9 @@ overwhelmingly adv. 绝大多数
 lobby v.游说  
 altruistic 无私的  
 impartial 客观的  
-drastic 猛烈的
+drastic 猛烈的  
+pessimistic 悲观的  
+233
+
 # Writing
 # Speaking
