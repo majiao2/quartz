@@ -93,8 +93,7 @@ The contingency table suggests **moderate associations** between environment a
 # Create appropriate visualizations (bar charts, pie charts, or segmented bar charts)  
 ![[Pasted image 20250523195336.png|315]] ![[Pasted image 20250523195341.png|315]] ![[Pasted image 20250523195348.png|315]] ![[Pasted image 20250523195403.png|315]]
 ![[Pasted image 20250523195621.png|315]] ![[Pasted image 20250523195630.png|315]] ![[Pasted image 20250523195634.png|315]] ![[Pasted image 20250523195639.png|315]]
-![[Pasted image 20250523195756.png|475]]![[Pasted image 20250523195807.png|475]]
-
+![[Pasted image 20250523195756.png|475]] ![[Pasted image 20250523195807.png|475]] ![[Pasted image 20250523200050.png|475]]
 # Look for potential instances of Simpson's Paradox  
 # What patterns did you discover?  
 # Which visualization method was most effective and why?  
