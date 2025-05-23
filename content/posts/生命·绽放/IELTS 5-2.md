@@ -18,6 +18,5 @@ make one's fortune 发财
 malleable 有延展性的  
 tray n.浅盘  
 
- 
 # Writing  
 # Speaking

@@ -42,6 +42,7 @@ tags:
 > - The more interesting questions are <span style="background:#fff88f">contingent on</span> something  
 
 > [!quote] Chart
-- Side-by-side Bar Chart
-- Segmented Bar Chart
-	- Mosaic Plot
+> - Side-by-side Bar Chart
+> - Segmented Bar Chart
+> 	- Mosaic Plot  
+
