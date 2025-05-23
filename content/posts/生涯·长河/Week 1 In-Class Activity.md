@@ -96,8 +96,51 @@ The contingency table suggests **moderate associations** between environment a
 ![[Pasted image 20250523195621.png|315]] ![[Pasted image 20250523195630.png|315]] ![[Pasted image 20250523195634.png|315]] ![[Pasted image 20250523195639.png|315]]
 ![[Pasted image 20250523195756.png|475]] ![[Pasted image 20250523195807.png|475]] ![[Pasted image 20250523200050.png|475]]
 # Look for potential instances of Simpson's Paradox  
+Based on the provided data, we analyze the potential presence of **Simpson's Paradox** by comparing trends within individual groups (study environments) and the overall aggregated data. Simpson's Paradox occurs when a trend that is evident within individual groups reverses when the data is combined.  
 
+| Environment/Note-Taking Method | Laptop | Tablet | Handwritten | Don’t Take Notes | **Total** |
+| ------------------------------ | ------ | ------ | ----------- | ---------------- | --------- |
+| **Silent**                     | 8      | 9      | 8           | 2                | 27        |
+| **Background Noise**           | 1      | 2      | 2           | 1                | 6         |
+| **Music**                      | 3      | 4      | 2           | 1                | 10        |
+| **Total**                      | 12     | 15     | 12          | 4                | 43        |
 
+| Environment/Note-Taking Method | Laptop | Tablet | Handwritten | Don’t Take Notes | **Total** |
+| ------------------------------ | ------ | ------ | ----------- | ---------------- | --------- |
+| **Silent**                     | 29.6%  | 33.3%  | 29.6%       | 7.4%             | 1         |
+| **Background Noise**           | 16.7%  | 33.3%  | 33.3%       | 16.7%            | 1         |
+| **Music**                      | 30.0%  | 40%    | 20%         | 10%              | 1         |
+| **Total**                      | 12     | 15     | 12          | 4                | 1         |
+## Observations:
+
+1. **Within each environment**:
+    
+    - In the **Silent** environment, **Tablet** is the most frequent note-taking method (9 out of 27, or ~33.3%), followed by **Laptop** (8 out of 27, or ~29.6%), and **Handwritten** (8 out of 27, or ~29.6%).
+        
+    - In the **Background Noise** environment, the distribution is more evenly spread, with **Tablet** and **Handwritten** both having 2 occurrences (2/6, or 33.3% each), and **Laptop** (1/6, or ~16.7%) and **Don’t Take Notes** (1/6, or ~16.7%) being less common.
+        
+    - In the **Music** environment, **Tablet** is again the most common (4 out of 10, or 40%), followed by **Laptop** (3 out of 10, or 30%), and **Handwritten** (2 out of 10, or 20%).
+        
+2. **Overall data (Aggregated totals)**:
+    
+    - **Tablet** is the most common note-taking method across all environments (15 out of 43, or ~34.9%).
+        
+    - **Laptop** is the second most common (12 out of 43, or ~27.9%).
+        
+    - **Handwritten** and **Don’t Take Notes** follow with 12 (27.9%) and 4 (9.3%) occurrences, respectively.
+        
+
+### Analyzing Simpson's Paradox:
+
+- **Individual Environment Trends**:
+    
+    - In the **Silent** and **Music** environments, **Tablet** is the most frequently used note-taking method.
+        
+    - In the **Background Noise** environment, **Tablet** and **Handwritten** are tied as the most common methods, each at 33.3%.
+        
+- **Overall Trends (Total Data)**:
+    
+    - When we combine all environments, **Tablet** becomes the most common note-taking method overall (34.9%), followed by **Laptop** (27.9%).
 
 
 # What patterns did you discover?  
