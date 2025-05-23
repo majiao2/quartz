@@ -84,3 +84,19 @@ To examine the relationships between **note-taking method** (Laptop, Tablet, H
     
     - **Tablet users** (15 total) are the largest group, with a strong presence in silent (9) and music (4) environments.
     - **Don’t take notes** (4 total) is the smallest group, with most (2) in silent environments.
+
+The contingency table suggests **moderate associations** between environment and note-taking method:
+- **Silent environments** are strongly preferred by all note-takers, especially tablet/laptop users.
+- **Music environments** slightly favor digital note-taking (tablet/laptop) over handwritten methods.
+- **Background noise** shows little relationship with any note-taking method, likely due to low sample size in this category.
+
+# Create appropriate visualizations (bar charts, pie charts, or segmented bar charts)  
+
+
+
+
+# Look for potential instances of Simpson's Paradox  
+# What patterns did you discover?  
+# Which visualization method was most effective and why?  
+# Were there surprising relationships between variables?  
+# How could this data be used to make a decision?
