@@ -23,6 +23,9 @@ disdian n.蔑视
 unparalleled 前所未有的  
 porous 多孔的，能渗透的  
 sterilisable adj.可消毒的  
+drab 单调乏味的  
+renaissance 复兴  
+
 
 # Writing  
 # Speaking
