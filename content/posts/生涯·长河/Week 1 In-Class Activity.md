@@ -166,10 +166,11 @@ We also tried other combinations and did not find any potential instances of Sim
         
     - **Background Noise:** Very low overall; tablets and handwriting share the lead (each 33%), while laptops and no-notes lag (17% each).
         
-        
 3. **No Simpson’s Paradox**
     
     - The pattern “tablet most popular,” “laptop second,” “handwritten third” holds true both within each environment subgroup and in the aggregated data—there’s no reversal of trends when you combine across environments.
 # Which visualization method was most effective and why?  
+
+
 # Were there surprising relationships between variables?  
 # How could this data be used to make a decision?
