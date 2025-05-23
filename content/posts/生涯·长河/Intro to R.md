@@ -43,3 +43,15 @@ write.table(filtered_df, "filtered_class_exercise.txt",
             row.names = FALSE, quote = FALSE)
 ```
 
+# Exercise 3  
+Write a function that takes a vector of numbers as its argument, then multiplies the first element of the vector by its last element, and then adds the one before the last element to the result of the multiplication, and returns the final value.  
+```r
+custom_calculation <- function(x) {
+  if (length(x) < 3) {
+    stop("The vector must contain at least 3 elements.")
+  }
+  result <- x[1] * x[length(x)] + x[length(x) - 1]
+  return(result)
+}
+```
+

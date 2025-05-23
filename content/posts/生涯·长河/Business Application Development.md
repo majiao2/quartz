@@ -1,6 +1,6 @@
 ---
 title: Business Application Development
-date: 2025-05-21
+date: 2025-05-20
 tags:
   - Course
   - MISY350
