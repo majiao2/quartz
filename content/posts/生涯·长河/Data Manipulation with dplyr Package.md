@@ -4,6 +4,7 @@ date: 2025-05-23
 tags:
   - BUAD345
 ---
+[[Intro to R]]
 # Five Essential Verbs in dplyr
 ```R
 library(dplyr)
