@@ -170,7 +170,20 @@ We also tried other combinations and did not find any potential instances of Sim
     
     - The pattern “tablet most popular,” “laptop second,” “handwritten third” holds true both within each environment subgroup and in the aggregated data—there’s no reversal of trends when you combine across environments.
 # Which visualization method was most effective and why?  
-
+The segmented bar charts were most effective because they clearly displayed how note-taking methods varied across different study environments, allowing for easy comparison of proportions within each category.
 
 # Were there surprising relationships between variables?  
-# How could this data be used to make a decision?
+Overall, no particularly surprising relationships emerged; most patterns aligned with expectations—for example, silent environments strongly favored all note-taking methods. One mild surprise is that handwritten note-takers were just as present in background noise settings as tablet users, despite low overall counts in that category.
+
+# How could this data be used to make a decision?  
+This dataset can inform several practical decisions:
+
+- **Campus Study Spaces**: Since most students prefer silent environments (≈63%), investment in quiet zones or soundproof booths makes sense. You might also include a few “music-friendly” rooms, given that about 23% work best with music.
+    
+- **Tech Provisioning**: Tablets are the most popular note-taking device (≈35%), so ensuring ample tablet-charging stations and strong Wi-Fi coverage will support the majority. Meanwhile, maintain laptop support and provide pen-and-paper stations for handwritten note-takers.
+    
+- **Beverage Services**: With nearly half of students choosing “regular” drinks (coffee) and 21% opting for specialty drinks, a campus café might focus on a solid core menu of classic beverages while offering a rotating specialty selection.
+    
+- **Commuter Amenities**: Since over half walk to campus and 12% bike or scooter, providing secure bike racks and well-lit pedestrian pathways would benefit a large segment, while a small on-campus parking expansion could accommodate the 9% who drive.
+    
+- **Event Scheduling**: If so organizing workshops or study sessions, scheduling them in silent spaces will attract the greatest attendance; offering optional “music-on” sessions might appeal to a niche but significant group.
