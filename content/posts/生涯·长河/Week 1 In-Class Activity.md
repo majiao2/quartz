@@ -1,3 +1,4 @@
+[[Categorical Variables]]
 # Create a frequency table for each variable  
 #### **Variable 1: Commuting Methods**
 | Commuting Method | Frequency     |
