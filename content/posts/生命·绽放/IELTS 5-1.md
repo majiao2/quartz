@@ -86,6 +86,14 @@ institutional 制度上的
 forgo 放弃  
 plausible 看似合理的  
 
-
+devastating 破坏性的  
+disjunction 分离  
+perception 观点  
+lopsideness n.倾斜  
+overwhelmingly adv. 绝大多数  
+lobby v.游说  
+altruistic 无私的  
+impartial 客观的  
+drastic 猛烈的
 # Writing
 # Speaking
