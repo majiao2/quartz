@@ -186,4 +186,4 @@ This dataset can inform several practical decisions:
     
 - **Commuter Amenities**: Since over half walk to campus and 12% bike or scooter, providing secure bike racks and well-lit pedestrian pathways would benefit a large segment, while a small on-campus parking expansion could accommodate the 9% who drive.
     
-- **Event Scheduling**: If so organizing workshops or study sessions, scheduling them in silent spaces will attract the greatest attendance; offering optional “music-on” sessions might appeal to a niche but significant group.
+- **Event Scheduling**: If someone is organizing workshops or study sessions, scheduling them in silent spaces will attract the greatest attendance; offering optional “music-on” sessions might appeal to a niche but significant group.
