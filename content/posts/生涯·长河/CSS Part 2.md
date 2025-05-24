@@ -94,12 +94,15 @@ tags:
 > - background-position Property
 >     - Places the image on the page using the values `top`, `bottom`, `center`, `left`, and `right` individually or in combination for vertical and horizontal positioning. You can also position by using lengths.
 
+> [!quote]+ CSS Backgrounds
+> **CSS box-shadow property**
+> - Adds a shadow effect to any block-level element.
+> - The property has 4 values:
+>     - Horizontal offset of the shadow
+>     - Vertical offset of the shadow
+>     - Blur radius
+>     - Color
+> - Example:
+> ![[Pasted image 20250524222924.png]]  
 
-**CSS box-shadow property**
-- Adds a shadow effect to any block-level element.
-- The property has 4 values:
-    - Horizontal offset of the shadow
-    - Vertical offset of the shadow
-    - Blur radius
-    - Color
-- Example
+
