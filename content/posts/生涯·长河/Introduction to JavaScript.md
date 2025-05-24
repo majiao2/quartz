@@ -178,5 +178,47 @@ x = x.toLowerCase ();  // x = "university of delaware"，返回小写形式
 var a = new Date();   // 当前日期和时间
 ```
 
+| Date 方法     | 功能                       | 返回值范围  |
+| ----------- | ------------------------ | ------ |
+| getHours    | 获取当前时间的小时数               | 0 - 23 |
+| getDay      | 获取当前是星期几（0 代表周日，6 代表周六 ） | 0 - 6  |
+| getDate     | 获取当前月份中的日期               | 1 - 31 |
+| getMinutes  | 获取当前时间的分钟数               | 0 - 59 |
+| getMonth    | 获取当前月份（0 代表一月，11 代表十二月 ） | 0 - 11 |
+| getFullYear | 获取当前年份（四位数表示 ）           | yyyy   |
 
+## Control structures: Conditions  
+![[Pasted image 20250524231545.png|475]]
+```javascript
+// 定义一个变量用于条件判断
+var num = 10;
+// 使用if - else语句
+if (num > 5) {
+    console.log("数字大于5");
+} else {
+    console.log("数字小于等于5");
+}
+```
 
+![[Pasted image 20250524231559.png|350]]
+```javascript
+// 定义一个变量用于switch判断
+var day = 3;
+switch (day) {
+    case 1:
+        console.log("星期一");
+        break;
+    case 2:
+        console.log("星期二");
+        break;
+    case 3:
+        console.log("星期三");
+        break;
+    default:
+        console.log("其他");
+        break;
+}
+```
+
+## Control structures: Loop  
+## Input/Output in JavaScript
