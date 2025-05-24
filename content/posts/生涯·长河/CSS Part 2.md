@@ -38,31 +38,46 @@ tags:
 >  ![[Pasted image 20250524220822.png|550]]  
 
 > [!abstract]+ The CSS Display Property
-- You can make an inline element behave like a block element using the display css property.
-    - In the following example:
-        - The element will take up the full width of its container.
-        - Other elements will appear above and below it.
-        - The box model applies here.
-    - CSS:
-        - .block-element {
-            - display: block;
-            - background-color: lightblue;
-            - padding: 10px;  
-                }
-    - HTML:
-        - <p>This is an <span class="block-element">inline element</span> with display: block; applied.</p>
-    - ©1992-2013 by Pearson Education, Inc. All Rights Reserved.
+> - You can make an inline element behave like a block element using the display css property.
+>     - In the following example:
+>         - The `<span>` element will take up the full width of its container.
+>         - Other elements will appear above and below it.
+>         - The box model applies here.
+```css
+/* style.css */
+.block-element {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+}
+```
+
+```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block Element Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>This is an <span class="block-element">inline element</span> with display: block; applied.</p>
+</body>
+</html>
+```
+
+> [!abstract]+ Box Model and Text Flow
+> - Border
+>     - The border is controlled using the properties:
+>         - border-width
+>             - May be set to any of the CSS lengths or to the predefined value of thin, medium or thick.
+>         - border-color
+>             - Sets the color used for the border.
+>         - border-style
+>             - Options are: none（无）、hidden（隐藏）、dotted（点状）、dashed（虚线）、solid（实线）、double（双线）、groove（凹槽）、ridge（垄状）、inset（内陷）和 outset（外凸）
 
 
-- Border
-    - The border is controlled using the properties:
-        - border-width
-            - May be set to any of the CSS lengths or to the predefined value of thin, medium or thick.
-        - border-color
-            - Sets the color used for the border.
-        - border-style
-            - Options are: none, hidden, dotted, dashed, solid, double, groove, ridge, inset and outset.
-    - ©1992-2013 by Pearson Education, Inc. All Rights Reserved.
 - margin and padding Properties
     - The margin property sets the space between the outside of an element’s border and all other content on the page.
     - The padding property determines the distance between the content inside an element and the inside of the element’s border.
