@@ -142,16 +142,31 @@ Strong concatenation (+)
 | `x = "5" + 5`            | `x="55"`          | 字符串 "5" 与数值 5 相加，数值 5 被转换为字符串后拼接          |
 | `x = Number("5") + 5`    | `x=10`            | `Number`函数将字符串 "5" 转换为数值 5 ，再与数值 5 进行加法运算 |
 
-Work with Strings
+<mark style="background: #FF5582A6;">Work with Strings</mark>
 ```javascript
-var x="University of Delaware";
-var y=x.length; 
-y=x.indexOf("i"); 
-y=x.lastIndexOf("e"); 
-var z=x.substring(14,8); 
-z=x.substr(14,8); 
-x=x.toUpperCase(); 
-x=x.toLowerCase();
+// 声明变量x并初始化为字符串"University of Delaware"
+var x = "University of Delaware";
+
+// 获取字符串x的长度（21个字符）并赋值给y
+var y = x.length; 
+
+// 查找字符"i"在字符串x中首次出现的位置（索引为3）并更新y的值
+y = x.indexOf("i"); 
+
+// 查找字符"e"在字符串x中最后一次出现的位置（索引为19）并更新y的值
+y = x.lastIndexOf("e"); 
+
+// 提取字符串x中从索引8到14（不包含14）的子字符串"versity"并赋值给z
+var z = x.substring(14, 8); 
+
+// 从索引14开始提取长度为8的子字符串"Delaware"并更新z的值
+z = x.substr(14, 8); 
+
+// 将字符串x转换为大写形式"UNIVERSITY OF DELAWARE"并更新x的值
+x = x.toUpperCase(); 
+
+// 将字符串x转换为小写形式"university of delaware"并更新x的值
+x = x.toLowerCase();
 ```
 [JavaScript String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp)  
 
