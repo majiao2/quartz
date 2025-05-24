@@ -83,18 +83,23 @@ tags:
 >     - Padding can be specified in the same way, using `padding-top`, `padding-right`, `padding-lef` t and `padding-bottom`.
 
 > [!quote]+ CSS Backgrounds
-- background-repeat Property
-    - The background-repeat property controls the tiling of the background image.
-        - Setting the tiling to `no-repeat` displays one copy of the background image on screen.
-        - Setting to `repeat` (the default) tiles the image vertically and horizontally.
-        - Setting to `repeat-x` tiles the image only horizontally.
-        - Setting to `repeat-y` tiles the image only vertically.
-    - ©1992-2013 by Pearson Education, Inc. All Rights Reserved.
-- background-image Property
-    
-    - Specifies the URL of the image, in the format `url(fileLocation)`.
-- background-position Property
-    
-    - Places the image on the page using the values `top`, `bottom`, `center`, `left`, and `right` individually or in combination for vertical and horizontal positioning. You can also position by using lengths.
+> - background-repeat Property
+>     - The background-repeat property controls the tiling of the background image.
+>         - Setting the tiling to `no-repeat` displays one copy of the background image on screen.
+>         - Setting to `repeat` (the default) tiles the image vertically and horizontally.
+>         - Setting to `repeat-x` tiles the image only horizontally.
+>         - Setting to `repeat-y` tiles the image only vertically.
+> - background-image Property
+>     - Specifies the URL of the image, in the format `url(fileLocation)`.
+> - background-position Property
+>     - Places the image on the page using the values `top`, `bottom`, `center`, `left`, and `right` individually or in combination for vertical and horizontal positioning. You can also position by using lengths.
 
 
+**CSS box-shadow property**
+- Adds a shadow effect to any block-level element.
+- The property has 4 values:
+    - Horizontal offset of the shadow
+    - Vertical offset of the shadow
+    - Blur radius
+    - Color
+- Example
