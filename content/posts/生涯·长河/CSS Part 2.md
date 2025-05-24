@@ -106,3 +106,27 @@ tags:
 > ![[Pasted image 20250524222924.png]]  
 
 
+# Animation  
+- CSS animation property: allows animation of most HTML elements without using JavaScript or Flash
+- Syntax:
+```css
+{animation: name timing-function duration delay iteration-count direction;}
+```
+- **name**: name of the animation
+- **timing-function**: type of animation (linear, ease, ease-in, ease-out, ease-in-out, cubic-bezler, etc.)
+- **duration**: time for one iteration
+- **delay**: time after the page loads and before animation begins
+- **iteration-count**: number of times animation runs (a number or infinite)
+- **direction**: animation direction (normal, alternate, etc.)
+- Also need to define a CSS @keyframe rule for an animation
+![[Pasted image 20250524223228.png|600]]
+
+> [!check]+ Browser Compatibility
+> - Some CSS extensions only work with specific browsers.
+>     - Extensions with prefix `–webkit` only work with webkit - based browsers, such as Chrome, Safari, android and IOS browsers.
+>     - Extensions with prefix `–moz` only work with Mozilla Firefox.
+>     - Extensions with prefix `–ms` only work with Microsoft browsers.
+>     - Other extensions exist.
+>  ![[Pasted image 20250524223435.png|450]]
+
+
