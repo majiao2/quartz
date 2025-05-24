@@ -76,14 +76,25 @@ tags:
 >             - Sets the color used for the border.
 >         - border-style
 >             - Options are: none（无）、hidden（隐藏）、dotted（点状）、dashed（虚线）、solid（实线）、double（双线）、groove（凹槽）、ridge（垄状）、inset（内陷）和 outset（外凸）
+> - margin and padding Properties
+>     - The margin property sets the space between the outside of an element’s border and all other content on the page.
+>     - The padding property determines the distance between the content inside an element and the inside of the element’s border.
+>     - Margins for individual sides of an element can be specified by using the properties `margin-top`,  `margin-right`, `margin-left` and `margin-bottom`.
+>     - Padding can be specified in the same way, using `padding-top`, `padding-right`, `padding-lef` t and `padding-bottom`.
 
-
-- margin and padding Properties
-    - The margin property sets the space between the outside of an element’s border and all other content on the page.
-    - The padding property determines the distance between the content inside an element and the inside of the element’s border.
-    - Margins for individual sides of an element can be specified by using the properties margin-top, margin-right, margin-left and margin-bottom.
-    - Padding can be specified in the same way, using padding-top, padding-right, padding-left and padding-bottom.
-
-
+> [!quote]+ CSS Backgrounds
+- background-repeat Property
+    - The background-repeat property controls the tiling of the background image.
+        - Setting the tiling to `no-repeat` displays one copy of the background image on screen.
+        - Setting to `repeat` (the default) tiles the image vertically and horizontally.
+        - Setting to `repeat-x` tiles the image only horizontally.
+        - Setting to `repeat-y` tiles the image only vertically.
+    - ©1992-2013 by Pearson Education, Inc. All Rights Reserved.
+- background-image Property
+    
+    - Specifies the URL of the image, in the format `url(fileLocation)`.
+- background-position Property
+    
+    - Places the image on the page using the values `top`, `bottom`, `center`, `left`, and `right` individually or in combination for vertical and horizontal positioning. You can also position by using lengths.
 
 
