@@ -77,6 +77,7 @@ tags:
 - `method="post"` 表示表单数据提交的方式为 POST 方法，这种方式会将数据封装在请求体中发送到服务器，相比 GET 方法更安全，适合提交敏感信息（如密码等） 。
 - `action="html1demo.html"` 指定了表单数据提交的目标页面，这里是名为 `html1demo.html` 的页面，当用户点击提交按钮时，表单数据会被发送到该页面进行处理。
 
+![[Pasted image 20250524194657.png|425]]
 ```html
 <label for="">Name:
     <input type="text" name="name">
