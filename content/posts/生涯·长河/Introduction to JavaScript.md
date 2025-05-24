@@ -143,30 +143,40 @@ Strong concatenation (+)
 | `x = Number("5") + 5`    | `x=10`            | `Number`函数将字符串 "5" 转换为数值 5 ，再与数值 5 进行加法运算 |
 
 <mark style="background: #FF5582A6;">Work with Strings</mark>
-```javascript
-// 声明变量x并初始化为字符串"University of Delaware"
+``` javascript
+// 定义变量 x 为 "University of Delaware"
 var x = "University of Delaware";
 
-// 获取字符串x的长度（21个字符）并赋值给y
-var y = x.length; 
+// 获取 x 的长度
+var y = x.length;  // y = 22，表示字符串的长度
 
-// 查找字符"i"在字符串x中首次出现的位置（索引为3）并更新y的值
-y = x.indexOf("i"); 
+// 获取 x 中第一次出现字符 "i" 的索引位置
+y = x.indexOf ("i");  // y = 2，索引从 0 开始计数，"i" 第一次出现在第 2 个位置
 
-// 查找字符"e"在字符串x中最后一次出现的位置（索引为19）并更新y的值
-y = x.lastIndexOf("e"); 
+// 获取 x 中最后一次出现字符 "e" 的索引位置
+y = x.lastIndexOf ("e");  // y = 21，"e" 最后一次出现的位置是索引 21
 
-// 提取字符串x中从索引8到14（不包含14）的子字符串"versity"并赋值给z
-var z = x.substring(14, 8); 
+// 获取 x 字符串中从索引 14 到索引 8 之间的子字符串（该操作无效，返回空字符串）
+var z = x.substring (14, 8);  // z = ""，因为起始索引大于结束索引，返回空字符串
 
-// 从索引14开始提取长度为8的子字符串"Delaware"并更新z的值
-z = x.substr(14, 8); 
+// 获取 x 字符串中从索引 14 开始，截取 8 个字符的子字符串
+z = x.substr (14, 8);  // z = "Delaware"，从索引 14 开始，截取 8 个字符
 
-// 将字符串x转换为大写形式"UNIVERSITY OF DELAWARE"并更新x的值
-x = x.toUpperCase(); 
+// 将 x 字符串转为大写
+x = x.toUpperCase ();  // x = "UNIVERSITY OF DELAWARE"，返回大写形式
 
-// 将字符串x转换为小写形式"university of delaware"并更新x的值
-x = x.toLowerCase();
+// 将 x 字符串转为小写
+x = x.toLowerCase ();  // x = "university of delaware"，返回小写形式
 ```
+
 [JavaScript String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp)  
+
+<center>Data and Time</center>  
+
+```javascript
+// 创建 Date 对象（当前日期时间）
+var a = new Date();   // 当前日期和时间
+```
+
+
 
