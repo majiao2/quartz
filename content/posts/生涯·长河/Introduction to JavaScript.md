@@ -113,8 +113,45 @@ var x = {firstName:"John", lastName:"Doe"}; // Object
 | Or      | `\|\|`     | `(A<B) \|\| (C>D)` |
 | Not     | `!`        | `!(E>F)`           |
 
+<center>Assignment Operators</center>  
 
+|JavaScript|Example|Same As|
+|---|---|---|
+|=|x=y|x=y|
+|+=|x+=y|x=x+y|
+|-=|x-=y|x=x-y|
+|*=|x*=y|x=x*y|
+|/=|x/=y|x=x/y|  
 
+<center>Comment Tags</center>
 
+| 语言         | 单行注释                    | 多行注释                                     |
+| ---------- | ----------------------- | ---------------------------------------- |
+| JavaScript | `// JavaScript comment` | `/* Multiple line JavaScript comment */` |
+| HTML       | `<!-- HTML comment -->` | `<!-- Multiple line HTML comment -->`    |
 
+<center>Strong Opeations
+</center>
+
+Strong concatenation (+)
+
+| 代码示例                     | 结果                | 说明                                        |
+| ------------------------ | ----------------- | ----------------------------------------- |
+| `x = "hello " + "world"` | `x="hello world"` | 两个字符串相加，实现字符串拼接                           |
+| `x = "hello" + 5`        | `x="hello5"`      | 字符串与数值相加，数值会被转换为字符串后拼接                    |
+| `x = "5" + 5`            | `x="55"`          | 字符串 "5" 与数值 5 相加，数值 5 被转换为字符串后拼接          |
+| `x = Number("5") + 5`    | `x=10`            | `Number`函数将字符串 "5" 转换为数值 5 ，再与数值 5 进行加法运算 |
+
+Work with Strings
+```javascript
+var x="University of Delaware";
+var y=x.length; 
+y=x.indexOf("i"); 
+y=x.lastIndexOf("e"); 
+var z=x.substring(14,8); 
+z=x.substr(14,8); 
+x=x.toUpperCase(); 
+x=x.toLowerCase();
+```
+[JavaScript String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp)  
 
