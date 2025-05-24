@@ -55,4 +55,33 @@ tags:
 ```javascript
 var varName=1;
 ```
- 
+ - JavaScript variables have dynamic data types
+```javascript
+var length = 16; // Number
+var lastName = "Johnson"; // String
+var cars = ["Saab", "Volvo", "BMW"]; // Array
+var x = {firstName:"John", lastName:"Doe"}; // Object
+```
+
+
+<center>Arithmetic Operators</center>  
+
+| Operator | Operation                  |
+| -------- | -------------------------- |
+| +        | addition                   |
+| -        | subtraction                |
+| *        | multiplication             |
+| /        | division                   |
+| %        | modulus (remainder)        |
+| ++       | increment                  |
+| --       | decrement<center></center> |
+
+| 代码语句        | 执行前`a`值 | 执行后`a`值 | 执行后`b`值 | 说明                               |     |
+| ----------- | ------- | ------- | ------- | -------------------------------- | --- |
+| `var a=10;` |         |         |         |                                  |     |
+| `var b;`    |         |         |         |                                  |     |
+| `b = a++;`  | 10      | 11      | 10      | `a++`是后置自增，先把`a`的值赋给`b`，`a`再自增 1 |     |
+| `b = ++a;`  | 10      | 11      | 11      | `++a`是前置自增，`a`先自增 1，再把新值赋给`b`    |     |
+| `b = a--;`  | 10      | 9       | 10      | `a--`是后置自减，先把`a`的值赋给`b`，`a`再自减 1 |     |
+| `b = --a;`  | 10      | 9       | 9       | `--a`是前置自减，`a`先自减 1，再把新值赋给`b`    |     |
+
