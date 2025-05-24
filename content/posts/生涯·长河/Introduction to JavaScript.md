@@ -31,4 +31,28 @@ tags:
 ```
 - Actually,
     - JavaScript code can be inserted anywhere in the HTML, including in the body.
-    - There are no limits on how many <script> tags can be embedded in the HTML code of a web page.
+    - There are no limits on how many `<script>` tags can be embedded in the HTML code of a web page.
+
+<mark style="background: #FF5582A6;">Putting the JavaScript in its Own File</mark>
+```html
+<head>
+    <title>Client-side input validation</title>
+    <script src="inputValidator.js" type="text/javascript"></script>
+</head>
+```
+- Attributes
+	- **src** - Specify URL of external code source.
+	- **type** - specifies scripting language ("text/javascript")
+<u>This is the best way for code reuse.</u>  
+
+# Variables  
+- **Valid variable names**
+    - Consist of letters, digits, underscores, and dollar signs
+    - Do not begin with a digit
+    - Not a <font color="red">reserved JavaScript keyword</font>
+- JavaScript is <font color="red">case sensitive</font>
+- A `var` or `let` statement to declare a variable:
+```javascript
+var varName=1;
+```
+ 
