@@ -341,3 +341,14 @@ Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document method
 ```
 
 
+
+abc[^1]fag
+> [!note]
+> Contents
+
+> [!NOTE] Title
+> Contents
+
+
+[^1]: nishuodedui
+
