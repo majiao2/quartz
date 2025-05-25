@@ -16,13 +16,13 @@ tags:
 # The HTML DOM Tree of Objects
 ![[Pasted image 20250525194810.png|750]]  
 
-<mark style="background: #FF5582A6;">Finding HTML Elements in JavaScript</mark>
+<mark style="background: #FF5582A6;">[^1]Finding HTML Elements in JavaScript</mark>
 
-|Method|Description|
-|---|---|
-|`document.getElementById(id)`|Find an element by element id|
-|`document.getElementsByTagName(name)`|Find elements by tag name|
-|`document.getElementsByClassName(name)`|Find elements by class name|
+| Method                                  | Description                   |
+| --------------------------------------- | ----------------------------- |
+| `document.getElementById(id)`           | Find an element by element id |
+| `document.getElementsByTagName(name)`   | Find elements by tag name     |
+| `document.getElementsByClassName(name)` | Find elements by class name   |
 
 ---
 # Finding HTML Elements in JavaScript
@@ -341,15 +341,4 @@ Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document method
 ```
 
 
-
-abc[^1]fag
-> [!note]
-> Contents
-
-> [!NOTE] Title
-> Contents
-
-
-
-[^1]: nishuodedui
-
+[^1]: 第三章  
