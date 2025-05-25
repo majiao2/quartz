@@ -70,3 +70,77 @@ tags:
 </html>
 ```
 
+# Finding HTML Elements by CSS Selectors  
+![[Pasted image 20250525195304.png|1025]]  
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 定义样式，用于后续展示操作效果 */
+   .intro {
+      border: 1px solid gray;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 定义一些具有class为intro的p元素 -->
+  <p class="intro">这是第一个class为intro的p元素</p>
+  <p class="intro">这是第二个class为intro的p元素</p>
+  <p>这是一个普通的p元素</p>
+
+  <button onclick="operateElements()">操作元素</button>
+
+  <script>
+    function operateElements() {
+      // 使用document.querySelectorAll()方法获取所有class为intro的p元素
+      var x = document.querySelectorAll("p.intro");
+      // 遍历获取到的元素集合
+      for (var i = 0; i < x.length; i++) {
+        // 为每个元素添加一个点击事件监听器
+        x[i].addEventListener('click', function () {
+          // 当元素被点击时，改变其文本颜色为红色
+          this.style.color ='red';
+        });
+        // 改变元素的背景颜色为浅黄色
+        x[i].style.backgroundColor = 'lightyellow';
+      }
+    }
+  </script>
+</body>
+
+</html>
+```
+
+# Find HTML Elements by DOM Collections  
+- DOM has collections—groups of related objects on a page
+- DOM collections are `document.links`/`document.anchors`, `document.images`, and `document.forms`.
+    - Contain all the elements of the corresponding type on the page
+- The collection’s `length` property specifies the number of items in the collection
+Examples:
+- `document.images[1]` //the second image in the page
+- `document.forms.length` //number of forms in the page
+
+---  
+
+> [!success]+ Access a HTML Element's Attributes
+> - Use the dot (.) operator to access an element's attribute values
+> - Example:
+> 	- Given HTML: `<img id="myImage" src="oldpic.jpg">`
+
+In Javascript:  
+```javascript
+var x = document.getElementById('myImage');
+x.src = "newpic.jpg";
+x.className = 'allpics';
+x.id = "alternateimg";
+```
+
+---  
+
