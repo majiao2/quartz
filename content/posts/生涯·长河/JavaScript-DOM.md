@@ -320,43 +320,21 @@ Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document method
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-    <title>事件绑定对比</title>
-    <style>
-        .demo-box {
-            padding: 20px;
-            margin: 10px;
-            border: 1px solid #ccc;
-            cursor: pointer;
-        }
-    </style>
-</head>
 <body>
-    <h3>推荐方式：使用addEventListener</h3>
-    <div id="p1" class="demo-box">点击我（addEventListener）</div>
-
-    <h3>不推荐方式：直接赋值onclick</h3>
-    <div id="p2" class="demo-box">点击我（onclick属性）</div>
+    <div id="p1" onclick="alert('通过属性绑定')">点击我</div>
 
     <script>
-        // 推荐方式：使用addEventListener（支持多个事件处理程序）
+        // 推荐方式：使用addEventListener
         document.getElementById("p1").addEventListener("click", function() {
-            this.style.backgroundColor = "lightgreen";
-            console.log("addEventListener方式触发");
+            console.log("通过addEventListener触发");
         }, false);
 
-        // 不推荐方式：直接赋值onclick（会覆盖之前的事件处理程序）
-        document.getElementById("p2").onclick = function() {
-            this.style.backgroundColor = "lightblue";
-            console.log("onclick属性方式触发");
-        };
-
-        // 演示onclick属性的覆盖问题
-        document.getElementById("p2").onclick = function() {
-            this.style.color = "red";
-            console.log("onclick属性被覆盖！");
+        // 不推荐方式：直接赋值onclick（会覆盖HTML中的onclick属性）
+        document.getElementById("p1").onclick = function() {
+            console.log("onclick属性被JavaScript覆盖");
         };
     </script>
 </body>
 </html>
 ```
+
