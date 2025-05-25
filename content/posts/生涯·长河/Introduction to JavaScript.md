@@ -197,7 +197,7 @@ var a = new Date();   // 当前日期和时间
 | getMonth    | 获取当前月份（0 代表一月，11 代表十二月 ） | 0 - 11 |
 | getFullYear | 获取当前年份（四位数表示 ）           | yyyy   |
 
-## Control structures: Conditions  
+# Control structures: Conditions  
 ![[Pasted image 20250524231545.png|475]]
 ```javascript
 // 定义一个变量用于条件判断
@@ -230,7 +230,7 @@ switch (day) {
 }
 ```
 
-## Control structures: Loop 
+# Control structures: Loop 
 ![[Pasted image 20250525193213.png|500]]  
 ```javascript
 let sum = 0;
@@ -268,7 +268,7 @@ for (var i = 0; i < 5; i++) {
 - `statement 2`：`i++` ，每次循环结束后执行，用于更新循环变量，这里是让 `i` 自增 `1` 。
 - 循环体中 `console.log(i)` 会在每次循环时打印当前 `i` 的值，最终会依次打印 `0`、`1`、`2`、`3`、`4` 。
 
-## Input/Output in JavaScript  
+# Input/Output in JavaScript  
 - Output
 	- `window.alert()` - popup message box
 	- `document.writeln()` or `document.write()`
