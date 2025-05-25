@@ -230,7 +230,44 @@ switch (day) {
 }
 ```
 
-## Control structures: Loop  
+## Control structures: Loop 
+![[Pasted image 20250525193213.png|500]]  
+```javascript
+let sum = 0;
+let num = 1;
+while (num <= 10) {
+    sum += num;
+    num++;
+}
+console.log("1到10的累加和为：", sum);
+``` 
+- 声明变量 `sum` 用于存储累加和，初始化为 `0`；`num` 初始化为 `1`。
+- `while` 循环条件是 `num <= 10` ，只要满足该条件，就执行循环体。
+- 在循环体中，将 `num` 的值累加到 `sum` 中，然后 `num` 自增 `1`。当 `num` 变为 `11` 时，条件 `num <= 10` 不成立，循环结束，最后打印出 `1` 到 `10` 的累加和。
+
+![[Pasted image 20250525193404.png|475]]  
+```javascript
+let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 5);
+```
+- 首先声明变量 `i` 并初始化为 `0`。
+- `do...while` 循环会先执行一次 `do` 代码块内的语句，即先打印 `0` 并将 `i` 自增为 `1`。
+- 然后检查 `while` 后的条件 `i < 5` ，只要条件为 `true`，就会继续执行 `do` 代码块内的语句。当 `i` 变为 `5` 时，条件不成立，循环结束。
+
+![[Pasted image 20250525193513.png|500]]
+```javascript
+for (var i = 0; i < 5; i++) {
+    console.log(i);
+}
+```
+- `statement 1`：`var i = 0` ，用于初始化循环变量 `i` ，这里将其初始化为 `0` 。
+- `condition`：`i < 5` ，这是循环继续的条件，只要 `i` 小于 `5` ，循环就会继续执行。
+- `statement 2`：`i++` ，每次循环结束后执行，用于更新循环变量，这里是让 `i` 自增 `1` 。
+- 循环体中 `console.log(i)` 会在每次循环时打印当前 `i` 的值，最终会依次打印 `0`、`1`、`2`、`3`、`4` 。
+
 ## Input/Output in JavaScript  
 
 
