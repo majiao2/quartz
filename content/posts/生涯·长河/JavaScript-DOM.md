@@ -16,7 +16,7 @@ tags:
 # The HTML DOM Tree of Objects
 ![[Pasted image 20250525194810.png|750]]  
 
-<mark style="background: #FF5582A6;">[^1]Finding HTML Elements in JavaScript</mark>
+<mark style="background: #FF5582A6;">Finding HTML Elements in JavaScript</mark>
 
 | Method                                  | Description                   |
 | --------------------------------------- | ----------------------------- |
@@ -340,5 +340,3 @@ Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document method
 </html>
 ```
 
-
-[^1]: 第三章  
