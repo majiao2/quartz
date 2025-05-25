@@ -341,7 +341,3 @@ Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document method
 ```
 
 
-> [!tree-note]
-> 试试  
-> 试试  
-> 试试  
