@@ -234,7 +234,7 @@ console.log("第一个a元素的后一个兄弟节点（预期为h1元素）:", 
 |`document.replaceChild(element)`|Replace an HTML element（实际应在父元素上调用，非 document 方法 ）|
 Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document methods. They can be used with any parent element object, e.g.,
 
-
+![[Pasted image 20250525200734.png]]
 
 ```html
 <!DOCTYPE html>
@@ -266,6 +266,97 @@ Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document method
       document.getElementById("place").appendChild(x);
     }
   </script>
+</body>
+</html>
+```
+
+> [!example]
+> ![[Pasted image 20250525200918.png|600]]  
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+  <div id="container">
+    <h2>原始内容</h2>
+    <p>这是页面的初始段落。</p>
+  </div>
+
+  <button onclick="addNewParagraph()">添加新段落</button>
+
+  <script>
+    function addNewParagraph() {
+      // 创建一个新的<p>元素
+      var newNode = document.createElement("p");
+      
+      // 设置新元素的ID属性
+      newNode.id = "new";
+      
+      // 定义要添加的文本
+      var txt = "I love Tech";
+      
+      // 创建文本节点并将其附加到新段落
+      newNode.appendChild(document.createTextNode(txt));
+      
+      // 设置新段落的样式
+      newNode.style.color = "green";
+      newNode.style.fontWeight = "bold";
+      
+      // 将新段落添加到容器中
+      document.getElementById("container").appendChild(newNode);
+    }
+  </script>
+</body>
+</html>
+```
+
+# Adding Event Handlers  
+| Method                                                   | Description                                   |
+| -------------------------------------------------------- | --------------------------------------------- |
+| `document.getElementById(id).onclick = function(){code}` | Adding event handler code to an onclick event |
+
+![[Pasted image 20250525201232.png|950]]
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>事件绑定对比</title>
+    <style>
+        .demo-box {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h3>推荐方式：使用addEventListener</h3>
+    <div id="p1" class="demo-box">点击我（addEventListener）</div>
+
+    <h3>不推荐方式：直接赋值onclick</h3>
+    <div id="p2" class="demo-box">点击我（onclick属性）</div>
+
+    <script>
+        // 推荐方式：使用addEventListener（支持多个事件处理程序）
+        document.getElementById("p1").addEventListener("click", function() {
+            this.style.backgroundColor = "lightgreen";
+            console.log("addEventListener方式触发");
+        }, false);
+
+        // 不推荐方式：直接赋值onclick（会覆盖之前的事件处理程序）
+        document.getElementById("p2").onclick = function() {
+            this.style.backgroundColor = "lightblue";
+            console.log("onclick属性方式触发");
+        };
+
+        // 演示onclick属性的覆盖问题
+        document.getElementById("p2").onclick = function() {
+            this.style.color = "red";
+            console.log("onclick属性被覆盖！");
+        };
+    </script>
 </body>
 </html>
 ```
