@@ -210,7 +210,7 @@ if (num > 5) {
 }
 ```
 
-![[Pasted image 20250524231559.png|350]]
+![[Pasted image 20250524231559.png|400]]
 ```javascript
 // 定义一个变量用于switch判断
 var day = 3;
@@ -231,4 +231,15 @@ switch (day) {
 ```
 
 ## Control structures: Loop  
-## Input/Output in JavaScript
+## Input/Output in JavaScript  
+
+
+
+
+
+
+
+
+
+
+
