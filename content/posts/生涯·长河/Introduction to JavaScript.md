@@ -269,6 +269,33 @@ for (var i = 0; i < 5; i++) {
 - 循环体中 `console.log(i)` 会在每次循环时打印当前 `i` 的值，最终会依次打印 `0`、`1`、`2`、`3`、`4` 。
 
 ## Input/Output in JavaScript  
+- Output
+	- `window.alert()` - popup message box
+	- `document.writeln()` or `document.write()`
+- Input
+	- `window.prompt()` - input box
+	- `confirm()` - ok/cancel box
+- Debug
+	- `console.log()`
+	- `Console.error()`
+
+```javascript
+console.log("这是一个字符串"); // 输出字符串
+console.log(123); // 输出数字
+console.log(true); // 输出布尔值
+const arr = [1, 2, 3];
+console.log(arr); // 输出数组
+const obj = { name: "Alice", age: 25 };
+console.log(obj); // 输出对象
+```
+
+```javascript
+const name = "Bob";
+const age = 30;
+console.log("姓名：%s，年龄：%d", name, age); 
+console.log('%c这是带有样式的文字', 'color: red; font-weight: bold;'); 
+```
+
 
 
 
