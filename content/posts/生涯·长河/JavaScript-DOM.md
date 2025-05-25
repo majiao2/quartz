@@ -144,3 +144,24 @@ x.id = "alternateimg";
 
 ---  
 
+> [!success]+ Legacy Form Input Shortcut Accessor
+> - Uses the name attribute value of the input element, e.g.,  
+![[Pasted image 20250525195917.png|750]]
+
+```javascript
+var x = document.forms[0];
+var y = x.fullName; //references the fullName text input
+var z = x.address; //references the address textarea input
+var yy = x.fullName.value; //get the user input value in fullName
+```
+
+---  
+
+> [!summary]+ Node Properties
+> - parentNode
+> - childNodes[nodenumber]
+> - firstChild
+> - lastChild
+> - nextSibling
+> - previousSibling  
+
