@@ -64,7 +64,7 @@ var x = {firstName:"John", lastName:"Doe"}; // Object
 ```
 
 
-<center>Arithmetic Operators</center>  
+Arithmetic Operators  
 
 | Operator | Operation                  |
 | -------- | -------------------------- |
@@ -85,8 +85,9 @@ var x = {firstName:"John", lastName:"Doe"}; // Object
 | `b = a--;`  | 10      | 9       | 10      | `a--`是后置自减，先把`a`的值赋给`b`，`a`再自减 1 |     |
 | `b = --a;`  | 10      | 9       | 9       | `--a`是前置自减，`a`先自减 1，再把新值赋给`b`    |     |
 
-<center>Comparison Operators
-</center>
+---  
+
+Comparison Operators
 
 |Meaning|JavaScript|Example|
 |---|---|---|
@@ -103,9 +104,11 @@ var x = {firstName:"John", lastName:"Doe"}; // Object
 | `var a = 3;`       | 声明变量`a`并赋值为数值 3                | -         |
 | `var b = "3";`     | 声明变量`b`并赋值为字符串 "3"             | -         |
 | `var c = (a==b);`  | 使用`==`比较`a`和`b` ，会进行类型转换再比较    | `c=true`  |
-| `var d = (a===b);` | 使用`===`比较`a`和`b` ，要求类型和值都相同才为真 | `d=false` |
+| `var d = (a===b);` | 使用`===`比较`a`和`b` ，要求类型和值都相同才为真 | `d=false` |  
 
-<center>Logical Operators  </center>  
+---
+
+Logical Operators
 
 | Meaning | JavaScript | Example            |
 | ------- | ---------- | ------------------ |
@@ -113,7 +116,9 @@ var x = {firstName:"John", lastName:"Doe"}; // Object
 | Or      | `\|\|`     | `(A<B) \|\| (C>D)` |
 | Not     | `!`        | `!(E>F)`           |
 
-<center>Assignment Operators</center>  
+---  
+
+Assignment Operators
 
 |JavaScript|Example|Same As|
 |---|---|---|
@@ -123,15 +128,18 @@ var x = {firstName:"John", lastName:"Doe"}; // Object
 |*=|x*=y|x=x*y|
 |/=|x/=y|x=x/y|  
 
-<center>Comment Tags</center>
+---  
+
+Comment Tags
 
 | 语言         | 单行注释                    | 多行注释                                     |
 | ---------- | ----------------------- | ---------------------------------------- |
 | JavaScript | `// JavaScript comment` | `/* Multiple line JavaScript comment */` |
 | HTML       | `<!-- HTML comment -->` | `<!-- Multiple line HTML comment -->`    |
 
-<center>Strong Opeations
-</center>
+---  
+
+Strong Opeations
 
 Strong concatenation (+)
 
@@ -171,7 +179,9 @@ x = x.toLowerCase ();  // x = "university of delaware"，返回小写形式
 
 [JavaScript String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp)  
 
-<center>Data and Time</center>  
+---  
+
+Data and Time
 
 ```javascript
 // 创建 Date 对象（当前日期时间）
