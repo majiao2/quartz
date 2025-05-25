@@ -165,3 +165,107 @@ var yy = x.fullName.value; //get the user input value in fullName
 > - nextSibling
 > - previousSibling  
 
+```javascript
+// 获取页面中第一个h1元素的父节点，预期结果是body元素
+const bodyElement = document.getElementsByTagName("h1")[0].parentNode;
+console.log("第一个h1元素的父节点（预期为body元素）:", bodyElement);
+
+// 获取页面中第一个html元素的第一个子节点，预期结果是head元素
+const headElement = document.getElementsByTagName("html")[0].firstChild;
+console.log("第一个html元素的第一个子节点（预期为head元素）:", headElement);
+
+// 获取页面中第一个html元素的最后一个子节点，预期结果是body元素
+const bodyElement2 = document.getElementsByTagName("html")[0].lastChild;
+console.log("第一个html元素的最后一个子节点（预期为body元素）:", bodyElement2);
+
+// 获取页面中第一个h1元素的前一个兄弟节点，预期结果是a元素
+const aElement = document.getElementsByTagName("h1")[0].previousSibling;
+console.log("第一个h1元素的前一个兄弟节点（预期为a元素）:", aElement);
+
+// 获取页面中第一个a元素的后一个兄弟节点，预期结果是h1元素
+const h1Element = document.getElementsByTagName("a")[0].nextSibling;
+console.log("第一个a元素的后一个兄弟节点（预期为h1元素）:", h1Element);
+```
+
+---  
+# Changing HTML Elements
+
+| Method                                   | Description                                   |
+| ---------------------------------------- | --------------------------------------------- |
+| `element.innerHTML = new html content`   | Change the inner HTML of an element           |
+| `element.attribute = new value`          | Change the attribute value of an HTML element |
+| `element.setAttribute(attribute, value)` | Change the attribute value of an HTML element |
+| `element.style.property = new style`     | Change the style of an HTML element           |  
+
+![[Pasted image 20250525200505.png]]
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <p id="p1">原始文本</p>
+  <script>
+    // 获取id为p1的元素
+    var x = document.getElementById("p1");
+    // 更新元素的innerHTML
+    x.innerHTML = "New text";
+    // 隐藏该元素
+    x.style.visibility = "hidden";
+  </script>
+</body>
+
+</html>
+```
+
+
+# Adding and Deleting Elements  
+|Method|Description|
+|---|---|
+|`document.createElement(element)`|Create an HTML element|
+|`document.removeChild(element)`|Remove an HTML element（实际应在父元素上调用，非 document 方法 ）|
+|`document.appendChild(element)`|Add an HTML element（实际应在父元素上调用，非 document 方法 ）|
+|`document.replaceChild(element)`|Replace an HTML element（实际应在父元素上调用，非 document 方法 ）|
+Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document methods. They can be used with any parent element object, e.g.,
+
+
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+  <div id="container">
+    <h2>现有内容</h2>
+    <p>这是原始段落。</p>
+    <div id="place">
+      <!-- 新元素将被添加到这里 -->
+    </div>
+  </div>
+
+  <button onclick="addNewElement()">添加新段落</button>
+
+  <script>
+    function addNewElement() {
+      // 创建一个新的<p>元素
+      var x = document.createElement("p");
+      
+      // 设置新元素的文本内容
+      x.textContent = "这是新创建的段落！";
+      
+      // 设置新元素的样式（可选）
+      x.style.color = "blue";
+      x.style.fontSize = "18px";
+      
+      // 将新元素添加到id为"place"的元素内部
+      document.getElementById("place").appendChild(x);
+    }
+  </script>
+</body>
+</html>
+```
