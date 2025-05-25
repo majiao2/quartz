@@ -234,6 +234,7 @@ console.log("第一个a元素的后一个兄弟节点（预期为h1元素）:", 
 |`document.removeChild(element)`|Remove an HTML element（实际应在父元素上调用，非 document 方法 ）|
 |`document.appendChild(element)`|Add an HTML element（实际应在父元素上调用，非 document 方法 ）|
 |`document.replaceChild(element)`|Replace an HTML element（实际应在父元素上调用，非 document 方法 ）|
+
 Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document methods. They can be used with any parent element object, e.g.,
 
 ![[Pasted image 20250525200734.png]]
