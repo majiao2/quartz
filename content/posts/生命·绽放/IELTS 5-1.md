@@ -31,7 +31,8 @@ rail n.货架
 
 > [!example]+ SECTION 4
 > - pretension 抱负，意图
-> - overdraft v.透支
+> - overdraft v.透支  
+> - initiative n.主动性
 
 
 
