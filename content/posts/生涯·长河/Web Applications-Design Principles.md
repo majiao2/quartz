@@ -12,7 +12,7 @@ tags:
 > - Back-end code does have a direct influence on the UX, even though it may not directly involve the UI elements
 > - UX is everyone's responsibility  
 
-> [!abstract]+ Proximity
+> [!abstract]- Proximity
 > - Principle 1: Proximity
 > 	- Group <mark style="background: #D2B3FFA6;">related</mark> items <mark style="background: #D2B3FFA6;">together</mark>
 > 	- Items or groups of information that are not related to each other should not be in close proximity
@@ -25,7 +25,7 @@ tags:
 >     - Avoid too many separate elements
 >     - Avoid leaving equal amount of white space between elements  
 
-> [!abstract]+ Alignment
+> [!abstract]- Alignment
 > - Principle 2: Alignment
 > 	- Nothing should be placed on the page arbitrarily
 > 	- Every item should have a visual connection with something else on the page
@@ -38,11 +38,16 @@ tags:
 >     - Avoid using more than one text alignment on the page
 >     - Avoid using justified text if it's too short  
 
-> [!abstract]+ Repetition
+> [!abstract]- Repetition
+> - Principle 3: Repetition  
+> 	- Repeat some aspect of the design throughout the entire piece
+> 	- Repetitive elements can be a bold font, a bullet style, color, format, etc.
+> 	- The goal is to achieve a consistent look
+> 	- CSS rules can be used to apply the same style rules across all pages
+> - **Dos**
+>     - Think of the possibility of adding elements whose sole purpose is to create a repetition
+> - **Don'ts**
+>     - Avoid repeating so much that it becomes annoying or overwhelming  
 
-- Principle 3: Repetition  
-	- Repeat some aspect of the design throughout the entire piece
-	- Repetitive elements can be a bold font, a bullet style, color, format, etc.
-	- The goal is to achieve a consistent look
-	- CSS rules can be used to apply the same style rules across all pages
-- 
+> [!abstract]- Contrast
+> - Principle 4: Contrast  
