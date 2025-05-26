@@ -119,8 +119,15 @@ Waterfall model phases
 - Allows for frequent demonstrations of functioning models
 
 <mark style="background: #FF5582A6;">3. Accelerates User Engagement</mark>
-- （图示中不同颜色小人集合 → 大量人群图示）
 - Brings in non-technical stakeholders/users early on in design process to guide business decisions
-- Promotes collaboration and improves requirements elicitation
+- Promotes collaboration and improves requirements elicitation 需求获取
+
+# Additonal Resource  
+- **Prototyping at Lynda**
+    - **Low-fidelity prototyping**
+    - Prototyping Tools (Moqups, Keynote, inVision, JustInMind, Axure, other tools)
+- Axure educational license can be obtained from [Free Student and Teacher Subscription - Axure](https://www.axure.com/edu)
+- More Axure online tutorial available at Lynda
+
 
 
