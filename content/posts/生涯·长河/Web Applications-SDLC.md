@@ -4,6 +4,8 @@ date: 2025-05-26
 tags:
   - MISY350
 ---
+[[RWD and Bootstrap]]
+
 > [!example]+ Plan-driven and agile SDLC processes
 > - Plan-driven SDLC processes are processes where all of the process activities are planned in advance and progress is measured against this plan.
 > - In agile processes, planning is incremental and it is easier to change the process to reflect changing customer requirements.
