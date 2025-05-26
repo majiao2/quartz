@@ -5,6 +5,8 @@ tags:
   - IELTS
 ---
 [BBC Learning English - 5 days to become a better listener / Day 1. What's Tim's tip?](https://www.bbc.co.uk/learningenglish/english/features/themed_weeks/ep-201005)
+
+savage daughter
 # Listening
 reptile 爬行动物  
 cancellation 取消  
@@ -32,7 +34,9 @@ rail n.货架
 > [!example]+ SECTION 4
 > - pretension 抱负，意图
 > - overdraft v.透支  
-> - initiative n.主动性
+> - initiative n.主动性  
+> 	- subjective initiative 主观能动性  
+> 	- have the initiative 掌握主动权
 
 
 
