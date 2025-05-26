@@ -48,7 +48,7 @@ tags:
 - If-else: `if (condition) {} else {}`
 
 ## Simulation Process  
-![[Pasted image 20250526161841.png]]  
+![[Pasted image 20250526161841.png|325]]  
 
 > [!abstract]+ Example: Simulating Probability Distributions
 > - Simulate normal, binomial, and other distributions.
@@ -66,7 +66,7 @@ tags:
 > - In production management, machine breakdowns can cause significant disruptions:
 > 	- **Time between breakdowns** follows an exponential distribution with mean λ.
 > 	- Simulate the **number of breakdowns** in a year and estimate the **expected downtime**.  
-![[Pasted image 20250526162340.png]]
+![[Pasted image 20250526162340.png|400]]
 
 > [!abstract]+ Random Walk
 > - A random walker starts at the origin (0, 0) and takes steps in random directions (North, South, East, West):
