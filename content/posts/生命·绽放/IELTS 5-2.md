@@ -26,6 +26,24 @@ sterilisable adj.可消毒的
 drab 单调乏味的  
 renaissance 复兴  
 
+---  
+> [!example]+ READING PASSAGE 2
+
+- dub 称作
+- pedigree 起源
+- psychic 精神的
+- puncture 化解
+- ludicrousness 滑稽可笑
+- incongruity 不合适
+- appeasement 缓解
+- squeak 尖叫
+- scuffle 扭打
+- tap into 利用，开发
+- vocalisation n.发声
+- 
+
+
+
 
 # Writing  
 # Speaking
