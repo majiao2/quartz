@@ -60,4 +60,59 @@ Waterfall model phases
 > - Reference: [UML Use Case Diagrams: An Agile Introduction](https://agilemodeling.com/artifacts/useCaseDiagram.htm)
 ![[Pasted image 20250526131109.png|550]]
 
+> [!summary]+ Software design and implementation
+> - The process of converting the system specification into an executable system.
+> - Software design
+>     - Design a software structure that realises the specification;
+> - Implementation
+>     - Translate this structure into an executable program;
+> - The activities of design and implementation are closely related and may be inter-leaved.  
+> - A general model of the design process  
+> ![[Pasted image 20250526131404.png|600]]  
 
+> [!summary]+ Form Use Cases to Wireframing
+> - Create a sitemap  
+> - For each page, use wireframing to provide a design blueprint  
+> ![[Pasted image 20250526131546.png|525]]  
+
+
+# Wireframing Practices and Principles
+
+## Wireframing Practices and Principles – Low Fidelity Vs. High Fidelity
+
+### Low Fidelity
+
+**Basic Functional and Low Visual Fidelity:**
+- Types of page elements used (e.g., navigation bars, tabs, dropdowns)
+- Page content (e.g., links, text, graphics)
+- General locations of page content
+- Static pages
+- Sketchy look and feel
+
+### High Fidelity
+
+**High Visual Fidelity and Dynamic Features**
+
+  
+
+- Exact locations and spacing of page elements
+- Design Elements and Color Scheme
+- Variables and Interactive Features (e.g. type-ahead, dynamic panels, passwords)
+
+  
+
+**As a design progresses the focus shifts from basic functionality to visual fidelity and dynamic features.**
+
+  
+
+|Requirements & Early Design|Detailed Design and Revision|
+|---|---|
+|In the early stages of a page design you should focus primarily on application functionality with a **low fidelity wireframe**.  <br>This allows you to get agreement on general page goals without getting bogged down with specific visual details.|As you move into detailed design you should gradually increase the interactive features and add visual fidelity.  <br>This allows you to highlight unique features of the application. Visual detail can be added to existing functionality focused wireframes.|
+
+  
+
+**Increasing Wireframe Complexity** →
+
+编辑
+
+分享
