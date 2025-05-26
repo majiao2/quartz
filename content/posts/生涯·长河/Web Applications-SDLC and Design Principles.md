@@ -21,3 +21,24 @@ tags:
 
 # Plan-driven: The waterfall model  
 ![[Pasted image 20250526130142.png|825]]  
+Waterfall model phases
+- The waterfall model is mostly used for large systems engineering projects where a system is developed at several sites.
+	- In those circumstances, the plan-driven nature of the waterfall model helps <mark style="background: #FF5582A6;">coordinate the work</mark>.
+- The main drawback of the waterfall model is the difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase.
+
+# Agile: Incremental development  
+<mark style="background: #D2B3FFA6;">Incremental development benefits</mark>
+- The cost of accommodating changing customer requirements is reduced.
+    - The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model.
+- It is easier to get customer feedback on the development work that has been done.
+    - Customers can comment on demonstrations of the software and see how much has been implemented.
+- More rapid delivery and deployment of useful software to the customer is possible.
+    - Customers are able to use and gain value from the software earlier than is possible with a waterfall process.
+<mark style="background: #D2B3FFA6;">Incremental development problems</mark>
+- The process is not visible.
+    - Managers need regular deliverables to measure progress. If systems are developed quickly, it is not cost-effective to produce documents that reflect every version of the system.
+- System structure tends to degrade as new increments are added.
+    - Unless time and money is spent on refactoring to improve the software, regular change tends to corrupt its structure. Incorporating further software changes becomes increasingly difficult and costly.
+
+---  
+
