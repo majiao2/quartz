@@ -32,3 +32,17 @@ tags:
 > - Law of Large Numbers:
 > 	- As the number of trials increases, the average result approaches the expected value (<mark style="background: #FFB86CA6;">we run the simulation for many replications</mark>).  
 
+# Basics of R Programming  
+<mark style="background: #FF5582A6;">Basic R Syntax:</mark>
+- Variables, operators, data types (`numeric`, `character`, `logical`).
+<mark style="background: #FF5582A6;">Data Structures:</mark>
+- Vectors: `c()`
+- Matrices: `matrix()`
+- Data Frames: `data.frame()`
+## R Functions and Control Structures
+<mark style="background: #FF5582A6;">Writing Functions:</mark>
+- Syntax: `function_name = function(arguments) { body }`
+<mark style="background: #FF5582A6;">Loops and Conditional Statements:</mark>
+- For loop: `for (i in 1:10) { print(i) }`
+- While loop: `while (condition) { body }`
+- If-else: `if (condition) {} else {}`
