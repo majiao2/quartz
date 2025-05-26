@@ -35,6 +35,9 @@ tags:
 > - Examples: hover, visited (visited links), link (unvisited links)  
 > - Complete list of pseudo classes can be found at [Title Unavailable \| Site Unreachable](http://www.w3schools.com/css/css_pseudo_classes.asp)  
 
+# Different Selectors
+![[Pasted image 20250526093559.png|800]]
+
 > [!note]+ Conflicting Styles
 > - Most styles defined for parent elements are also i**nherited** by child (nested) elements.
 > - Styles specified for child elements have higher specificity and take precedence over styles defined for their parent elements
