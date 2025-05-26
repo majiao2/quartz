@@ -25,3 +25,24 @@ tags:
 >     - Avoid too many separate elements
 >     - Avoid leaving equal amount of white space between elements  
 
+> [!abstract]+ Alignment
+> - Principle 2: Alignment
+> 	- Nothing should be placed on the page arbitrarily
+> 	- Every item should have a visual connection with something else on the page
+> 	- Create unity by making the elements on the page appear to be unified, connected, and interrelated
+> 	- Don't use justified text unless your line is long enough
+> - **Dos**
+>     - Always find something else on the page to align with
+>     - Try to break away from a centered alignment unless it is for a more formal and sedate presentation
+> - **Don'ts**
+>     - Avoid using more than one text alignment on the page
+>     - Avoid using justified text if it's too short  
+
+> [!abstract]+ Repetition
+
+- Principle 3: Repetition  
+	- Repeat some aspect of the design throughout the entire piece
+	- Repetitive elements can be a bold font, a bullet style, color, format, etc.
+	- The goal is to achieve a consistent look
+	- CSS rules can be used to apply the same style rules across all pages
+- 
