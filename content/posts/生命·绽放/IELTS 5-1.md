@@ -27,6 +27,14 @@ toddler n.蹒跚学步的人
 docket n.标签  
 rail n.货架  
 
+---  
+
+> [!example]+ SECTION 4
+> - pretension 抱负，意图
+> - overdraft v.透支
+
+
+
 # Reading  
 <span style="background:#fff88f">scholarly 博学的  </span>
 make order out of 使……有序  
