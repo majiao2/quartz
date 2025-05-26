@@ -48,4 +48,23 @@ tags:
 - If-else: `if (condition) {} else {}`
 
 ## Simulation Process  
+![[Pasted image 20250526161841.png]]  
 
+> [!abstract]+ Example: Simulating Probability Distributions
+> - Simulate normal, binomial, and other distributions.
+>     - Generating Random Numbers:
+>         - `runif()`: Uniform distribution.
+>         - `rnorm()`: Normal distribution.
+>         - `rbinom()`: Binomial distribution.
+>     - Visualize distributions using histograms and density plots.
+
+> [!abstract]+ Example: Estimating Pi (π）
+> - Generate random points in a unit square and count points inside the unit circle.
+> - Estimate π as 4 times the ratio of points inside the circle to the total number of points.  
+
+> [!abstract]+ Machine Breakdown
+> - In production management, machine breakdowns can cause significant disruptions:
+> 	- **Time between breakdowns** follows an exponential distribution with mean λ.
+> 	- Simulate the **number of breakdowns** in a year and estimate the **expected downtime**.  
+
+![[Pasted image 20250526162340.png]]  
