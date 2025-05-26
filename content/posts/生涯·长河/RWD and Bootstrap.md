@@ -84,3 +84,12 @@ $grid-breakpoints: (
 ```
 - Source: [Grid system · Bootstrap v5.2](https://getbootstrap.com/docs/5.2/layout/grid/)
 
+> [!tldr]+ Bootstrap Grid Syetem Example
+![[Pasted image 20250526125317.png|1050]]
+
+> [!check]+ Bootstrap
+> - Bootstrap is an open-source frontend web framework, also known as UI toolkit, for designing web applications
+> - Originally developed by Twitter (renamed to X) in 2011, the latest version is Bootstrap 5.3.x
+> - We use Bootstrap 5.2.3 in this class (jQuery has been removed)
+> - Download the Bootstrap framework (compiled CSS and JS) from [Download · Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/download/) or use the CDN libraries
+
