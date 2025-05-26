@@ -129,4 +129,4 @@ tags:
 >     - Other extensions exist.
 >  ![[Pasted image 20250524223435.png|450]]
 
-
+[Fundamental text and font styling - Learn web development \| MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals)
