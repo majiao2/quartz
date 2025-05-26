@@ -42,3 +42,22 @@ Waterfall model phases
 
 ---  
 
+> [!summary]+ SDLC Activities: Software Analysis
+> - The process of establishing what services/functions are required and the constraints on the system’s operation and development.
+> - Requirements engineering process
+>     - <mark style="background: #FFB86CA6;">Feasibility study</mark>
+>         - Is it technically and financially feasible to build the system?
+>     - <mark style="background: #FFB86CA6;">Requirements elicitation and analysis</mark>
+>         - What do the system stakeholders require or expect from the system?
+>     - <mark style="background: #FFB86CA6;">Requirements specification</mark>
+>         - Defining the requirements in detail
+>     - <mark style="background: #FFB86CA6;">Requirements validation</mark>
+>         - Checking the validity of the requirements  
+
+> [!summary]+ Develop Use Cases for Functional Requirements
+> - A use case diagram is used to provide an overview of functional requirements
+> - A use case diagram includes use cases (ellipses), actors (stick figures), and associations (links).  
+> - Reference: [UML Use Case Diagrams: An Agile Introduction](https://agilemodeling.com/artifacts/useCaseDiagram.htm)
+![[Pasted image 20250526131109.png|550]]
+
+
