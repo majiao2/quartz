@@ -24,3 +24,63 @@ tags:
 - Potential problems that may cause bad UX:
     - An element can be wider than the viewport;
     - No guarantee that content will look good one all screens.
+
+# CSS Media Quaries  
+- CSS media queries allow you to decide what a page should look like depending on the media type being used to display the page
+- A media type can be screen, print, handheld, braille, and speech,
+- CSS styles that apply to all media types is declared by `@media all`
+- See the next slide for an example
+- Disadvantages:
+    - Lengthy code
+    - Can't enumerate all possible devices
+- Resource: [CSS tutorial - Media types](https://www.howtocreate.co.uk/tutorials/css/mediatypes)
+
+```html
+<style type = "text/css">
+    @media all {
+        body {
+            background-color: steelblue;
+        }
+        h1 {
+            font-family: verdana, helvetica, sans-serif;
+            color: palegreen;
+        }
+        p {
+            font-size: 12pt;
+            color: white;
+            font-family: arial, sans-serif;
+        }
+    } /* End @media all declaration. */
+    @media print {
+        body {
+            background-color: white;
+        }
+        h1 {
+            color: seagreen;
+        }
+        p {
+            font-size: 14pt;
+            color: steelblue;
+            font-family: "times new roman", times, serif;
+        }
+    } /* End @media print declaration. */
+</style>
+```
+
+# Grid Systems  
+- A grid system is a layout methodology where the horizontal and vertical dimensions of the grid (rows, columns) are defined using relative units such as percentages, rather than fixed units like pixels.
+- The Bootstrap Grid System divides a row into 12 equal columns
+- Columns can be grouped together to create wider columns
+- Columns can be grouped differently depending on the width of the container
+```scss
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+```
+- Source: [Grid system · Bootstrap v5.2](https://getbootstrap.com/docs/5.2/layout/grid/)
+
