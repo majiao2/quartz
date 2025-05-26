@@ -5,10 +5,10 @@ tags:
   - IELTS
 ---
 # Listening  
-skeleton 骨骼  
+<mark style="background: #FF5582A6;">skeleton 骨骼 </mark> 
 cartilage 软骨  
 pliable 易弯曲的  
-barb 尖刺  
+barb 尖刺 
 scavenge 觅食  
 
 
