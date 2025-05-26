@@ -46,3 +46,6 @@ tags:
 - For loop: `for (i in 1:10) { print(i) }`
 - While loop: `while (condition) { body }`
 - If-else: `if (condition) {} else {}`
+
+## Simulation Process  
+
