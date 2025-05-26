@@ -40,7 +40,8 @@ renaissance 复兴
 - scuffle 扭打
 - tap into 利用，开发
 - vocalisation n.发声
-- 
+- cortex 脑皮层
+- tuck 蜷缩，隐藏
 
 
 
