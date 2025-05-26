@@ -108,7 +108,5 @@ altruistic 无私的
 impartial 客观的  
 drastic 猛烈的  
 pessimistic 悲观的  
-233
-
 # Writing
 # Speaking
