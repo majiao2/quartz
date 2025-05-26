@@ -51,3 +51,16 @@ tags:
 
 > [!abstract]- Contrast
 > - Principle 4: Contrast  
+> 	- Contrast various elements of the piece to draw a reader's eye into the page
+> 	- Contrast is used to
+> 	    - Organize information
+> 	    - Clarify the hierarchy
+> 	    - Guide a reader around the page
+> 	    - Provide a focus
+> 	- Contrast means: font type, font size, line thickness, color, texture, horizontal and vertical layout, spacing
+> - **Dos**
+>     - Create an interest on the page
+>     - Aid in the organization of information
+> - **Don'ts**
+>     - Create contrast, but not conflict  
+
