@@ -88,31 +88,39 @@ Waterfall model phases
 - General locations of page content
 - Static pages
 - Sketchy look and feel
-
-### High Fidelity
+### High Fidelity  
 
 **High Visual Fidelity and Dynamic Features**
-
-  
-
 - Exact locations and spacing of page elements
 - Design Elements and Color Scheme
 - Variables and Interactive Features (e.g. type-ahead, dynamic panels, passwords)
 
-  
-
 **As a design progresses the focus shifts from basic functionality to visual fidelity and dynamic features.**
 
-  
-
-|Requirements & Early Design|Detailed Design and Revision|
-|---|---|
-|In the early stages of a page design you should focus primarily on application functionality with a **low fidelity wireframe**.  <br>This allows you to get agreement on general page goals without getting bogged down with specific visual details.|As you move into detailed design you should gradually increase the interactive features and add visual fidelity.  <br>This allows you to highlight unique features of the application. Visual detail can be added to existing functionality focused wireframes.|
-
-  
 
 **Increasing Wireframe Complexity** →
 
-编辑
+| Requirements & Early Design                                                                                                                                                                                                                           | Detailed Design and Revision                                                                                                                                                                                                                                    |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In the early stages of a page design you should focus primarily on application functionality with a **low fidelity wireframe**.  <br>This allows you to get agreement on general page goals without getting bogged down with specific visual details. | As you move into detailed design you should gradually increase the interactive features and add visual fidelity.  <br>This allows you to highlight unique features of the application. Visual detail can be added to existing functionality focused wireframes. |
+## Benefits of Wireframing
 
-分享
+### Why should wireframing be utilized?
+
+<mark style="background: #FF5582A6;">1. Improves Visual Representation of Website or Application</mark>
+- <mark style="background: #019C74;">Spreadsheets → Visual Sketches</mark>
+- Stakeholders are able to see functionality and not just read about it
+- Enables clearer communication by reducing the ambiguity of requirements
+
+<mark style="background: #FF5582A6;">2. Increases Efficiency in Website or Application Development</mark>
+- <mark style="background: #019C74;">Code → Wireframe</mark>
+- Allows for quick changes that accommodate modifications large or small
+- Minimizes the number of change requests during stakeholder discussions due to greater mutual understanding
+- Allows for frequent demonstrations of functioning models
+
+<mark style="background: #FF5582A6;">3. Accelerates User Engagement</mark>
+- （图示中不同颜色小人集合 → 大量人群图示）
+- Brings in non-technical stakeholders/users early on in design process to guide business decisions
+- Promotes collaboration and improves requirements elicitation
+
+
