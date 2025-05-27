@@ -15,7 +15,7 @@ tags:
 
 > [!attention]+ Motivation and Applications
 > - **Motivation:**
-> 	- Handle complex problems with uncertain inputs.
+> 	- Handle complex problems <mark style="background: #bcddbe;">with uncertain inputs</mark>.
 > 	- Model phenomena with significant uncertainty.
 > - **Applications:**
 > 	- Physics: Particle simulations, Quantum mechanics.
@@ -30,7 +30,7 @@ tags:
 > - Probability Distributions:
 > 	- Common distributions: Uniform, Normal, Binomial.
 > - Law of Large Numbers:
-> 	- As the number of trials increases, the average result approaches the expected value (<mark style="background: #FFB86CA6;">we run the simulation for many replications</mark>).  
+> 	- As the number of trials increases, <u>the average result approaches the expected value</u> (<mark style="background: #FFB86CA6;">we run the simulation for many replications</mark>).  
 
 # Basics of R Programming  
 <mark style="background: #FF5582A6;">Basic R Syntax:</mark>
