@@ -55,7 +55,9 @@ tags:
 >     - Generating Random Numbers:
 >         - `runif()`: Uniform distribution.
 >         - `rnorm()`: Normal distribution.
->         - `rbinom()`: Binomial distribution.
+>         - `rbinom()`: Binomial distribution.  
+> 			- rbinom(N, size = 100, prob = 0.5) 试验发生的概率为0.5，观察100次，实验发生的次数为n，生成N个n  
+> 			- n重伯努利分布，概率p，试验次数X，恰好发生x次
 >     - Visualize distributions using histograms and density plots.
 
 > [!abstract]+ Example: Estimating Pi (π）
@@ -64,14 +66,18 @@ tags:
 
 > [!abstract]+ Machine Breakdown
 > - In production management, machine breakdowns can cause significant disruptions:
-> 	- **Time between breakdowns** follows an exponential distribution with mean λ.
+> 	- <mark style="background: #FFB86CA6;">Time between breakdowns</mark> follows an exponential distribution with mean λ.
 > 	- Simulate the **number of breakdowns** in a year and estimate the **expected downtime**.  
+
+<mark style="background: #FF5582A6;">Example: Machine Breakdown - Simulation Steps</mark>
 ![[Pasted image 20250526162340.png|400]]
 
 > [!abstract]+ Random Walk
 > - A random walker starts at the origin (0, 0) and takes steps in random directions (North, South, East, West):
 > 	- Simulate the movement of a random walker over 100 steps.
 > 	- Visualize the path using ggplot2  
+
+---
 
 > [!danger]+ Monty Hall
 > <mark style="background: #FF5582A6;">Scenario</mark>
@@ -80,6 +86,7 @@ tags:
 > 3. You choose one door.
 > 4. The host, who knows what's behind the doors, opens one of the other two doors, revealing a goat.
 > 5. You are given the option to stick with your original choice or switch to the other unopened door.
+> 
 > <mark style="background: #FF5582A6;">Question</mark>
 > - Should you stick with your original choice or switch to the other door to maximize your chances of winning the car?
 
@@ -93,3 +100,4 @@ tags:
 > - Holding cost: $1 per unit per week.
 > - Ordering cost: $50 per order.
 > - Simulate inventory levels and costs over a 12 - week period.  
+
