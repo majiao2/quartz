@@ -42,4 +42,6 @@ tags:
 		- Typically involves cost, waste, or time minimization
 - Writing Constrants
 	- Equality Constraints
-	- 
+		- Precise conditions (e.g., exact amounts of ingredients for a recipe).
+	- Ineauality Constraints
+		- Precise conditions (e.g., exact amounts of ingredients for a recipe).
