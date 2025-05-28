@@ -57,6 +57,46 @@ console.log(result);
 >         - `var n2 = new Array();`
 >         - `var n3 = ["Ford", "Toyota", "Honda"];`
 
+> [!attention]+ Array Methods
+> - `push()`: adds new element to the end of array
+> - `pop()`: removes last element in array and returns the removed element
+> - `shift()`: removes first element in array and returns the removed element
+> - `concat()`: concatenates two arrays into one
+> - `sort()`: sorts an array
+> - `indexOf()`: search array for an element and returns its position index  
+
+```javascript
+var nums = [5, 3, 6, 2];
+nums.push(1);
+console.log(nums); // [5,3,6,2,1]
+console.log(nums.pop()); // 1
+console.log(nums); // [5,3,6,2]
+console.log(nums.shift()); // 5
+console.log(nums); // [3,6,2]
+console.log(nums.concat([3, 5])); // [3,6,2,3,5]
+console.log(nums.sort()); // [2,3,6]
+console.log(nums.indexOf(6)); // 2
+```
+
+# Events  
+### JavaScript events
+
+- allow scripts to respond to user interactions and modify the page accordingly
+
+### Events and event handling
+
+- help make web applications more dynamic and interactive
+
+### Specific events
+
+- **Click**: When the user single-clicks an HTML element
+- **Dblclick**: When the user double-clicks an element
+- **Change**: When the user makes a selection change in a Select element
+- **Submit**: When a form’s data is submitted
+- **Mouseover**: When the mouse cursor enters an element, a mouseover event occurs for that element
+- **Mouseout**: When the mouse cursor leaves the element, a mouseout event occurs for that element
+
+
 
 
 
