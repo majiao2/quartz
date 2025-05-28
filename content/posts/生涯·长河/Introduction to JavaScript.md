@@ -296,7 +296,7 @@ console.log("姓名：%s，年龄：%d", name, age);
 console.log('%c这是带有样式的文字', 'color: red; font-weight: bold;'); 
 ```
 
-
+> [JS Hero](https://www.jshero.net/en/home.html)
 
 
 
