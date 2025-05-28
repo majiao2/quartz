@@ -80,14 +80,29 @@ print(result_prod$solution)
 - `lp(direction, objective.in, const.mat, const.dir, const.rhs)`, where `direction` can be `'min'` or `'max'`.
 
 
-> [!danger]+ Components 
--  `Direction`
-	- Specifies whether the objective function should be maximized (`'max'`) or minimized (`'min'`).
--  `Objective.in`
-	- A numeric vector containing the coefficients of the objective function.
--  `Const.mat`
-	- The constraint matrix, where each row represents a constraint.
--  `Const.dir`
-	- A character vector specifying the direction of each constraint (e.g., `'<=', '>=', '='`).
--  `Const.rhs`
-	- A numeric vector representing the right-hand side values of the constraints.
+> [!danger]+ Components of `lp` Function in R
+> `lp(direction, objective.in, const.mat, const.dir, const.rhs)`
+> -  `Direction`
+> 	- Specifies whether the objective function should be maximized (`'max'`) or minimized (`'min'`).
+> -  `Objective.in`
+> 	- A numeric vector containing the coefficients of the objective function.
+> -  `Const.mat`
+> 	- The constraint matrix, where each row represents a constraint.
+> -  `Const.dir`
+> 	- A character vector specifying the direction of each constraint (e.g., `'<=', '>=', '='`).
+> -  `Const.rhs`
+> 	- A numeric vector representing the right-hand side values of the constraints.  
+
+## Example of `lp` Function in R
+<mark style="background: #FF5582A6;">Example Problem</mark>
+$$Maximize profit = 25 \times chairs + 45 \times tables$$
+
+  
+
+Subject to:
+
+  
+
+- Wood: 4_chairs + 10_tables <= 100
+- Labor: 3_chairs + 5_tables <= 80
+- Non - negativity: chairs >= 0, tables >= 0
