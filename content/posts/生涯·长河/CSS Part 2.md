@@ -126,8 +126,9 @@ tags:
 >     - Extensions with prefix `–webkit` only work with webkit - based browsers, such as Chrome, Safari, android and IOS browsers.
 >     - Extensions with prefix `–moz` only work with Mozilla Firefox.
 >     - Extensions with prefix `–ms` only work with Microsoft browsers.
->     - Other extensions exist.
->  ![[Pasted image 20250524223435.png|450]]
+>     - Other extensions exist.  
+
+  ![[Pasted image 20250524223435.png|550]]
 
 [Fundamental text and font styling - Learn web development \| MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals)
 
