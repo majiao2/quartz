@@ -139,7 +139,18 @@ print(solution$objval)
 
 ---  
 
-# Example: Diet  
+# Example: Diet 
+ A nutritionist is designing a diet plan to minimize cost while ensuring that the calorie intake is between 2200 and 2500 calories. The diet consists of three foods: Rice, Beans, and Broccoli. The costs are $2, $3, and $4 per serving, respectively. The calories per serving are 300 for Rice, 350 for Beans, and 50 for Broccoli.  
+<mark style="background: #FF5582A6;">Decision Variables</mark>
+- y1​: Servings of Rice.
+- y2​: Servings of Beans.
+- y3​: Servings of Broccoli.
+<mark style="background: #FF5582A6;">Objective Function:</mark>
+$$\text{Minimize } C = 2y_1 + 3y_2 + 4y_3$$
+<mark style="background: #FF5582A6;">Constraints:</mark>
+- $300y_1 + 350y_2 + 50y_3 \geq 2200$ 
+- $300y_1 + 350y_2 + 50y_3 \leq 2500$
+
 # Example: Transporation  
 # Example: Staff Scheduling  
 # Example: Investment Problem  
