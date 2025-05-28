@@ -240,5 +240,21 @@ result <- lp("min", objective, constraints, directions, rhs)
 print(result$solution)
 ```
 
-
+> [!hint]+ Binary Programming
+> - Binary programming involves decision variables that are restricted to binary values (0 or 1). It is particularly useful for making decisions where options must either be completely accepted or rejected, such as investment decisions, project selections, or any scenario requiring a yes/no decision.
+> - Binary programming can be used to solve complex scheduling, routing, and resource allocation problems where the choices are discrete, often representing inclusion/exclusion, on/off, or go/no - go decisions.
+> - The formulation of a binary programming problem is similar to that of linear programming, except that the solution space for the decision variables is limited to two possibilities (0 and 1).
 # Example: Investment Problem  
+- A financial advisor is helping a client decide how to invest $10,000 among four different investment options. Each investment has a different potential return and risk level. The client aims to select investments to maximize potential returns without exceeding a risk threshold. Due to various constraints (such as diversification policies or minimum investment rules), the client can only choose to either fully invest in an option or not at all.
+- **Investments**:
+    - **Investment 1**: Expected return of $500, Risk level 10
+    - **Investment 2**: Expected return of $800, Risk level 15
+    - **Investment 3**: Expected return of $200, Risk level 5
+    - **Investment 4**: Expected return of $300, Risk level 8
+- **Risk Tolerance**:
+    - **Maximum Total Risk**: 20
+
+<mark style="background: #FF5582A6;">Decision Variables:  </mark>
+<mark style="background: #FF5582A6;">Objective Function:  </mark>
+<mark style="background: #FF5582A6;">Constraints:  </mark>
+
