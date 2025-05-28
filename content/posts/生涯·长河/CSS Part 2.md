@@ -132,9 +132,15 @@ tags:
 [Fundamental text and font styling - Learn web development \| MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals)
 
 # demo  
+```html
+<head>
+  <meta charset="utf-8">
+  <title>我的网站</title>
+  <link rel="stylesheet" href="css1demo.css"> 
+  <!-- 引入CSS -->
+</head>
 ```
 
-```
 1. `h1 {color:rgb(179, 89, 89);}`
     - 选择所有的`<h1>`标题元素。
     - 将其文本颜色设置为 RGB 值`(179, 89, 89)`（一种暗红色）。
