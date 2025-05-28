@@ -208,11 +208,16 @@ The day is divided into three shifts:
 - Night Shift: 12:00 AM to 8:00 AM
 Each employee must work two consecutive shifts. Available shift combinations are Morning + Afternoon, Afternoon + Night, or Night + Morning. The requirements are 5 employees for the Morning Shift, 8 for the Afternoon Shift, and 3 for the Night Shift. The goal is to minimize the total number of employees required per day.  
 <mark style="background: #FF5582A6;">Decision Variables: </mark>   
-
+-  $x_1$: Number of staff working both the Morning and Afternoon shifts. 
+- $x_2$: Number of staff working both the Afternoon and Night shifts. 
+- $x_3$: Number of staff working both the Night and Morning shifts.
 <mark style="background: #FF5582A6;">Objective Function:</mark>  
-
+- Minimize Total Staff: 
+$$\text{Minimize } x_1 + x_2 + x_3$$
 <mark style="background: #FF5582A6;">Constraints:</mark>  
-
+- Morning shift demand (from both night-morning and morning-afternoon staff): $x_1 + x_3 \geq 5$ 
+- Afternoon shift demand (from both morning-afternoon and afternoon-night staff): $x_1 + x_2 \geq 8$ 
+- Night shift demand (from both afternoon-night and night-morning staff): $x_2 + x_3 \geq 3$
 
 ```r
 # 加载lpSolve包，用于求解线性规划问题
@@ -234,5 +239,6 @@ result <- lp("min", objective, constraints, directions, rhs)
 # Print the solution
 print(result$solution)
 ```
+
 
 # Example: Investment Problem  
