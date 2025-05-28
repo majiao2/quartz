@@ -35,13 +35,17 @@ tags:
 2. Construct the objective function to express what needs to be maximized or minimized.
 3. Write down all constraints as linear inequalities or equations.
 
-- Constructing Objective Functions
-	- Maximization
-		- Often involves profit, efficiency, or output maximization
-	- Minimization
-		- Typically involves cost, waste, or time minimization
-- Writing Constrants
-	- Equality Constraints
-		- Precise conditions (e.g., exact amounts of ingredients for a recipe).
-	- Ineauality Constraints
-		- Precise conditions (e.g., exact amounts of ingredients for a recipe).
+> [!hint]+ Functions
+> - <mark style="background: #FF5582A6;">Constructing Objective Functions</mark>
+> 	- <u>Maximization</u>
+> 		- Often involves profit, efficiency, or output maximization
+> 	- <u>Minimization</u>
+> 		- Typically involves cost, waste, or time minimization
+> - <mark style="background: #FF5582A6;">Writing Constrants</mark>
+> 	- <u>Equality Constraints</u>
+> 		- Precise conditions (e.g., exact amounts of ingredients for a recipe).
+> 	- <u>Ineauality Constraints</u>
+> 		- Precise conditions (e.g., exact amounts of ingredients for a recipe).  
+
+## Example  
+A company manufactures two types of desks: Standard and Deluxe. The profit per Standard desk is $30, and the profit per Deluxe desk is $50. Each type of desk goes through two main processes: Carpentry and Finishing. The Standard desk requires 1 hour in Carpentry and 2 hours in Finishing. The Deluxe desk requires 1.5 hours in Carpentry and 1 hour in Finishing. There are 400 hours available for Carpentry and 300 hours available for Finishing per week. The goal is to maximize the weekly profit.  
