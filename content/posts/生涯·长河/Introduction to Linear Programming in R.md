@@ -254,7 +254,13 @@ print(result$solution)
 - **Risk Tolerance**:
     - **Maximum Total Risk**: 20
 
-<mark style="background: #FF5582A6;">Decision Variables:  </mark>
-<mark style="background: #FF5582A6;">Objective Function:  </mark>
-<mark style="background: #FF5582A6;">Constraints:  </mark>
+<mark style="background: #FF5582A6;">Decision Variables:  </mark>  
+- $x_i$: 1 if investment $i$ is selected, 0 otherwise.
+<mark style="background: #FF5582A6;">Objective Function:  </mark>  
+$$\text{Maximize } 500 x_1 + 800 x_2 + 200 x_3 + 300 x_4$$
+- This represents maximizing the total expected return.
+<mark style="background: #FF5582A6;">Constraints:  </mark>  
+- Risk Constraint: $10x_1 + 15x_2 + 5x_3 + 8x_4 \leq 20$
+- Binary Constraints: $x_i$ can only be 0 or 1 for all $i$.
+
 
