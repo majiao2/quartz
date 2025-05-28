@@ -150,7 +150,30 @@ $$\text{Minimize } C = 2y_1 + 3y_2 + 4y_3$$
 <mark style="background: #FF5582A6;">Constraints:</mark>
 - $300y_1 + 350y_2 + 50y_3 \geq 2200$ 
 - $300y_1 + 350y_2 + 50y_3 \leq 2500$
+```r
+# Define the objective coefficients for minimization
+objective_diet = c(2, 3, 4)
+# Create the constraint matrix
+constraints_diet = matrix(c(300, 350, 50, 300, 350, 50),
+                          nrow=2, byrow=TRUE)
+# Define constraint directions
+directions_diet = c(">=", "<=")
+# Define right - hand side of constraints
+rhs_diet <- c(2200, 2500)
+# Solve the LP problem
+result_diet = lp("min", objective_diet,
+                 constraints_diet, directions_diet, rhs_diet)
+# Print the solution for diet optimization
+print(result_diet$solution)
+```
+# Example: Transporation 
+ A company needs to transport goods from two warehouses (W1 and W2) to three retail stores (S1, S2, S3). The per - unit transportation costs from the warehouses to the stores are as follows:
+- From W1 to S1: $4, from W1 to S2: $6, from W1 to S3: $9
+- From W2 to S1: $5, from W2 to S2: $4, from W2 to S3: $7
+The supply at W1 is 500 units and at W2 is 600 units. The demands at stores S1, S2, and S3 are 300, 400, and 400 units respectively.  
+<mark style="background: #FF5582A6;">Decision Variables: </mark> 
+<mark style="background: #FF5582A6;">Objective Function:  </mark>
+Constraints:
 
-# Example: Transporation  
 # Example: Staff Scheduling  
 # Example: Investment Problem  
