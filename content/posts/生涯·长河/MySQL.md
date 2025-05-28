@@ -6,31 +6,27 @@ tags:
 ---
 [[Web Applications-Design Principles]]
 
-MySQL
+> [!example] MySQL
+> - MySQL is a <mark style="background: #FFB86CA6;">relational database management system</mark> (RDBMS)
+> - We use the MySQL database included in MAMP (Do NOT use MAMP Pro)
 
-- MySQL is a relational database management system (RDBMS)
-- We use the MySQL database included in MAMP (Do NOT use MAMP Pro)
+> [!example]+ Structured Query Language (SQL)
+> - SQL is a database language for:
+>     - creating database and table structures
+>     - performing data manipulation and administration
+>     - querying the database to extract useful information
+> - It is a <mark style="background: #FFB86CA6;">nonprocedural</mark> language
+>     - The user specifies <mark style="background: #D2B3FFA6;">what</mark> must be done, but not <mark style="background: #D2B3FFA6;">how</mark>
+>     - Where the data is actually stored isn’t important  
+>         …only the specified relations and relationships matter
 
-Structured Query Language (SQL)
 
-- SQL is a database language for:
-    
-    - creating database and table structures
-    - performing data manipulation and administration
-    - querying the database to extract useful information
-- It is a nonprocedural language
-    
-    - The user specifies what must be done, but not how
-    - Where the data is actually stored isn’t important  
-        …only the specified relations and relationships matter
-
-Structured Query Language (SQL)
-
-- All relational DBMS software thus supports SQL
-- Oracle, MySQL, SQL Server, DB2, MS Access
-- Many database vendors have developed extensions
-- Basic, simple vocabulary of < 100 “words”
-- Different “dialects” with minor differences
+> [!important]+ Structured Query Language (SQL)
+> - All relational DBMS software thus supports SQL
+> 	- Oracle, MySQL, SQL Server, DB2, MS Access
+> 	- Many database vendors have developed extensions
+> 		- Basic, simple vocabulary of < 100 “words”
+> 		- Different “dialects” with minor differences
 
 Categories of SQL commands
 
