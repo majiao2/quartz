@@ -110,7 +110,17 @@ console.log(nums.indexOf(6)); // 2
 > - The window object’s load event fires when the window finishes loading successfully.
 >     - i.e., all its children are loaded and all external files referenced by the page are loaded.
 > - Every DOM element has a load event, but it’s most commonly used on the window object.  
+> 	- `load` 事件最常被用在 `window` 对象上
+
+> [!hint]+ Window Methods
+> - `prompt()`: displays a dialog box that prompts the user for input and returns the input value if the user clicks "OK"
+> - `alert()`: display an alert message and an OK button
+> - `setTimeout()`: call a function after a specified number of milliseconds
+> - `setInterval()`: call a function at the specified interval in milliseconds
+> - [The Window Object](https://www.w3schools.com/jsref/obj_window.asp)
+
+> [!done]+ The Document Object
 
 
 
-
+> [!done]+ The DOMContentLoaded Event
