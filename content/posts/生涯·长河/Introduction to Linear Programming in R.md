@@ -49,3 +49,28 @@ tags:
 
 ## Example  
 A company manufactures two types of desks: Standard and Deluxe. The profit per Standard desk is $30, and the profit per Deluxe desk is $50. Each type of desk goes through two main processes: Carpentry and Finishing. The Standard desk requires 1 hour in Carpentry and 2 hours in Finishing. The Deluxe desk requires 1.5 hours in Carpentry and 1 hour in Finishing. There are 400 hours available for Carpentry and 300 hours available for Finishing per week. The goal is to maximize the weekly profit.  
+
+<mark style="background: #FF5582A6;">Decision Variables</mark>
+- x1​: The number of Standard desks produced per week.
+- x2​: The number of Deluxe desks produced per week.
+<mark style="background: #FF5582A6;">Objective Function</mark>
+- $$Maximize P=30x1​+50x2$$<mark style="background: #FF5582A6;">​
+Constraints</mark>
+- Carpentry: $$x1​+1.5x2​≤400$$
+- Finishing: $$2x1​+x2​≤300$$
+```r
+# Define the objective coefficients for maximization
+objective_prod = c(30, 50)
+# Create the constraint matrix
+constraints_prod = matrix(c(1, 1.5, 2, 1), nrow=2, byrow=TRUE)
+# Define constraint directions
+directions_prod = c("<=", "<=")
+# Define right - hand side of constraints
+rhs_prod = c(400, 300)
+# Solve the LP problem
+result_prod = lp("max", objective_prod, constraints_prod, directions_prod, rhs_prod)
+# Print the solution for production optimization
+print(result_prod$solution)
+```
+
+# Introduction 
