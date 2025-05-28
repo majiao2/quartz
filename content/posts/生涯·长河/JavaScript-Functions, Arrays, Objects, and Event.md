@@ -4,6 +4,7 @@ date: 2025-05-28
 tags:
   - MISY350
 ---
+[[Introduction to JavaScript]]
 
 > [!example]+ JavaScript Functions
 > - Built-in functions
@@ -120,7 +121,14 @@ console.log(nums.indexOf(6)); // 2
 > - [The Window Object](https://www.w3schools.com/jsref/obj_window.asp)
 
 > [!done]+ The Document Object
-
-
+> - The root of an HTML document
+> - Methods:
+>     - `getElementById()`: returns the value of the element at the specified id
+> 	    - 这是 JavaScript 中用于在 HTML 文档中通过元素的 `id` 属性值来获取特定元素的方法。在 HTML 里，每个元素可以设置唯一的 `id` 属性，通过 `document.getElementById("元素的id值")` 这种形式调用该方法，就能获取到对应的 DOM 元素对象。获取到元素对象后，就可以进一步操作该元素，比如修改其文本内容、样式属性等。
+>     - `writeln()`: writes a line of output to the document (adds a new line at the end)
+>     - `write()`: writes output to the document
 
 > [!done]+ The DOMContentLoaded Event
+> - The DOMContentLoaded event fires <mark style="background: #bcddbe;">when the initial HTML document has been completely loaded and parsed</mark>, without waiting for stylesheets, images, and subframes to finish loading.
+> - Window’s load event should be used only to detect a fully-loaded page.  
+

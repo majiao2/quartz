@@ -4,7 +4,7 @@ date: 2025-05-25
 tags:
   - MISY350
 ---
-[[Introduction to JavaScript]]  
+[[]]
 
 > [!example]+ DOM Nodes and Trees
 > - The nodes in a document make up the page’s **DOM tree**, which describes the relationships among elements
