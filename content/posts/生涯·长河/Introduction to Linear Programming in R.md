@@ -52,7 +52,8 @@ A company manufactures two types of desks: Standard and Deluxe. The profit per S
 
 <mark style="background: #FF5582A6;">Decision Variables</mark>
 - x1​: The number of Standard desks produced per week.
-- x2​: The number of Deluxe desks produced per week.  
+- x2​: The number of Deluxe desks produced per week. 
+
 <mark style="background: #FF5582A6;">Objective Function</mark>
 - $$Maximize P=30x1​+50x2$$<mark style="background: #FF5582A6;">​
 Constraints</mark>
