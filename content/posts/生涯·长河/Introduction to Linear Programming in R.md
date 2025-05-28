@@ -15,8 +15,18 @@ tags:
 > [!todo]+ Key Components of Linear Programming
 > - <mark style="background: #bcddbe;">Decision Variables:</mark>
 > 	- Variables that represent quantities to determine by the model (e.g., quantities of products to produce).
-> - Objective Function:
+> - <mark style="background: #bcddbe;">Objective Function:</mark>
 > 	- The function that needs to be maximized or minimized (e.g., total profit, total cost).
-> - Constraints:
+> - <mark style="background: #bcddbe;">Constraints:</mark>
 > 	- Conditions that must be met for the solution to be viable (e.g., resource limits, demand fulfillment).  
+
+> [!abstract]+ Real-World Applications of Linear Programming
+> - <mark style="background: #FFB86CA6;">Manufacturing:</mark>
+> 	- Optimize production levels and mix to maximize profit.
+> - <mark style="background: #FFB86CA6;">Agriculture:</mark>
+> 	- Efficiently allocate resources such as seeds, fertilizers, and labor to maximize crop output.
+> - <mark style="background: #FFB86CA6;">Transportation:</mark>
+> 	- Optimize routes and logistics to minimize costs and time.  
+
+
 
