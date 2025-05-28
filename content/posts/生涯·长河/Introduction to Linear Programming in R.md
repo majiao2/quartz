@@ -95,14 +95,8 @@ print(result_prod$solution)
 
 ## Example of `lp` Function in R
 <mark style="background: #FF5582A6;">Example Problem</mark>
-$$Maximize profit = 25 \times chairs + 45 \times tables$$
-
-  
-
-Subject to:
-
-  
-
-- Wood: 4_chairs + 10_tables <= 100
-- Labor: 3_chairs + 5_tables <= 80
-- Non - negativity: chairs >= 0, tables >= 0
+$$\max \quad \text{profit} = 25 \times \text{chairs} + 45 \times \text{tables}$$
+<mark style="background: #bcddbe;">Subject to:</mark>
+- Wood: $4 \times \text{chairs} + 10 \times \text{tables} \leq 100$
+- Labor: $3 \times \text{chairs} + 5 \times \text{tables} \leq 80$ 
+- Non - negativity: $\text{chairs} \geq 0, \quad \text{tables} \geq 0$
