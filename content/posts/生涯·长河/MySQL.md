@@ -28,20 +28,13 @@ tags:
 > 		- Basic, simple vocabulary of < 100 “words”
 > 		- Different “dialects” with minor differences
 
-Categories of SQL commands
-
-- Data Definition Language (DDL)
-    
-- Commands that define a database, including creating, altering, and dropping tables and stored procedures, and establishing constraints
-    
-- CREATE TABLE, set PRIMARY KEY
-    
-- Data Manipulation Language (DML)
-    
-- Commands that are used to manipulate data and extract information
-    
-- SELECT, UPDATE, INSERT, DELETE
-    
+> [!important]+ Categories of SQL commands
+> - Data Definition Language (DDL)
+> 	- Commands that define a database, including `creating`, `altering`, and `dropping tables` and `stored procedures`, and `establishing constraints`
+> 	    - `CREATE TABLE`, set `PRIMARY KEY` 
+> - Data Manipulation Language (DML)
+> 	- Commands that are used to manipulate data and extract information
+> 		- `SELECT`, `UPDATE`, `INSERT`, `DELETE`
 
 Data types (cont.)
 
