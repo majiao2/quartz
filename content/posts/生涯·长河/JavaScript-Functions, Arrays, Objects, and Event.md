@@ -28,7 +28,14 @@ console.log(result);
 ```
 
 > [!tldr]+ Three ways to return control to the point at which a function was invoked
-- **Reaching the function-ending right brace**: When the function execution reaches the closing right brace of the function, control automatically returns to the point where the function was called.
-- **Executing a `return;` statement**: When the function executes a `return;` statement, it immediately stops executing the function and returns control to the caller. This statement is typically used when there is no need to return a specific value and you only want to end the function execution early.
-- **Executing a `return expression;` statement**: When this statement is executed, the value of the `expression` is calculated and returned to the script that called the function, and at the same time, the function execution ends.
+> - Reaching the function - ending right brace
+> - Executing the statement `return;`
+> - Executing the statement “`return expression;`” to return the value of `expression` to the <mark style="background: #bcddbe;">caller script</mark>  
+
+> [!attention]+ Functions are Objects
+> - A function can be considered as an object and referenced by a variable
+>     - e.g., `var obj = function(){ console.log("Hello");};`
+> - A function without a name is an **anonymous function**
+> - A function can be used as an argument to another function
+>     - e.g., `window.setTimeOut(obj, 5000);`
 
