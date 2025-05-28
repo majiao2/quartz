@@ -29,7 +29,17 @@ tags:
 > 	- Optimize routes and logistics to minimize costs and time.  
 
 
+# Formulating Linear Programming Problems
 - Steps to Formulation:
 1. Identify and define decision variables.
 2. Construct the objective function to express what needs to be maximized or minimized.
-- 3. Write down all constraints as linear inequalities or equations.
+3. Write down all constraints as linear inequalities or equations.
+
+- Constructing Objective Functions
+	- Maximization
+		- Often involves profit, efficiency, or output maximization
+	- Minimization
+		- Typically involves cost, waste, or time minimization
+- Writing Constrants
+	- Equality Constraints
+	- 
