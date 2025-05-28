@@ -180,8 +180,27 @@ $$\text{Minimize } TC = 4 z_{11} + 6 z_{12} + 9 z_{13} + 5 z_{21} + 4 z_{22} + 7
 - Supply at W 2: $z_{21}+z_{22}+z_{23} \leq 600$
 - Demand at S 1: $z_{11}+z_{21} = 300$
 - Demand at S 2: $z_{12}+z_{22} = 400$
-\item Demand at S 3: $z_{13}+z_{23} = 400$
-
+- Demand at S 3: $z_{13}+z_{23} = 400$
+```r
+# Define the objective coefficients for minimization
+objective_trans = c(4, 6, 9, 5, 4, 7)
+# Create the constraint matrix
+constraints_trans = matrix(c(1, 1, 1, 0, 0, 0,
+                             0, 0, 0, 1, 1, 1,
+                             1, 0, 0, 1, 0, 0,
+                             0, 1, 0, 0, 1, 0,
+                             0, 0, 1, 0, 0, 1), nrow=5, byrow=TRUE)
+# Define constraint directions
+directions_trans = c("<=", "<=", "=", "=", "=")
+# Define right - hand side of constraints
+rhs_trans = c(500, 600, 300, 400, 400)
+# Solve the LP problem
+result_trans = lp("min", objective_trans,
+                  constraints_trans, directions_trans, rhs_trans)
+# Print the solution for transportation optimization
+print(result_trans$solution)
+```
 
 # Example: Staff Scheduling  
+
 # Example: Investment Problem  
