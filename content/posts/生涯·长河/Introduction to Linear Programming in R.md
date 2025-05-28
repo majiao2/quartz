@@ -29,4 +29,7 @@ tags:
 > 	- Optimize routes and logistics to minimize costs and time.  
 
 
-
+- Steps to Formulation:
+1. Identify and define decision variables.
+2. Construct the objective function to express what needs to be maximized or minimized.
+- 3. Write down all constraints as linear inequalities or equations.
