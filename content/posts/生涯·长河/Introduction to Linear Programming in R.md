@@ -202,5 +202,37 @@ print(result_trans$solution)
 ```
 
 # Example: Staff Scheduling  
+The day is divided into three shifts:
+- Morning Shift: 8:00 AM to 4:00 PM
+- Afternoon Shift: 4:00 PM to 12:00 AM
+- Night Shift: 12:00 AM to 8:00 AM
+Each employee must work two consecutive shifts. Available shift combinations are Morning + Afternoon, Afternoon + Night, or Night + Morning. The requirements are 5 employees for the Morning Shift, 8 for the Afternoon Shift, and 3 for the Night Shift. The goal is to minimize the total number of employees required per day.  
+<mark style="background: #FF5582A6;">Decision Variables: </mark>   
+
+<mark style="background: #FF5582A6;">Objective Function:</mark>  
+
+<mark style="background: #FF5582A6;">Constraints:</mark>  
+
+
+```r
+# 加载lpSolve包，用于求解线性规划问题
+library(lpSolve)
+
+# Define the objective coefficients
+objective <- c(1, 1, 1)
+# Create the constraint matrix
+constraints <- matrix(c(1, 0, 1,  # Morning covered by x1 and x3
+                        1, 1, 0,  # Afternoon covered by x1 and x2
+                        0, 1, 1), # Night covered by x2 and x3
+                      nrow=3, byrow=TRUE)
+# Define constraint directions
+directions <- c(">=", ">=", ">=")
+# Define right-hand side of constraints (staff demand for each shift)
+rhs <- c(5, 8, 3)
+# Solve the LP problem for minimum staff
+result <- lp("min", objective, constraints, directions, rhs)
+# Print the solution
+print(result$solution)
+```
 
 # Example: Investment Problem  
