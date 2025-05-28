@@ -171,9 +171,17 @@ print(result_diet$solution)
 - From W1 to S1: $4, from W1 to S2: $6, from W1 to S3: $9
 - From W2 to S1: $5, from W2 to S2: $4, from W2 to S3: $7
 The supply at W1 is 500 units and at W2 is 600 units. The demands at stores S1, S2, and S3 are 300, 400, and 400 units respectively.  
-<mark style="background: #FF5582A6;">Decision Variables: </mark> 
-<mark style="background: #FF5582A6;">Objective Function:  </mark>
-Constraints:
+<mark style="background: #FF5582A6;">Decision Variables: </mark>   
+-  $z_{ij}$: Units transported from warehouse $i$ to store $j$.
+<mark style="background: #FF5582A6;">Objective Function:  </mark>  
+$$\text{Minimize } TC = 4 z_{11} + 6 z_{12} + 9 z_{13} + 5 z_{21} + 4 z_{22} + 7 z_{23}$$
+<mark style="background: #FF5582A6;">Constraints:</mark>  
+- Supply at W 1: $z_{11}+z_{12}+z_{13} \leq 500$
+- Supply at W 2: $z_{21}+z_{22}+z_{23} \leq 600$
+- Demand at S 1: $z_{11}+z_{21} = 300$
+- Demand at S 2: $z_{12}+z_{22} = 400$
+\item Demand at S 3: $z_{13}+z_{23} = 400$
+
 
 # Example: Staff Scheduling  
 # Example: Investment Problem  
