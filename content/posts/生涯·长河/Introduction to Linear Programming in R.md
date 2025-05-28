@@ -100,3 +100,22 @@ $$\max \quad \text{profit} = 25 \times \text{chairs} + 45 \times \text{tables}$$
 - Wood: $4 \times \text{chairs} + 10 \times \text{tables} \leq 100$
 - Labor: $3 \times \text{chairs} + 5 \times \text{tables} \leq 80$ 
 - Non - negativity: $\text{chairs} \geq 0, \quad \text{tables} \geq 0$
+```r
+library(lpSolve)
+objective <- c(25, 45)
+constraints <- matrix(c(4, 10, 3, 5), nrow=2, byrow=TRUE)
+directions <- c('<=', '<=')
+rhs <- c(100, 80)
+solution <- lp('max', objective, constraints, directions, rhs)
+solution$solution
+solution$objval
+```
+
+> [!quote]+ Interpreting lpSolve Output
+> - Solution Status:   
+> 	- Indicates if the solution is `optimal`, `infeasible`, etc. (`solution$status`) 
+> - Optimal Values: 
+> 	- The values of decision variables at the optimal solution (`solution$solution`) 
+> - Objective Function Value: 
+> 	- The maximum (or minimum) value of the objective function (`solution$objval`)  
+
