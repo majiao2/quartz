@@ -54,8 +54,10 @@ A company manufactures two types of desks: Standard and Deluxe. The profit per S
 - x1​: The number of Standard desks produced per week.
 - x2​: The number of Deluxe desks produced per week. 
 
-<mark style="background: #FF5582A6;">Objective Function</mark>
-- $$Maximize P=30x1​+50x2$$<mark style="background: #FF5582A6;">​
+<mark style="background: #FF5582A6;">Objective Function</mark>  
+
+$$Maximize P=30x1​+50x2$$<mark style="background: #FF5582A6;">  
+​
 Constraints</mark>
 - Carpentry: $$x1​+1.5x2​≤400$$
 - Finishing: $$2x1​+x2​≤300$$
@@ -95,9 +97,11 @@ print(result_prod$solution)
 > 	- A numeric vector representing the right-hand side values of the constraints.  
 
 ## Example of lp Function in R
-<mark style="background: #FF5582A6;">Example Problem</mark>
+<mark style="background: #FF5582A6;">Example Problem</mark>  
+
 $$\max \quad \text{profit} = 25 \times \text{chairs} + 45 \times \text{tables}$$
-<mark style="background: #bcddbe;">Subject to:</mark>
+
+<mark style="background: #bcddbe;">Subject to:</mark>  
 - Wood: $4 \times \text{chairs} + 10 \times \text{tables} \leq 100$
 - Labor: $3 \times \text{chairs} + 5 \times \text{tables} \leq 80$ 
 - Non - negativity: $\text{chairs} \geq 0, \quad \text{tables} \geq 0$
@@ -142,12 +146,16 @@ print(solution$objval)
 
 # Example: Diet 
  A nutritionist is designing a diet plan to minimize cost while ensuring that the calorie intake is between 2200 and 2500 calories. The diet consists of three foods: Rice, Beans, and Broccoli. The costs are $2, $3, and $4 per serving, respectively. The calories per serving are 300 for Rice, 350 for Beans, and 50 for Broccoli.  
+
 <mark style="background: #FF5582A6;">Decision Variables</mark>
 - y1​: Servings of Rice.
 - y2​: Servings of Beans.
-- y3​: Servings of Broccoli.  
-<mark style="background: #FF5582A6;">Objective Function:</mark>
+- y3​: Servings of Broccoli. 
+
+<mark style="background: #FF5582A6;">Objective Function:</mark>  
+
 $$\text{Minimize } C = 2y_1 + 3y_2 + 4y_3$$
+
 <mark style="background: #FF5582A6;">Constraints:</mark>
 - $300y_1 + 350y_2 + 50y_3 \geq 2200$ 
 - $300y_1 + 350y_2 + 50y_3 \leq 2500$
@@ -172,10 +180,14 @@ print(result_diet$solution)
 - From W1 to S1: $4, from W1 to S2: $6, from W1 to S3: $9
 - From W2 to S1: $5, from W2 to S2: $4, from W2 to S3: $7
 The supply at W1 is 500 units and at W2 is 600 units. The demands at stores S1, S2, and S3 are 300, 400, and 400 units respectively.  
+
 <mark style="background: #FF5582A6;">Decision Variables: </mark>   
 -  $z_{ij}$: Units transported from warehouse $i$ to store $j$.  
+
 <mark style="background: #FF5582A6;">Objective Function:  </mark>  
+
 $$\text{Minimize } TC = 4 z_{11} + 6 z_{12} + 9 z_{13} + 5 z_{21} + 4 z_{22} + 7 z_{23}$$
+
 <mark style="background: #FF5582A6;">Constraints:</mark>  
 - Supply at W 1: $z_{11}+z_{12}+z_{13} \leq 500$
 - Supply at W 2: $z_{21}+z_{22}+z_{23} \leq 600$
@@ -208,13 +220,17 @@ The day is divided into three shifts:
 - Afternoon Shift: 4:00 PM to 12:00 AM
 - Night Shift: 12:00 AM to 8:00 AM
 Each employee must work two consecutive shifts. Available shift combinations are Morning + Afternoon, Afternoon + Night, or Night + Morning. The requirements are 5 employees for the Morning Shift, 8 for the Afternoon Shift, and 3 for the Night Shift. The goal is to minimize the total number of employees required per day.  
+
 <mark style="background: #FF5582A6;">Decision Variables: </mark>   
 -  $x_1$: Number of staff working both the Morning and Afternoon shifts. 
 - $x_2$: Number of staff working both the Afternoon and Night shifts. 
-- $x_3$: Number of staff working both the Night and Morning shifts.  
+- $x_3$: Number of staff working both the Night and Morning shifts. 
+
 <mark style="background: #FF5582A6;">Objective Function:</mark>  
 - Minimize Total Staff: 
+
 $$\text{Minimize } x_1 + x_2 + x_3$$
+
 <mark style="background: #FF5582A6;">Constraints:</mark>  
 - Morning shift demand (from both night-morning and morning-afternoon staff): $x_1 + x_3 \geq 5$ 
 - Afternoon shift demand (from both morning-afternoon and afternoon-night staff): $x_1 + x_2 \geq 8$ 
@@ -255,11 +271,15 @@ print(result$solution)
 - **Risk Tolerance**:
     - **Maximum Total Risk**: 20
 
+
 <mark style="background: #FF5582A6;">Decision Variables:  </mark>  
 - $x_i$: 1 if investment $i$ is selected, 0 otherwise.  
+
 <mark style="background: #FF5582A6;">Objective Function:  </mark>  
+
 $$\text{Maximize } 500 x_1 + 800 x_2 + 200 x_3 + 300 x_4$$
-- This represents maximizing the total expected return.  
+- This represents maximizing the total expected return. 
+
 <mark style="background: #FF5582A6;">Constraints:  </mark>  
 - Risk Constraint: $10x_1 + 15x_2 + 5x_3 + 8x_4 \leq 20$
 - Binary Constraints: $x_i$ can only be 0 or 1 for all $i$.
