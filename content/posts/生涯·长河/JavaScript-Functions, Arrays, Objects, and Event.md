@@ -98,7 +98,18 @@ console.log(nums.indexOf(6)); // 2
 > - Method `addEventListener` can be called multiple times on a DOM node to register more than one event - handling method for an event.
 > - If a script in the head attempts to get a DOM node for an HTML element in the body, `getElementById` returns `null` because the body has not yet loaded.
 
+> [!hint]+ The Window Object
+> - The window object represents an open window in a browser.  
+> 	- `window.document`：访问当前页面的文档。
+> 	- `window.alert()`：弹出提示框。
+> 	- `window.innerWidth`：获取窗口的宽度。
+> - If a document contains frames (`<iframe>` tag), there is a window object for the HTML document, and one additional window for each frame.  
+> 	- 每个 `<iframe>` 都有自己独立的 `window` 对象，代表该框架内的文档。这些子窗口是主窗口的 “子级”，可以通过 `iframeElement.contentWindow` 访问。
 
+> [!hint]+ The load Event
+> - The window object’s load event fires when the window finishes loading successfully.
+>     - i.e., all its children are loaded and all external files referenced by the page are loaded.
+> - Every DOM element has a load event, but it’s most commonly used on the window object.  
 
 
 
