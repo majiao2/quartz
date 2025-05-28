@@ -119,3 +119,27 @@ solution$objval
 > - Objective Function Value: 
 > 	- The maximum (or minimum) value of the objective function (`solution$objval`)  
 
+<mark style="background: #FF5582A6;">Detailed Interpretation Example</mark>  
+```r
+# 输出解的状态
+print(solution$status)
+# 0 (optimal)
+
+# 输出决策变量的值
+print(solution$solution)
+# chairs = 10, tables = 6
+
+# 输出目标函数值
+print(solution$objval)
+# 395
+```
+<mark style="background: #FF5582A6;">Understanding Results:</mark>
+- Check for <mark style="background: #bcddbe;">feasibility and boundedness</mark> to ensure the solution is valid.
+- The optimal solution is to produce 10 chairs and 6 tables, resulting in a maximum profit of 395.
+
+---  
+
+# Example: Diet  
+# Example: Transporation  
+# Example: Staff Scheduling  
+# Example: Investment Problem  
