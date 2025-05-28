@@ -130,3 +130,31 @@ tags:
 >  ![[Pasted image 20250524223435.png|450]]
 
 [Fundamental text and font styling - Learn web development \| MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals)
+
+# demo  
+```
+
+```
+1. `h1 {color:rgb(179, 89, 89);}`
+    - 选择所有的`<h1>`标题元素。
+    - 将其文本颜色设置为 RGB 值`(179, 89, 89)`（一种暗红色）。
+2. `li ul {font-style: italic;}`
+    - 选择嵌套在列表项 (`<li>`) 内的所有无序列表 (`<ul>`)。
+    - 将这些列表中的文本设置为斜体。
+3. `h1,p {font-family: Verdana, Geneva, Tahoma, sans-serif;}`
+    - 同时选择`<h1>`标题和段落 (`<p>`) 元素。
+    - 将它们的字体设置为 Verdana（如果不可用，则依次尝试 Geneva、Tahoma 或系统默认的无衬线字体）。
+4. `.nodec {font-weight: bolder;}`
+    - 选择所有带有`class="nodec"`的元素。
+    - 将其字体粗细设置为比父元素更粗（例如，从`normal`变为`bold`）。
+5. `li.nodec {font-size:larger;}`
+    - 选择同时满足以下条件的元素：
+        - 是列表项 (`<li>`)。
+        - 带有`class="nodec"`。
+    - 将其字体大小设置为比母元素更大。
+6. `#wholebread {font-size:smaller;}`
+    - 选择 ID 为`wholebread`的唯一元素。
+    - 将其字体大小设置为比母元素更小。
+7. `a.nodec:hover {text-decoration: none;}`
+    - 选择带有`class="nodec"`的链接 (`<a>`)，并且仅在鼠标悬停时生效。
+    - 移除悬停时的下划线装饰，保持文本整洁。
