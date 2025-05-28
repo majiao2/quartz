@@ -73,4 +73,4 @@ result_prod = lp("max", objective_prod, constraints_prod, directions_prod, rhs_p
 print(result_prod$solution)
 ```
 
-# Introduction 
+# Introduction to lpSolve in R  
