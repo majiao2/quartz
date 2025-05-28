@@ -164,3 +164,5 @@ tags:
 7. `a.nodec:hover {text-decoration: none;}`
     - 选择带有`class="nodec"`的链接 (`<a>`)，并且仅在鼠标悬停时生效。
     - 移除悬停时的下划线装饰，保持文本整洁。
+
+>  [CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/)
