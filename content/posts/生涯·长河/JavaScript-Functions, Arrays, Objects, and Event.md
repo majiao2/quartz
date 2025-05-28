@@ -79,22 +79,25 @@ console.log(nums.indexOf(6)); // 2
 ```
 
 # Events  
-### JavaScript events
+- JavaScript events
+	- allow scripts to respond to user interactions and modify the page accordingly
+- Events and event handling
+	- help make web applications more dynamic and interactive
 
-- allow scripts to respond to user interactions and modify the page accordingly
+> [!example]+ Event Examples
+> - **Click**: When the user single-clicks an HTML element
+> - **Dblclick**: When the user double-clicks an element
+> - **Change**: When the user makes a selection change in a Select element
+> - **Submit**: When a form’s data is submitted
+> - **Mouseover**: When the mouse cursor enters an element, a mouseover event occurs for that element
+> - **Mouseout**: When the mouse cursor leaves the element, a mouseout event occurs for that element  
 
-### Events and event handling
+> [!error]+ Event Handlers
+> - An **event handler** is a function that responds to an event.
+> - Assigning an event handler to an event on a DOM node is called **registering an event handler**.
+> - Method `addEventListener` can be called multiple times on a DOM node to register more than one event - handling method for an event.
+> - If a script in the head attempts to get a DOM node for an HTML element in the body, `getElementById` returns `null` because the body has not yet loaded.
 
-- help make web applications more dynamic and interactive
-
-### Specific events
-
-- **Click**: When the user single-clicks an HTML element
-- **Dblclick**: When the user double-clicks an element
-- **Change**: When the user makes a selection change in a Select element
-- **Submit**: When a form’s data is submitted
-- **Mouseover**: When the mouse cursor enters an element, a mouseover event occurs for that element
-- **Mouseout**: When the mouse cursor leaves the element, a mouseout event occurs for that element
 
 
 
