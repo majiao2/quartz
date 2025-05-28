@@ -4,7 +4,7 @@ date: 2025-05-24
 tags:
   - MISY350
 ---
-[[CSS Part 1]]  
+<mark style="background: #FF5582A6;"></mark>[[CSS Part 1]]  
 
 > [!example]+ Review: Inline and Block-Level Elements
 > - **Inline-level elements**
@@ -83,15 +83,15 @@ tags:
 >     - Padding can be specified in the same way, using `padding-top`, `padding-right`, `padding-lef` t and `padding-bottom`.
 
 > [!quote]+ CSS Backgrounds
-> - background-repeat Property
+> - <mark style="background: #FF5582A6;">background-repeat Property</mark>
 >     - The background-repeat property controls the tiling of the background image.
 >         - Setting the tiling to `no-repeat` displays one copy of the background image on screen.
 >         - Setting to `repeat` (the default) tiles the image vertically and horizontally.
 >         - Setting to `repeat-x` tiles the image only horizontally.
 >         - Setting to `repeat-y` tiles the image only vertically.
-> - background-image Property
+> - <mark style="background: #FF5582A6;">background-image Property</mark>
 >     - Specifies the URL of the image, in the format `url(fileLocation)`.
-> - background-position Property
+> - <mark style="background: #FF5582A6;">background-position Property</mark>
 >     - Places the image on the page using the values `top`, `bottom`, `center`, `left`, and `right` individually or in combination for vertical and horizontal positioning. You can also position by using lengths.
 
 > [!quote]+ CSS Backgrounds
