@@ -74,3 +74,20 @@ print(result_prod$solution)
 ```
 
 # Introduction to lpSolve in R  
+`lpSolve` is a package in R that provides functions to solve linear programming problems.  
+
+<mark style="background: #FF5582A6;">Key Function</mark>
+- `lp(direction, objective.in, const.mat, const.dir, const.rhs)`, where `direction` can be `'min'` or `'max'`.
+
+
+> [!danger]+ Components 
+-  `Direction`
+	- Specifies whether the objective function should be maximized (`'max'`) or minimized (`'min'`).
+-  `Objective.in`
+	- A numeric vector containing the coefficients of the objective function.
+-  `Const.mat`
+	- The constraint matrix, where each row represents a constraint.
+-  `Const.dir`
+	- A character vector specifying the direction of each constraint (e.g., `'<=', '>=', '='`).
+-  `Const.rhs`
+	- A numeric vector representing the right-hand side values of the constraints.
