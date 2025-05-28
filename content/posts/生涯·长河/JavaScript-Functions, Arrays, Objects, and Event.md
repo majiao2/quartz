@@ -27,6 +27,8 @@ const result = addNumbers(5, 3);
 console.log(result); 
 ```
 
-
-
+> [!tldr]+ Three ways to return control to the point at which a function was invoked
+- **Reaching the function-ending right brace**: When the function execution reaches the closing right brace of the function, control automatically returns to the point where the function was called.
+- **Executing a `return;` statement**: When the function executes a `return;` statement, it immediately stops executing the function and returns control to the caller. This statement is typically used when there is no need to return a specific value and you only want to end the function execution early.
+- **Executing a `return expression;` statement**: When this statement is executed, the value of the `expression` is calculated and returned to the script that called the function, and at the same time, the function execution ends.
 
