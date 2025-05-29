@@ -6,50 +6,51 @@ tags:
 ---
 [[Quantitative Variables]]  
 
-As part of the marketing team at an Internet music site, you want to understand who your customers are. You send out a survey to 25 customers (you use an incentive of $50 worth of downloads to guarantee a high response rate) asking for demographic information. One of the variables is the customer's age. For the 25 customers the ages are:
+1. As part of the marketing team at an Internet music site, you want to understand who your customers are. You send out a survey to 25 customers (you use an incentive of $50 worth of downloads to guarantee a high response rate) asking for demographic information. One of the variables is the customer's age. For the 25 customers the ages are:
+
 a. Make a histogram of the data using a bar width of 10 years.
 b. Make a histogram of the data using a bar width of 5 years.
 c. Make a relative frequency histogram of the data using a bar width of 5 years.
-20  32  34  29  30
-30  30  14  29  11
-38  22  44  48  26
-25  22  32  35  32
-35  42  44  44  48
+![[Pasted image 20250529163158.png]]  
+
 2. As the new manager of a small convenience store, you want to understand the shopping patterns of your customers. You randomly sample 20 purchases from yesterday's records (all purchases in U.S. dollars):
+
 a. Make a histogram of the data using a bar width of $20.
 b. Make a histogram of the data using a bar width of $10.
-c. Make a relative frequency histogram of the data using a bar width of $10.
-39.05  2.73  32.92  47.51
-37.91  34.35  64.48  51.96
-56.95  81.58  47.80  11.72
-21.57  40.83  38.24  32.98
-75.16  74.30  47.54  65.62
-3. For the histogram you made in Exercise 1 a:
+c. Make a relative frequency histogram of the data using a bar width of $10.  
+
+![[Pasted image 20250529163339.png]]  
+
+3. For the histogram you made in Exercise 1a:
 a. Is the distribution unimodal or multimodal?
 b. Where is (are) the mode (s)?
 c. Is the distribution symmetric?
-d. Are there any outliers?
-For the histogram you made in Exercise 2 a:
+d. Are there any outliers?  
+
+4. For the histogram you made in Exercise 2a:
 a. Is the distribution unimodal or multimodal?
 b. Where is (are) the mode (s)?
 c. Is the distribution symmetric?
-d. Are there any outliers?
-For the data in Exercise 1:
+d. Are there any outliers?  
+
+5. For the data in Exercise 1:
 a. Would you expect the mean age to be smaller than, bigger than, or about the same size as the median? Explain.
 b. Find the mean age.
-c. Find the median age.
-4. For the data in Exercise 2:
+c. Find the median age.  
+
+6. For the data in Exercise 2:
 a. Would you expect the mean purchase to be smaller than, bigger than, or about the same size as the median? Explain.
 b. Find the mean purchase.
 c. Find the median purchase.
-图片描述: 7. For the data in Exercise 1:
+
+7. For the data in Exercise 1:
 a. Calculate the standard deviation of the ages.
 b. Calculate the variance of the ages.
 For the data in Exercise 2:
 a. Calculate the standard deviation of the purchases.
 b. Calculate the variance of the purchases.  
 
-5. Using the ages from Exercise 1:
+8. Using the ages from Exercise 1:
 
 a. Standardize the minimum and maximum ages using the mean from Exercise 5b and the standard deviation from Exercise 7d: 9.84 years
 
@@ -104,4 +105,4 @@ c. Create a boxplot of these data.
 |25th %tile|59.15|
 |75th %tile|74.75|
 
-_![](https://chatglm.cn/img/copy-md-dark.3fc9d561.svg)_
+
