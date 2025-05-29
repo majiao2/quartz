@@ -77,17 +77,18 @@ hist(purchases,
 	![[Pasted image 20250529163339.png|330]]  
 3. <mark style="background: #FF5582A6;">For the histogram you made in Exercise 1a:  </mark>  
     **a.** Is the distribution unimodal or multimodal?  
-	    
+	    The distribution is **unimodal** because there is only one prominent peak in the histogram, with no significant second peak.  
     **b.** Where is (are) the mode (s)?  
+	    The **mode** is located in the range around **20 to 30 years**, where the highest frequency of data points is clustered.
     **c.** Is the distribution symmetric?  
+	    The distribution is **not perfectly symmetric**. It seems slightly skewed to the right, as the bars on the higher end (around 30 and above) are somewhat smaller than those on the left.  
     **d.** Are there any outliers?
-    
+	    Based on the histogram, there doesn't seem to be any clear outliers. All the data points appear to be within the same general range (from around 10 to 40 years), with no extreme values standing far apart from the rest.
 4. For the histogram you made in Exercise 2a:  
     **a.** Is the distribution unimodal or multimodal?  
     **b.** Where is (are) the mode (s)?  
     **c.** Is the distribution symmetric?  
     **d.** Are there any outliers?
-    
 5. For the data in Exercise 1:  
     **a.** Would you expect the mean age to be smaller than, bigger than, or about the same size as the median? Explain.  
     **b.** Find the mean age.  
