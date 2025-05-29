@@ -170,8 +170,14 @@ hist(purchases,
 10. <mark style="background: #FF5582A6;">A survey of major universities asked what percentage of incoming freshmen usually graduate “on time” in 4 years. Use the summary statistics given to answer these questions.  </mark>  
 ![[Pasted image 20250529230646.png|206]]  
     **a.** Would you describe this distribution as symmetric or skewed?  
+	Since the mean (68.35) is slightly **less** than the median (69.90), the distribution is **left-skewed** (negatively skewed). In a left-skewed distribution the long tail is on the lower end, pulling the mean down below the median.   
     **b.** Are there any outliers? Explain.  
-    **c.** Create a boxplot of these data.
+		$\text{IQR} = Q_3 - Q_1 = 74.75 - 59.15 = 15.60$  
+		$Q_1 - 1.5\times\text{IQR} = 59.15 - 1.5(15.60) = 59.15 - 23.40 = 35.75$  
+		$Q_3 + 1.5\times\text{IQR} = 74.75 + 23.40 = 98.15$  
+		Since the observed minimum (43.20) is above 35.75 and the maximum (87.40) is below 98.15, **there are no outliers** according to the usual 1.5 × IQR rule.  
+    **c.** Create a boxplot of these data.  
+
 
 
 
