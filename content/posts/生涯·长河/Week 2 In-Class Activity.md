@@ -87,13 +87,17 @@ hist(purchases,
     <u>**d.** Are there any outliers?</u>  
 	    Based on the histogram, there doesn't seem to be any clear outliers. All the data points appear to be within the same general range (from around 10 to 40 years), with no extreme values standing far apart from the rest.  
 
-4. <mark style="background: #FF5582A6;">For the histogram you made in Exercise 2a: </mark> 
-    **a.** Is the distribution unimodal or multimodal?  
-    **b.** Where is (are) the mode (s)?  
-    **c.** Is the distribution symmetric?  
-    **d.** Are there any outliers?  
+4. <mark style="background: #FF5582A6;">For the histogram you made in Exercise 2a: </mark>   
+    <u>**a.** Is the distribution unimodal or multimodal?  </u>  
+	    The distribution is **unimodal**, with a single prominent peak in the histogram. The majority of the data points are clustered in the 20–60 dollar range, with a few higher values, but no second peak.  
+    <u>**b.** Where is (are) the mode (s)?  </u>  
+	    The **mode** is in the range of **20–40 dollars**, where the highest frequency of purchases is observed.  
+    <u>**c.** Is the distribution symmetric?  </u>  
+	    The distribution is **slightly right-skewed**. There is a long tail on the right side, with higher purchase amounts (above 60 dollars) causing the distribution to be asymmetrical. The left side (lower purchase amounts) is more compact.  
+    <u>**d.** Are there any outliers?  </u>  
+	    There are potential **outliers** in the higher purchase amounts. The values **81.58** and **75.16** seem to be significantly higher than the rest of the data, which could be considered outliers, given the majority of purchases fall below 50 dollars.
 
-5. <mark style="background: #FF5582A6;">For the data in Exercise 1: </mark> 
+5. <mark style="background: #FF5582A6;">For the data in Exercise 1: </mark>   
     **a.** Would you expect the mean age to be smaller than, bigger than, or about the same size as the median? Explain.  
     **b.** Find the mean age.  
     **c.** Find the median age.
