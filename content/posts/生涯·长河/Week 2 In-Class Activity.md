@@ -149,15 +149,21 @@ hist(purchases,
 		$z_{\max}=\frac{48 - 32.2}{9.84} \approx \frac{15.8}{9.84} \approx +1.61$  
     **b.** Which has the more extreme z - score, the min or the max?  
 	    The minimum age is more extreme.  
-    **c.** How old would someone with a z - score of 3 be?
+    **c.** How old would someone with a z - score of 3 be?  
+	$\text{age} = \mu + z\sigma = 32.2 + 3\times9.84 = 32.2 + 29.52 = 61.72$  
 
 ---  
 
-9. <mark style="background: #FF5582A6;">Using the purchases from Exercise 2:  </mark>
-    **a.** Standardize the minimum and maximum purchase using the mean from Exercise 6b and the standard deviation **$20.67**  
-	    
+9. <mark style="background: #FF5582A6;">Using the purchases from Exercise 2:  </mark>  
+    **a.** Standardize the minimum and maximum purchase using the mean from Exercise 6b (**$40.16**) and the standard deviation **$20.67**  
+	    $z_{\min}=\frac{x_{\min}-\mu}{\sigma}=\frac{2.73 - 40.16}{20.67}\approx -1.81$ <br>
+	    $z_{\max}=\frac{x_{\max}-\mu}{\sigma}=\frac{81.58 - 40.16}{20.67}\approx +2.00$  
     **b.** Which has the more extreme z - score, the min or the max?  
+	    $\text{Compare } |z_{\min}| \approx 1.81 \text{ vs. } |z_{\max}| \approx 2.00.$
+	    Since $2.00>1.81$, the **maximum purchase** has the more extreme z-score.
     **c.** How large a purchase would a purchase with a z - score of 3.5 be?  
+	    $x = \mu + z\sigma = 40.16 + 3.5\times 20.67 \approx 40.16 + 72.35 = \$112.51$
+    
 
 ---  
 
