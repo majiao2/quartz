@@ -132,6 +132,7 @@ hist(purchases,
     - **Center**: The center of the distribution is likely between **30 and 60 acres**, where the majority of vineyards appear to fall.
     - **Spread**: The spread is wide, with vineyard sizes ranging from **0 to 240 acres**. However, most vineyards are small, and the spread of larger vineyard sizes is quite limited.
     - **Unusual Features**: The distribution doesn't show any clear outliers, but the **right skew** is a notable feature. There are a few larger vineyards, but they are much less common than the smaller ones.  
+	
     <u>**b.** Would you expect the mean or the median to be larger? Explain.  </u>
 	    Since the distribution is **right-skewed**, the **mean** is expected to be **larger than the median**. In a right-skewed distribution, the tail on the right (large vineyard sizes) pulls the mean towards the higher values, while the median is less influenced by extreme values and is closer to the center of the data. Therefore, the mean would likely be greater than the median.  
     <u>**c.** Which would be a more appropriate summary of the center, the mean or the median? Explain.  </u>  
@@ -140,8 +141,12 @@ hist(purchases,
 
 ---  
 
-8. <mark style="background: #FF5582A6;">Using the ages from Exercise 1:  </mark>
-    **a.** Standardize the minimum and maximum ages using the mean from Exercise 5b and the standard deviation **9.84 years**  
+8. <mark style="background: #FF5582A6;">Using the ages from Exercise 1:  </mark>  
+    **a.** Standardize the minimum and maximum ages using the mean from Exercise 5b (**32.2 years**) and the standard deviation **9.84 years**  
+	    Standardized (z-) scores for the minimum (11 yr) and maximum (48 yr):  
+	    $z = \frac{x - \mu}{\sigma}$
+	    $z_{\min} = \frac{11 - 32.2}{9.84}$
+	    $z_{\max} = \frac{48 - 32.2}{9.84}$  
     **b.** Which has the more extreme z - score, the min or the max?  
     **c.** How old would someone with a z - score of 3 be?
 
@@ -149,8 +154,9 @@ hist(purchases,
 
 9. <mark style="background: #FF5582A6;">Using the purchases from Exercise 2:  </mark>
     **a.** Standardize the minimum and maximum purchase using the mean from Exercise 6b and the standard deviation **$20.67**  
+	    
     **b.** Which has the more extreme z - score, the min or the max?  
-    **c.** How large a purchase would a purchase with a z - score of 3.5 be?
+    **c.** How large a purchase would a purchase with a z - score of 3.5 be?  
 
 ---  
 
