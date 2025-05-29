@@ -401,6 +401,12 @@ figcaption {
   font-size: 0.9rem;
 }
 
+div.internal-embed.media-embed.image-embed{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
 // quartz/styles/custom.scss
 .toc {
   // default
