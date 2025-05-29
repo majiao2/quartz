@@ -36,6 +36,8 @@ hist(ages, breaks=seq(10, 50, by=5), col="red",
 ![[Pasted image 20250529220151.png|525]]  
 	![[Pasted image 20250529163158.png|316]]  
 
+---  
+
 2. <mark style="background: #FF5582A6;">As the new manager of a small convenience store, you want to understand the shopping patterns of your customers. You randomly sample 20 purchases from yesterday's records (all purchases in U.S. dollars):</mark>
 ```r
 # 购买金额数据（美元）
@@ -77,6 +79,8 @@ hist(purchases,
 ![[Pasted image 20250529220907.png|525]]  
 	![[Pasted image 20250529163339.png|330]]  
 
+---  
+
 3. <mark style="background: #FF5582A6;">For the histogram you made in Exercise 1a:  </mark>  
     <u>**a.** Is the distribution unimodal or multimodal?  </u>  
 	    The distribution is **unimodal** because there is only one prominent peak in the histogram, with no significant second peak.  
@@ -86,6 +90,8 @@ hist(purchases,
 	    The distribution is **not perfectly symmetric**. It seems slightly skewed to the right, as the bars on the higher end (around 30 and above) are somewhat smaller than those on the left.  
     <u>**d.** Are there any outliers?</u>  
 	    Based on the histogram, there doesn't seem to be any clear outliers. All the data points appear to be within the same general range (from around 10 to 40 years), with no extreme values standing far apart from the rest.  
+
+---  
 
 4. <mark style="background: #FF5582A6;">For the histogram you made in Exercise 2a: </mark>   
     <u>**a.** Is the distribution unimodal or multimodal?  </u>  
@@ -97,6 +103,8 @@ hist(purchases,
     <u>**d.** Are there any outliers?  </u>  
 	    There are potential **outliers** in the higher purchase amounts. The values **81.58** and **75.16** seem to be significantly higher than the rest of the data, which could be considered outliers, given the majority of purchases fall below 50 dollars.
 
+---  
+
 5. <mark style="background: #FF5582A6;">For the data in Exercise 1: </mark>   
     <u>**a.** Would you expect the mean age to be smaller than, bigger than, or about the same size as the median? Explain. </u>  
 		The mean age is expected to be larger than the median.  
@@ -105,30 +113,44 @@ hist(purchases,
     <u>**c.** Find the median age.</u>  
 	    The 13th value in the ordered list is the **median age**, which is **32 years**.  
 
+---  
+
 6. <mark style="background: #FF5582A6;">For the data in Exercise 2:  </mark>  
     <u>**a.** Would you expect the mean purchase to be smaller than, bigger than, or about the same size as the median? Explain. </u>  
-	    The expected **mean purchase to be larger than the median**.
+	    The expected **mean purchase to be larger than the median**.  
     <u>**b.** Find the mean purchase.</u>  
 	    $\text{Mean} = \frac{\sum \text{purchase amounts}}{\text{number of purchases}}$  
 	    The **mean purchase** is approximately **$40.16**.  
     <u>**c.** Find the median purchase.</u>  
 	    The **median purchase** is approximately **$38.64**.
 
-7. <mark style="background: #FF5582A6;">Adair Vineyard is a 10 - acre vineyard in New Paltz, New York. The winery itself is housed in a 200 - year - old historic Dutch barn, with the wine cellar on the first floor and the tasting room and gift shop on the second. Since they are relatively small and considering an expansion, they are curious about how their size compares to that of other vineyards. The histogram shows the sizes (in acres) of 36 wineries in upstate New York. (Data in Vineyards)  </mark>
-    **a.** Write a short description of this distribution (shape, center, spread, unusual features).  
+---  
+
+7. <mark style="background: #FF5582A6;">Adair Vineyard is a 10 - acre vineyard in New Paltz, New York. The winery itself is housed in a 200 - year - old historic Dutch barn, with the wine cellar on the first floor and the tasting room and gift shop on the second. Since they are relatively small and considering an expansion, they are curious about how their size compares to that of other vineyards. The histogram shows the sizes (in acres) of 36 wineries in upstate New York. (Data in Vineyards)  </mark>  
+    **a.** Write a short description of this distribution (shape, center, spread, unusual features). 
+    - **Shape**: The distribution of vineyard sizes is **right-skewed**. Most of the vineyards are quite small, with a significant number of them clustered near the 0-acre range. As vineyard size increases, the frequency of vineyards decreases gradually, forming a long tail to the right. This suggests that there are fewer large vineyards.
+    - **Center**: The center of the distribution is likely between **10 and 20 acres**, where the majority of vineyards appear to fall.
+    - **Spread**: The spread is wide, with vineyard sizes ranging from **0 to 240 acres**. However, most vineyards are small, and the spread of larger vineyard sizes is quite limited.
+    - **Unusual Features**: The distribution doesn't show any clear outliers, but the **right skew** is a notable feature. There are a few larger vineyards, but they are much less common than the smaller ones. 
     **b.** Would you expect the mean or the median to be larger? Explain.  
     **c.** Which would be a more appropriate summary of the center, the mean or the median? Explain.  
     ![[Pasted image 20250529164038.png|425]]
+
+---  
 
 8. <mark style="background: #FF5582A6;">Using the ages from Exercise 1:  </mark>
     **a.** Standardize the minimum and maximum ages using the mean from Exercise 5b and the standard deviation **9.84 years**  
     **b.** Which has the more extreme z - score, the min or the max?  
     **c.** How old would someone with a z - score of 3 be?
 
+---  
+
 9. <mark style="background: #FF5582A6;">Using the purchases from Exercise 2:  </mark>
     **a.** Standardize the minimum and maximum purchase using the mean from Exercise 6b and the standard deviation **$20.67**  
     **b.** Which has the more extreme z - score, the min or the max?  
     **c.** How large a purchase would a purchase with a z - score of 3.5 be?
+
+---  
 
 10. <mark style="background: #FF5582A6;">A survey of major universities asked what percentage of incoming freshmen usually graduate “on time” in 4 years. Use the summary statistics given to answer these questions.  </mark>
     **a.** Would you describe this distribution as symmetric or skewed?  
