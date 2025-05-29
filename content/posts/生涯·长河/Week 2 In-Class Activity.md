@@ -160,16 +160,18 @@ hist(purchases,
 	    $z_{\max}=\frac{x_{\max}-\mu}{\sigma}=\frac{81.58 - 40.16}{20.67}\approx +2.00$  
     **b.** Which has the more extreme z - score, the min or the max?  
 	    $\text{Compare } |z_{\min}| \approx 1.81 \text{ vs. } |z_{\max}| \approx 2.00.$
-	    Since $2.00>1.81$, the **maximum purchase** has the more extreme z-score.
+	    Since $2.00>1.81$, the **maximum purchase** has the more extreme z-score.  
     **c.** How large a purchase would a purchase with a z - score of 3.5 be?  
 	    $x = \mu + z\sigma = 40.16 + 3.5\times 20.67 \approx 40.16 + 72.35 = \$112.51$
     
 
 ---  
 
-10. <mark style="background: #FF5582A6;">A survey of major universities asked what percentage of incoming freshmen usually graduate “on time” in 4 years. Use the summary statistics given to answer these questions.  </mark>
+10. <mark style="background: #FF5582A6;">A survey of major universities asked what percentage of incoming freshmen usually graduate “on time” in 4 years. Use the summary statistics given to answer these questions.  </mark>  
+![[Pasted image 20250529230646.png|206]]  
     **a.** Would you describe this distribution as symmetric or skewed?  
     **b.** Are there any outliers? Explain.  
     **c.** Create a boxplot of these data.
+
 
 
