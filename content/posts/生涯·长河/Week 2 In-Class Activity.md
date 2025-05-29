@@ -106,9 +106,13 @@ hist(purchases,
 	    The 13th value in the ordered list is the **median age**, which is **32 years**.  
 
 6. <mark style="background: #FF5582A6;">For the data in Exercise 2:  </mark>  
-    **a.** Would you expect the mean purchase to be smaller than, bigger than, or about the same size as the median? Explain.  
-    **b.** Find the mean purchase.  
-    **c.** Find the median purchase.
+    <u>**a.** Would you expect the mean purchase to be smaller than, bigger than, or about the same size as the median? Explain. </u>  
+	    The expected **mean purchase to be larger than the median**.
+    <u>**b.** Find the mean purchase.</u>  
+	    $\text{Mean} = \frac{\sum \text{purchase amounts}}{\text{number of purchases}}$  
+	    The **mean purchase** is approximately **$40.16**.  
+    <u>**c.** Find the median purchase.</u>  
+	    The **median purchase** is approximately **$38.64**.
 
 7. <mark style="background: #FF5582A6;">Adair Vineyard is a 10 - acre vineyard in New Paltz, New York. The winery itself is housed in a 200 - year - old historic Dutch barn, with the wine cellar on the first floor and the tasting room and gift shop on the second. Since they are relatively small and considering an expansion, they are curious about how their size compares to that of other vineyards. The histogram shows the sizes (in acres) of 36 wineries in upstate New York. (Data in Vineyards)  </mark>
     **a.** Write a short description of this distribution (shape, center, spread, unusual features).  
