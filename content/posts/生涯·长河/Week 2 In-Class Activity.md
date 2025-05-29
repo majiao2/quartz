@@ -6,9 +6,9 @@ tags:
 ---
 [[Quantitative Variables]]
 
-1. As part of the marketing team at an Internet music site, you want to understand who your customers are. You send out a survey to 25 customers (you use an incentive of $50 worth of downloads to guarantee a high response rate) asking for demographic information. One of the variables is the customer's age. For the 25 customers the ages are:
+1. <mark style="background: #FF5582A6;">As part of the marketing team at an Internet music site, you want to understand who your customers are. You send out a survey to 25 customers (you use an incentive of $50 worth of downloads to guarantee a high response rate) asking for demographic information. One of the variables is the customer's age. For the 25 customers the ages are:</mark>
 	**a.** Make a histogram of the data using a bar width of 10 years.
-```{r}
+```r
 # Age data
 ages <- c(20, 32, 34, 29, 30, 30, 30, 14, 29, 11, 38, 22, 44, 48, 26, 25, 22, 32, 35, 32, 35, 42, 44, 44, 48)
 
@@ -19,15 +19,23 @@ hist(ages, breaks=seq(10, 50, by=10), col="blue",
 ```
 ![[Pasted image 20250529215735.png|525]]
 	**b.** Make a histogram of the data using a bar width of 5 years.  
-```{r}
+```r
 # Create relative frequency histogram with a bin width of 5 years
 hist(ages, breaks=seq(10, 50, by=5), col="red", 
      probability=TRUE, main="Relative Frequency Histogram of Customer Ages (Bar Width: 5 years)", 
      xlab="Age", ylab="Relative Frequency")
 ```
+![[Pasted image 20250529220107.png|525]]
 	**c.** Make a relative frequency histogram of the data using a bar width of 5 years.  
+```r
+# Create relative frequency histogram with a bin width of 5 years
+hist(ages, breaks=seq(10, 50, by=5), col="red", 
+     probability=TRUE, main="Relative Frequency Histogram of Customer Ages (Bar Width: 5 years)", 
+     xlab="Age", ylab="Relative Frequency")
+```
+![[Pasted image 20250529220151.png|525]]
 	![[Pasted image 20250529163158.png|316]]
-2. As the new manager of a small convenience store, you want to understand the shopping patterns of your customers. You randomly sample 20 purchases from yesterday's records (all purchases in U.S. dollars):
+2. <mark style="background: #FF5582A6;">As the new manager of a small convenience store, you want to understand the shopping patterns of your customers. You randomly sample 20 purchases from yesterday's records (all purchases in U.S. dollars):</mark>
 	**a.** Make a histogram of the data using a bar width of $20. 
 	**b.** Make a histogram of the data using a bar width of $10.  
 	**c.** Make a relative frequency histogram of the data using a bar width of $10.
