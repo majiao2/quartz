@@ -49,3 +49,17 @@ b. Would you expect the mean or the median to be larger? Explain.
 c. Which would be a more appropriate summary of the center, the mean or the median? Explain.  
 ![[Pasted image 20250529164038.png]]  
 
+8. Using the ages from Exercise 1:
+**a.** Standardize the minimum and maximum ages using the mean from Exercise 5b and the standard deviation **9.84 years**
+**b.** Which has the more extreme z - score, the min or the max?
+**c.** How old would someone with a z - score of 3 be?
+
+9. Using the purchases from Exercise 2:
+**a.** Standardize the minimum and maximum purchase using the mean from Exercise 6b and the standard deviation **$20.67**
+**b.** Which has the more extreme z - score, the min or the max?
+**c.** How large a purchase would a purchase with a z - score of 3.5 be?  
+
+10. A survey of major universities asked what percentage of incoming freshmen usually graduate “on time” in 4 years. Use the summary statistics given to answer these questions.
+**a.** Would you describe this distribution as symmetric or skewed?
+**b.** Are there any outliers? Explain.
+**c.** Create a boxplot of these data.  
