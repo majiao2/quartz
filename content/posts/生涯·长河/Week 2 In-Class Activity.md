@@ -59,3 +59,5 @@ tags:
     **a.** Would you describe this distribution as symmetric or skewed?  
     **b.** Are there any outliers? Explain.  
     **c.** Create a boxplot of these data.
+
+
