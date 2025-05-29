@@ -6,5 +6,5 @@ tags:
 ---
 [[Quantitative Variables]]  
 
-1. AspartofthemarketingteamatanInternetmusicsite,youwanttounderstandwhoyourcustomersare.Yousendoutasurveyto25customers(youuseanincentiveof$50worthofdownloadstoguaranteea highresponserate)askingfordemographicinformation
 
+![[In-Class Activity_Week2-1.pdf]]
