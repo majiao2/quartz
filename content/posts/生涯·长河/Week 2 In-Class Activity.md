@@ -7,8 +7,8 @@ tags:
 [[Quantitative Variables]]
 
 1. As part of the marketing team at an Internet music site, you want to understand who your customers are. You send out a survey to 25 customers (you use an incentive of $50 worth of downloads to guarantee a high response rate) asking for demographic information. One of the variables is the customer's age. For the 25 customers the ages are:
-	**a.** Make a histogram of the data using a bar width of 10 years.  
-	
+	**a.** Make a histogram of the data using a bar width of 10 years.
+
 	**b.** Make a histogram of the data using a bar width of 5 years.  
 	**c.** Make a relative frequency histogram of the data using a bar width of 5 years.  
 	![[Pasted image 20250529163158.png]]
