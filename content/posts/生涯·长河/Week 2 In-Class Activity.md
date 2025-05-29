@@ -143,11 +143,12 @@ hist(purchases,
 
 8. <mark style="background: #FF5582A6;">Using the ages from Exercise 1:  </mark>  
     **a.** Standardize the minimum and maximum ages using the mean from Exercise 5b (**32.2 years**) and the standard deviation **9.84 years**  
-	    Standardized (z-) scores for the minimum (11 yr) and maximum (48 yr):  
-	    $z = \frac{x - \mu}{\sigma}$
-	    $z_{\min} = \frac{11 - 32.2}{9.84}$
-	    $z_{\max} = \frac{48 - 32.2}{9.84}$  
+	    Standardized (z-) scores for the minimum (11 yr) and maximum (48 yr): <br>
+		$z = \frac{x - \mu}{\sigma}$ <br>
+		$z_{\min}=\frac{11 - 32.2}{9.84} \approx \frac{-21.2}{9.84} \approx -2.15$ <br>
+		$z_{\max}=\frac{48 - 32.2}{9.84} \approx \frac{15.8}{9.84} \approx +1.61$  
     **b.** Which has the more extreme z - score, the min or the max?  
+	    The minimum age is more extreme.  
     **c.** How old would someone with a z - score of 3 be?
 
 ---  
