@@ -127,13 +127,15 @@ hist(purchases,
 ---  
 
 7. <mark style="background: #FF5582A6;">Adair Vineyard is a 10 - acre vineyard in New Paltz, New York. The winery itself is housed in a 200 - year - old historic Dutch barn, with the wine cellar on the first floor and the tasting room and gift shop on the second. Since they are relatively small and considering an expansion, they are curious about how their size compares to that of other vineyards. The histogram shows the sizes (in acres) of 36 wineries in upstate New York. (Data in Vineyards)  </mark>  
-    **a.** Write a short description of this distribution (shape, center, spread, unusual features). 
+    <u>**a.** Write a short description of this distribution (shape, center, spread, unusual features). </u>
     - **Shape**: The distribution of vineyard sizes is **right-skewed**. Most of the vineyards are quite small, with a significant number of them clustered near the 0-acre range. As vineyard size increases, the frequency of vineyards decreases gradually, forming a long tail to the right. This suggests that there are fewer large vineyards.
-    - **Center**: The center of the distribution is likely between **10 and 20 acres**, where the majority of vineyards appear to fall.
+    - **Center**: The center of the distribution is likely between **30 and 60 acres**, where the majority of vineyards appear to fall.
     - **Spread**: The spread is wide, with vineyard sizes ranging from **0 to 240 acres**. However, most vineyards are small, and the spread of larger vineyard sizes is quite limited.
-    - **Unusual Features**: The distribution doesn't show any clear outliers, but the **right skew** is a notable feature. There are a few larger vineyards, but they are much less common than the smaller ones. 
-    **b.** Would you expect the mean or the median to be larger? Explain.  
-    **c.** Which would be a more appropriate summary of the center, the mean or the median? Explain.  
+    - **Unusual Features**: The distribution doesn't show any clear outliers, but the **right skew** is a notable feature. There are a few larger vineyards, but they are much less common than the smaller ones.  
+    <u>**b.** Would you expect the mean or the median to be larger? Explain.  </u>
+	    Since the distribution is **right-skewed**, the **mean** is expected to be **larger than the median**. In a right-skewed distribution, the tail on the right (large vineyard sizes) pulls the mean towards the higher values, while the median is less influenced by extreme values and is closer to the center of the data. Therefore, the mean would likely be greater than the median.  
+    <u>**c.** Which would be a more appropriate summary of the center, the mean or the median? Explain.  </u>  
+	    The **median** would be a more appropriate summary of the center in this case because the distribution is **right-skewed**. The median is not affected by the extreme large values and better represents the typical vineyard size. In contrast, the mean could be distorted by the few large vineyards in the right tail of the distribution, making the median a more robust and accurate measure of central tendency.
     ![[Pasted image 20250529164038.png|425]]
 
 ---  
