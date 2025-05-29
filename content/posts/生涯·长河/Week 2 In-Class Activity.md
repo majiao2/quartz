@@ -43,66 +43,9 @@ a. Would you expect the mean purchase to be smaller than, bigger than, or about 
 b. Find the mean purchase.
 c. Find the median purchase.
 
-7. For the data in Exercise 1:
-a. Calculate the standard deviation of the ages.
-b. Calculate the variance of the ages.
-For the data in Exercise 2:
-a. Calculate the standard deviation of the purchases.
-b. Calculate the variance of the purchases.  
-
-8. Using the ages from Exercise 1:
-
-a. Standardize the minimum and maximum ages using the mean from Exercise 5b and the standard deviation from Exercise 7d: 9.84 years
-
-b. Which has the more extreme z-score, the min or the max?
-
-c. How old would someone with a z-score of 3 be?
-
-9. Using the purchases from Exercise 2:
-
-a. Standardize the minimum and maximum purchase using the mean from Exercise 6b and the standard deviation from Exercise 8d: $20.67
-
-b. Which has the more extreme z-score, the min or the max?
-
-c. How large a purchase would a purchase with a z-score of 3.5 be?
-
-10. A survey of major universities asked what percentage of incoming freshmen usually graduate “on time” in 4 years. Use the summary statistics given to answer these questions.
-
-a. Would you describe this distribution as symmetric or skewed?
-
-b. Are there any outliers? Explain.
-
-c. Create a boxplot of these data.
-
-|Count|48|
-|---|---|
-|Mean|68.35|
-|Median|69.90|
-|StdDev|10.20|
-|Min|43.20|
-|Max|87.40|
-|Range|44.20|
-|25th %tile|59.15|
-|75th %tile|74.75|
-
-![图片3](https://sfile.chatglm.cn/chatglm4/2c6d2dd1-8d0b-4d0b-bf8e-8d9c8d9b9a6f.png)  
-图片描述: 11. A survey of major universities asked what percentage of incoming freshmen usually graduate “on time” in 4 years. Use the summary statistics given to answer these questions.
-
-a. Would you describe this distribution as symmetric or skewed?
-
-b. Are there any outliers? Explain.
-
-c. Create a boxplot of these data.
-
-|Count|48|
-|---|---|
-|Mean|68.35|
-|Median|69.90|
-|StdDev|10.20|
-|Min|43.20|
-|Max|87.40|
-|Range|44.20|
-|25th %tile|59.15|
-|75th %tile|74.75|
-
+7. Adair Vineyard is a 10 - acre vineyard in New Paltz, New York. The winery itself is housed in a 200 - year - old historic Dutch barn, with the wine cellar on the first floor and the tasting room and gift shop on the second. Since they are relatively small and considering an expansion, they are curious about how their size compares to that of other vineyards. The histogram shows the sizes (in acres) of 36 wineries in upstate New York. (Data in Vineyards)
+a. Write a short description of this distribution (shape, center, spread, unusual features).
+b. Would you expect the mean or the median to be larger? Explain.
+c. Which would be a more appropriate summary of the center, the mean or the median? Explain.  
+![[Pasted image 20250529164038.png]]  
 
