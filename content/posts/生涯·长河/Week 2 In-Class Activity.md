@@ -98,11 +98,14 @@ hist(purchases,
 	    There are potential **outliers** in the higher purchase amounts. The values **81.58** and **75.16** seem to be significantly higher than the rest of the data, which could be considered outliers, given the majority of purchases fall below 50 dollars.
 
 5. <mark style="background: #FF5582A6;">For the data in Exercise 1: </mark>   
-    **a.** Would you expect the mean age to be smaller than, bigger than, or about the same size as the median? Explain.  
-    **b.** Find the mean age.  
-    **c.** Find the median age.
+    <u>**a.** Would you expect the mean age to be smaller than, bigger than, or about the same size as the median? Explain. </u>  
+		The mean age is expected to be larger than the median.  
+    <u>**b.** Find the mean age.  </u>  
+	    The mean age is approximately **32.2 years**.  
+    <u>**c.** Find the median age.</u>  
+	    The 13th value in the ordered list is the **median age**, which is **32 years**.  
 
-6. <mark style="background: #FF5582A6;">For the data in Exercise 2:  </mark>
+6. <mark style="background: #FF5582A6;">For the data in Exercise 2:  </mark>  
     **a.** Would you expect the mean purchase to be smaller than, bigger than, or about the same size as the median? Explain.  
     **b.** Find the mean purchase.  
     **c.** Find the median purchase.
