@@ -6,7 +6,7 @@ tags:
 ---
 [[Quantitative Variables]]
 
-1. <mark style="background: #FF5582A6;">As part of the marketing team at an Internet music site, you want to understand who your customers are. You send out a survey to 25 customers (you use an incentive of $50 worth of downloads to guarantee a high response rate) asking for demographic information. One of the variables is the customer's age. For the 25 customers the ages are:</mark>
+1. <mark style="background: #FF5582A6;">As part of the marketing team at an Internet music site, you want to understand who your customers are. You send out a survey to 25 customers (you use an incentive of $50 worth of downloads to guarantee a high response rate) asking for demographic information. One of the variables is the customer's age. For the 25 customers the ages are:</mark>  
 	**a.** Make a histogram of the data using a bar width of 10 years.
 ```r
 # Age data
@@ -17,7 +17,7 @@ hist(ages, breaks=seq(10, 50, by=10), col="blue",
      main="Histogram of Customer Ages (Bar Width: 10 years)", 
      xlab="Age", ylab="Frequency")
 ```
-![[Pasted image 20250529215735.png|525]]
+![[Pasted image 20250529215735.png|525]]  
 	**b.** Make a histogram of the data using a bar width of 5 years.  
 ```r
 # Create relative frequency histogram with a bin width of 5 years
@@ -25,7 +25,7 @@ hist(ages, breaks=seq(10, 50, by=5), col="red",
      probability=TRUE, main="Relative Frequency Histogram of Customer Ages (Bar Width: 5 years)", 
      xlab="Age", ylab="Relative Frequency")
 ```
-![[Pasted image 20250529220107.png|525]]
+![[Pasted image 20250529220107.png|525]]  
 	**c.** Make a relative frequency histogram of the data using a bar width of 5 years.  
 ```r
 # Create relative frequency histogram with a bin width of 5 years
@@ -33,8 +33,8 @@ hist(ages, breaks=seq(10, 50, by=5), col="red",
      probability=TRUE, main="Relative Frequency Histogram of Customer Ages (Bar Width: 5 years)", 
      xlab="Age", ylab="Relative Frequency")
 ```
-![[Pasted image 20250529220151.png|525]]
-	![[Pasted image 20250529163158.png|316]]
+![[Pasted image 20250529220151.png|525]]  
+	![[Pasted image 20250529163158.png|316]]  
 2. <mark style="background: #FF5582A6;">As the new manager of a small convenience store, you want to understand the shopping patterns of your customers. You randomly sample 20 purchases from yesterday's records (all purchases in U.S. dollars):</mark>
 ```r
 # 购买金额数据（美元）
@@ -42,7 +42,8 @@ purchases <- c(39.05, 2.73, 32.92, 47.51, 37.91, 34.35, 64.48, 51.96,
                56.95, 81.58, 47.80, 11.72, 21.57, 40.83, 38.24, 32.98,
                75.16, 74.30, 47.54, 65.62)
 ```
-	**a.** Make a histogram of the data using a bar width of $20.
+  
+**a.** Make a histogram of the data using a bar width of $20.
 ```r
 hist(purchases,
      breaks = seq(0, 100, by = 20),
@@ -51,7 +52,7 @@ hist(purchases,
      xlab   = "Purchase Amount ($)",
      ylab   = "Frequency")
 ```
-![[Pasted image 20250529220717.png]]
+![[Pasted image 20250529220717.png|525]]  
 	**b.** Make a histogram of the data using a bar width of $10.  
 ```{r}
 hist(purchases,
@@ -61,7 +62,7 @@ hist(purchases,
      xlab   = "Purchase Amount ($)",
      ylab   = "Frequency")
 ```
-![[Pasted image 20250529220806.png]]
+![[Pasted image 20250529220806.png|525]]  
 	**c.** Make a relative frequency histogram of the data using a bar width of $10.  
 ```r
 hist(purchases,
@@ -72,11 +73,11 @@ hist(purchases,
      xlab       = "Purchase Amount ($)",
      ylab       = "Relative Frequency")
 ```
-
-
-	![[Pasted image 20250529163339.png|330]]
-3. For the histogram you made in Exercise 1a:  
+![[Pasted image 20250529220907.png|525]]  
+	![[Pasted image 20250529163339.png|330]]  
+3. <mark style="background: #FF5582A6;">For the histogram you made in Exercise 1a:  </mark>  
     **a.** Is the distribution unimodal or multimodal?  
+	    
     **b.** Where is (are) the mode (s)?  
     **c.** Is the distribution symmetric?  
     **d.** Are there any outliers?
