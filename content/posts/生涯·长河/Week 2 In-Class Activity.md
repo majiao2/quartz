@@ -6,5 +6,3 @@ tags:
 ---
 [[Quantitative Variables]]  
 
-
-![[In-Class Activity_Week2-1.pdf]]
