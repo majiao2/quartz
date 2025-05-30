@@ -177,7 +177,59 @@ hist(purchases,
 		$Q_3 + 1.5\times\text{IQR} = 74.75 + 23.40 = 98.15$  
 		Since the observed minimum (43.20) is above 35.75 and the maximum (87.40) is below 98.15, **there are no outliers** according to the usual 1.5 × IQR rule.  
     **c.** Create a boxplot of these data.  
+```{r}
+# 创建数据框
+stats <- data.frame(
+  Statistic = c("Count", "Mean", "Median", "StdDev", "Min", "Max", "Range", "25th %tile", "75th %tile"),
+  Value = c(48, 68.35, 69.90, 10.20, 43.20, 87.40, 44.20, 59.15, 74.75)
+)
 
+# 提取箱线图所需的统计量
+min_val <- stats$Value[stats$Statistic == "Min"]
+q1 <- stats$Value[stats$Statistic == "25th %tile"]
+median_val <- stats$Value[stats$Statistic == "Median"]
+q3 <- stats$Value[stats$Statistic == "75th %tile"]
+max_val <- stats$Value[stats$Statistic == "Max"]
+
+# 创建模拟数据（基于统计量生成近似的数据集）
+set.seed(123)  # 设置随机种子，确保结果可重现
+sim_data <- c(
+  min_val,
+  q1,
+  median_val,
+  q3,
+  max_val,
+  rnorm(43, mean = stats$Value[stats$Statistic == "Mean"], 
+        sd = stats$Value[stats$Statistic == "StdDev"])
+)
+
+# 调整模拟数据使其符合给定的统计量
+sim_data <- sort(sim_data)
+sim_data[1] <- min_val
+sim_data[round(0.25 * length(sim_data))] <- q1
+sim_data[round(0.5 * length(sim_data))] <- median_val
+sim_data[round(0.75 * length(sim_data))] <- q3
+sim_data[length(sim_data)] <- max_val
+
+# 绘制箱线图
+boxplot(sim_data, 
+        main = "Boxplot of Graduation Rates",
+        ylab = "Percentage",
+        col = "lightblue",
+        border = "black",
+        horizontal = FALSE,
+        outline = TRUE)
+
+# 添加统计信息文本
+text(x = 1.3, y = min_val, labels = paste("Min:", min_val))
+text(x = 1.3, y = q1, labels = paste("Q1:", q1))
+text(x = 1.3, y = median_val, labels = paste("Median:", median_val))
+text(x = 1.3, y = q3, labels = paste("Q3:", q3))
+text(x = 1.3, y = max_val, labels = paste("Max:", max_val))
+text(x = 1.3, y = mean(sim_data), labels = paste("Mean:", round(mean(sim_data), 2)))    
+```
+
+![[Pasted image 20250529231807.png|550]]
 
 
 
