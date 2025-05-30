@@ -142,6 +142,17 @@ tags:
 </head>
 ```
 
+```css
+h1 {color:rgb(179, 89, 89);}
+li ul {font-style: italic;}
+h1,p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.nodec {font-weight: bolder;}
+li.nodec {font-size:larger;}
+#wholebread {font-size:smaller;}
+a.nodec:hover {text-decoration: none;}
+```
+
+![[Pasted image 20250530091438.png]]
 1. `h1 {color:rgb(179, 89, 89);}`
     - 选择所有的`<h1>`标题元素。
     - 将其文本颜色设置为 RGB 值`(179, 89, 89)`（一种暗红色）。
