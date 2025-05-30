@@ -123,16 +123,16 @@ tags:
 - 每个复选框都被包含在一个 `<label>` 标签内，提供相应的文本描述，便于用户理解。
 
 ![[Pasted image 20250524194849.png|420]]
-```html
-  <select name="rating" id="">
-        <option value="5">Amazing</option>
-        <option value="4">Very Good</option>
-        <option value="3">Good</option>
-        <option value="2">Bad</option>
-        <option value="1">Terrible</option>
-    </select>
-</label>
-<br><br>
+  ``` html
+      <label for="">Rate our site:
+            <select name="rating" id="">
+                <option value="5">Amazing</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Bad</option>
+                <option value="1">Terrible</option>
+            </select>
+        </label>
 ```
 - `<select>` 标签创建一个下拉选择框，用户可以从中选择一个选项。`name="rating"` 为其指定名称，用于表单提交时标识评分数据。
 - `<option>` 标签定义下拉选项，每个 `<option>` 的 `value` 属性指定了该选项对应的值，在表单提交时会被发送到服务器，标签内的文本（如 `Amazing` 等）是用户看到的显示文本。
