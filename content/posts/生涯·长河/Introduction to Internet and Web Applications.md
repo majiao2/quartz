@@ -58,8 +58,8 @@ tags:
 
 > [!success]+ Model-View-Controller (MVC)
 > - Model: Represents application data and business rules that govern data accessing and updates
->   View: Renders the user interface
->   Controller: Interprets user actions and events and maps them into actions in the model or the view
+> - View: Renders the user interface
+> - Controller: Interprets user actions and events and maps them into actions in the model or the view
 
 # Web Developer Readmap
 [Developer Roadmaps - roadmap.sh](https://roadmap.sh/)
