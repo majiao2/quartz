@@ -1,5 +1,5 @@
 ---
-title: 柳比歇夫时间记录法-个人实践
+title: Lyubishchev Time Recording Method-个人实践
 date: 2025-06-03
 tags:
   - time
