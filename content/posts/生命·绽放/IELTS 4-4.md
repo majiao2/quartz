@@ -25,4 +25,9 @@ lark 云雀
 raven n.大乌鸦 v.掠夺  
 cuckoo 杜鹃鸟  
 
+vary in …… with _ and _  
+
+
+
+
 
