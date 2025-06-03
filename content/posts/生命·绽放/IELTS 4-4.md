@@ -4,12 +4,13 @@ date: "2025-05-23"
 tags:
   - IELTS
 ---
-# Listening  
+# Listening
+## Section 4  
 <mark style="background: #FF5582A6;">skeleton 骨骼 </mark> 
 cartilage 软骨  
 pliable 易弯曲的  
 barb 鱼钩 
-scavenge 觅食  
+scavenge 觅食，打扫  
 
 vole 野鼠类  
 bison 野牛  
