@@ -10,7 +10,7 @@ tags:
 <mark style="background: #FF5582A6;">cartilage 软骨  </mark>
 pliable 易弯曲的  
 barb 鱼钩 
-scavenge 觅食，打扫  
+<mark style="background: #FF5582A6;">scavenge</mark> 觅食，打扫  
 
 vole 野鼠类  
 bison 野牛  
