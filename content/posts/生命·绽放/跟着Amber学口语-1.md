@@ -6,9 +6,18 @@ tags:
 ---
  [跟着amber刘逸云学雅思口语｜边追星边学习 - 小红书](https://www.xiaohongshu.com/explore/67404b020000000007026ab5?xsec_token=AB3d86RQstGw7PZH_xesspS_nfFCch5L-w6qUysGZ5m9o%3D&xsec_source=pc_user)  
 
-![[Pasted image 20250604132604.png]]  
+> [!example]+ Part 2
+> 传统产品  
+生活中离不开的东西  
+坏掉又修好的东西  
+送朋友的礼物  
+免费物品  
+想换掉的东西  
+丢东西的经历  
+收到想要的物品  
+喜欢做手工的人 (做手工包)
 
-> [!info]
+> [!info]+ Example:
 > Describe something that you can't live without  
 You should say:  
 What it is  
