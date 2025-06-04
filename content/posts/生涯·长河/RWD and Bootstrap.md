@@ -84,7 +84,7 @@ $grid-breakpoints: (
 ```
 - Source: [Grid system · Bootstrap v5.2](https://getbootstrap.com/docs/5.2/layout/grid/)
 
-> [!tldr]+ Bootstrap Grid Syetem Example
+> [!tldr] Bootstrap Grid Syetem Example
 ![[Pasted image 20250526125317.png|1050]]
 
 > [!check]+ Bootstrap
