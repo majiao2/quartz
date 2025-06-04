@@ -6,6 +6,7 @@ tags:
 ---
 [[Introduction to JavaScript]]
 
+# Functions
 > [!example]+ JavaScript Functions
 > - Built-in functions
 > 	- JavaScript provides several objects with extensive method collections for performing common operations:
@@ -48,6 +49,7 @@ console.log(result);
 > - The i - th element of array c is referred to as c[i - 1].
 > - Every array in JavaScript knows its own length, which it stores in its `length` attribute and can be found with the expression `arrayname.length`.  
 
+# Arrays
 ![[Pasted image 20250528163549.png]]  
 
 > [!attention]+ Declaring and Allocating Arrays
@@ -131,4 +133,3 @@ console.log(nums.indexOf(6)); // 2
 > [!done]+ The DOMContentLoaded Event
 > - The DOMContentLoaded event fires <mark style="background: #bcddbe;">when the initial HTML document has been completely loaded and parsed</mark>, without waiting for stylesheets, images, and subframes to finish loading.
 > - Window’s load event should be used only to detect a fully-loaded page.  
-
