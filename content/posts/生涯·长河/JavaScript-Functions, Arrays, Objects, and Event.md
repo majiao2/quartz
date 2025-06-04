@@ -135,3 +135,14 @@ console.log(nums.indexOf(6)); // 2
 > - Window’s load event should be used only to detect a fully-loaded page.  
 > - **提前操作 DOM**：  
 	当需要在页面结构加载完成后立即操作 DOM（如绑定事件、动态渲染内容），但不需要等待所有外部资源时，使用 `DOMContentLoaded` 比 `window.load` 更高效
+
+| **对比维度** | **DOMContentLoaded** | **window.load**               |
+| -------- | -------------------- | ----------------------------- |
+| **触发时机** | HTML 解析完成，无需等待外部资源   | 所有资源（HTML、样式、图片、iframe 等）加载完成 |
+| **执行顺序** | 先触发                  | 后触发                           |
+| **典型用途** | DOM 操作、事件绑定（无需等待资源）  | 依赖所有资源的操作（如图片尺寸计算）            |
+| **性能影响** | 触发早，代码执行更快           | 触发晚，可能导致用户等待                  |
+- **`document.addEventListener("DOMContentLoaded", ...)`**：  
+    将事件监听器绑定到`document`对象，它是 HTML 文档的根节点。
+- **`window.addEventListener("load", ...)`**：  
+    将事件监听器绑定到`window`对象，它代表浏览器窗口。
