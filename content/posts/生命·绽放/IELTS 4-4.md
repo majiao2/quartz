@@ -7,7 +7,7 @@ tags:
 # Listening
 ## Section 4  
 <mark style="background: #FF5582A6;">skeleton 骨骼 </mark> 
-cartilage 软骨  
+<mark style="background: #FF5582A6;">cartilage 软骨  </mark>
 pliable 易弯曲的  
 barb 鱼钩 
 scavenge 觅食，打扫  
