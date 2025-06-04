@@ -133,3 +133,5 @@ console.log(nums.indexOf(6)); // 2
 > [!done]+ The DOMContentLoaded Event
 > - The DOMContentLoaded event fires <mark style="background: #bcddbe;">when the initial HTML document has been completely loaded and parsed</mark>, without waiting for stylesheets, images, and subframes to finish loading.
 > - Window’s load event should be used only to detect a fully-loaded page.  
+> - **提前操作 DOM**：  
+	当需要在页面结构加载完成后立即操作 DOM（如绑定事件、动态渲染内容），但不需要等待所有外部资源时，使用 `DOMContentLoaded` 比 `window.load` 更高效
