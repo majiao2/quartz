@@ -10,8 +10,8 @@ tags:
 > [!info] 24 h
 > 一天有 24 h，每个格子代表 5 min，一个小时有 12 格子，一天有 288 (12 x 244)个格子，即 1440 min。
 
-# 九大分类
 
+<div align="center">
 | Categories | 分类   |
 | ---------- | ---- |
 | Sleep      | 睡觉   |
@@ -22,4 +22,5 @@ tags:
 | Hygiene    | 洗漱   |
 | Tidying    | 收拾整理 |
 | Commute    | 通勤   |
-| Other      | 其他   |
+| Other      | 其他   |  
+</div>
