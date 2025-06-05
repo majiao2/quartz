@@ -19,6 +19,8 @@ a rehabilitation farm for animals 救助站
 
 I'm totally down for this plan. 非常支持  
 
+lethal 致命的  
+
 - literally 真的完全
 	- I'm literally down for this plan.
 	- I literally don't know what to do next.
