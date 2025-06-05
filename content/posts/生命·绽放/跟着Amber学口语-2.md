@@ -24,7 +24,20 @@ I'm totally down for this plan. 非常支持
 	- I literally don't know what to do next.
 
 creepy = very stange 阴森，可怕
-whole 
+wholesome = healthy 健康的
+
+I'm really into sth. 喜欢 sth  
+
+blanket snuggling 披着毯子相拥而坐 sitting together  
+
+Candlelit dinners  烛光晚餐  
+
+intervention 干预  
+straddle 骑坐着  
+ 
+
+
+
 
 
 
