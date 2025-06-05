@@ -31,6 +31,7 @@ wholesome = healthy 健康的
 I'm really into sth. 喜欢 sth  
 
 blanket snuggling 披着毯子相拥而坐 sitting together  
+snuggle 依偎
 
 Candlelit dinners  烛光晚餐  
 
