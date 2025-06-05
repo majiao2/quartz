@@ -40,6 +40,8 @@ straddle 骑坐着
 
 I thought that I would be taking this pretty good, but in fact I found that……  
 
+scout 搜寻，侦查
+
 > [!summary]
 > - jump into
 > - right that second
