@@ -34,7 +34,12 @@ Candlelit dinners  烛光晚餐
 
 intervention 干预  
 straddle 骑坐着  
- 
+
+I thought that I would be taking this pretty good, but in fact I found that……  
+
+
+
+
 
 
 
