@@ -37,12 +37,22 @@ straddle 骑坐着
 
 I thought that I would be taking this pretty good, but in fact I found that……  
 
-
-
-
-
-
-
-
-
-
+> [!summary]
+> - jump into
+> - right that second
+> - adorable
+> - leave me on read
+> - smooth drain
+> - rehabilitation farms
+> - i am down for
+> - literally
+> - creepy
+> - wholesome
+> - i am into sth
+> - blanket snuggle
+> - candlelit dinner
+> - intervention
+> - concerned
+> - straddle
+> - I would be taking these like
+> - pretty good
