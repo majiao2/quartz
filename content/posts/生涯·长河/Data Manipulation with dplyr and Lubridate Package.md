@@ -72,3 +72,31 @@ aa <- oneCatDelivIDs %>%
     通过`mutate`创建`onTimeFlag`列，直接比较实际发货日期与计划日期，生成二进制标记（0/1）。
 4. **分组统计**：  
     按 `prodCategory`（产品类别）分组后，计算 `onTimeFlag` 的平均值，得到每个类别的**准时交付率**（`onTimePct`），数值范围为 0 到 1（如 0.8 表示 80% 准时率）。
+
+```r
+fullDF %>% 
+  # 筛选出deliveryID存在于oneCatDelivIDs中的记录（单类别订单）
+  filter(deliveryID %in% oneCatDelivIDs$deliveryID) %>% 
+  
+  # 选择第1至3列和第7列（通常包含ID、日期、类别等关键信息）
+  select(1:3, 7) %>% 
+  
+  # 创建准时标志列：实际发货日期晚于计划日期时标记为0（不准时），否则为1（准时）
+  mutate(onTimeFlag = ifelse(actualShipDate > plannedShipDate, 0, 1)) %>% 
+  
+  # 按产品类别分组
+  group_by(prodCategory) %>% 
+  
+  # 计算每个类别的准时率（准时标记的平均值）
+  summarize(onTimePct = mean(onTimeFlag))
+```
+![[Pasted image 20250606153203.png]]  
+<mark style="background: #FF5582A6;">核心逻辑说明：</mark>
+1. **数据筛选**：  
+    从完整数据集（`fullDF`）中提取**仅存在于`oneCatDelivIDs`中的单类别订单**，确保后续分析聚焦于特定订单子集。
+2. **列选择**：  
+    保留分析所需的关键列（如订单 ID、计划 / 实际日期、产品类别），丢弃无关数据以提升性能。
+3. **准时性判断**：  
+    通过比较`actualShipDate`和`plannedShipDate`生成二进制准时标记（`onTimeFlag`），**逻辑为严格晚于**（若相等则视为准时）。
+4. **分组统计**：  
+    按产品类别聚合数据，计算每个类别的准时率（`onTimePct`），即准时订单数占比。
