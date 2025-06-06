@@ -179,9 +179,22 @@ numitem_date %>%
   mutate(multiCatFlag = ifelse(numCategories == 1, 0, 1)) %>% 
   summarize(MultiCatOrders = mean(multiCatFlag))
 ```
+![[Pasted image 20250606160417.png]]  
+![[Pasted image 20250606160523.png]]  
 
-
-
+<mark style="background: #FF5582A6;">准时发货率是否因产品类别而异</mark>
+```r
+# 选择关键列（假设包含订单ID、日期、产品类别）并去重
+# 创建准时标志（0=延迟，1=准时）
+# 按产品类别分组计算准时率
+a <- fullDF %>% 
+  select(1:3, 7) %>% 
+  distinct() %>% 
+  mutate(onTimeFlag = ifelse(actualShipDate > plannedShipDate, 0, 1)) %>% 
+  group_by(prodCategory) %>% 
+  summarize(onTimePct = mean(onTimeFlag))
+```
+![[Pasted image 20250606160652.png]]
 # Example 2 
 ```r
 oneCatDelivIDs <- numitem_date %>% 
