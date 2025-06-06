@@ -147,9 +147,55 @@ fullDF <- delivDF %>% left_join(prodCatDF, by = "partID")
 # 查看合并结果
 fullDF
 ```
+![[Pasted image 20250606155348.png]]  
 
+```r
+# 统计prodCategory列的缺失值数量
+sum(is.na(fullDF$prodCategory))
 
-# Example  
+# 过滤掉prodCategory列包含缺失值的行
+fullDF <- fullDF %>% filter(!is.na(prodCategory))
+```
+![[Pasted image 20250606155529.png]]  
+![[Pasted image 20250606155556.png]] 
+
+# Example 1  
+<mark style="background: #FF5582A6;">多类别订单占比分析</mark>  
+```r
+# 1. 按订单ID和产品类别分组，统计每个类别下的商品数量
+numitem_date <- fullDF %>% 
+  group_by(deliveryID, prodCategory) %>% 
+  summarize(numItems = n())
+
+# 2. 按订单ID再次分组，统计每个订单包含的类别数量，并标记是否为多类别订单
+order_category_stats <- numitem_date %>% 
+  group_by(deliveryID) %>% 
+  summarize(numCategories = n()) %>% 
+  mutate(multiCatFlag = ifelse(numCategories == 1, 0, 1))  # 单类别=0，多类别=1
+
+# 3. 计算多类别订单的比例（即multiCatFlag的均值）
+multi_cat_percentage <- order_category_stats %>% 
+  summarize(MultiCatOrders = mean(multiCatFlag))
+```
+
+<mark style="background: #FF5582A6;">不同类别准时率差异分析</mark>
+```r
+# 1. 选择关键列并去重（避免重复计算同一订单）
+# 假设1:3列为订单ID、日期等，第7列为产品类别
+distinct_orders <- fullDF %>% 
+  select(1:3, 7) %>% 
+  distinct()
+
+# 2. 计算准时标志并按类别分组统计准时率
+category_ontime_stats <- distinct_orders %>% 
+  mutate(onTimeFlag = ifelse(actualShipDate > plannedShipDate, 0, 1)) %>%  # 晚于计划=0，否则=1
+  group_by(prodCategory) %>% 
+  summarize(onTimePct = mean(onTimeFlag))
+
+# 查看结果（假设结果存储在变量a中）
+a <- category_ontime_stats
+```
+# Example 2 
 ```r
 oneCatDelivIDs <- numitem_date %>% 
   # 按deliveryID分组，统计每个订单包含的产品类别数量
