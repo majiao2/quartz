@@ -41,16 +41,16 @@ console.log(result);
 > - A function can be used as an argument to another function
 >     - e.g., `window.setTimeOut(obj, 5000);`
 
-> [!attention]+ Functions are Objects
+# Arrays
+![[Pasted image 20250528163549.png]]  
+
+> [!attention]+ Arrays
 > - An array is a group of variables that have the same name and normally are of the same type.
 > - Each individual variable is called an element.
 > - We may refer to any one of these elements by giving the array’s name followed by the position number of the element in square brackets (`[]`).  
 > - The first element in every array is the zeroth element.
 > - The i - th element of array c is referred to as c[i - 1].
 > - Every array in JavaScript knows its own length, which it stores in its `length` attribute and can be found with the expression `arrayname.length`.  
-
-# Arrays
-![[Pasted image 20250528163549.png]]  
 
 > [!attention]+ Declaring and Allocating Arrays
 > - JavaScript arrays are **Array objects**.
