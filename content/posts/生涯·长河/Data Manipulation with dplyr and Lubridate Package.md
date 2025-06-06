@@ -21,3 +21,20 @@ tags:
 >     
 >     - Combine the observations in the data sets as if they were set elements  
 
+# Example  
+```r
+oneCatDelivIDs <- numitem_date %>% 
+  # 按deliveryID分组，统计每个订单包含的产品类别数量
+  group_by(deliveryID) %>% 
+  summarize(numCategories = n()) %>% 
+  
+  # 添加标记列：若订单仅含1个类别标记为0，否则标记为1
+  mutate(multiCatFlag = ifelse(numCategories == 1, 0, 1)) %>% 
+  
+  # 筛选出只包含单个类别的订单（multiCatFlag=0）
+  filter(multiCatFlag == 0) %>% 
+  
+  # 仅保留deliveryID列，形成最终结果
+  select(deliveryID)
+```
+
