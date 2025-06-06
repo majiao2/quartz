@@ -103,7 +103,52 @@ is_early <- date_diff < 0     # 提前
 2. **日期组件提取**：
     - `yday()`：一年中的第几天，用于统计年内进度。
     - `wday()`：星期几的数值表示，通过`label`和`abbr`参数控制输出格式。
-3. **日期差计算**：直接相减得到`difftime`对象，需用`as.numeric()`转换为数值型天数，以便后续分析（如准时率计算）。
+3. **日期差计算**：直接相减得到 `difftime` 对象，需用 `as.numeric()` 转换为数值型天数，以便后续分析（如准时率计算）。
+# 数据连接 (Joins) 操作  
+```r
+# 创建两个示例数据框用于演示连接操作
+df1 <- data.frame(x = c(1, 2), y = 2:1)
+df2 <- data.frame(x = c(1, 3), a = 10, b = "a")
+
+# 查看数据结构
+df1
+df2
+```
+## SQL风格的连接操作
+```r
+# 1. 内连接（Inner Join）：仅保留两个表中连接键匹配的行
+df1 %>% inner_join(df2)  # 等价于 inner_join(df1, df2)
+# 结果：仅保留x=1的行（df1和df2中均存在）
+```
+![[Pasted image 20250606155015.png]]  
+
+```r
+# 2. 左连接（Left Join）：保留左表所有行，右表匹配不到则填充NA
+df1 %>% left_join(df2)  # 等价于 left_join(df1, df2)
+# 结果：保留df1的两行，第二行因df2无匹配x=2的记录，a和b列填充NA
+```
+![[Pasted image 20250606155211.png]]
+
+```r
+# 3. 全连接（Full Join）：保留两个表所有行，匹配不到的部分填充NA
+df1 %>% full_join(df2)
+# 结果：保留df1和df2的所有行，缺失值填充NA
+```
+![[Pasted image 20250606155132.png]]
+
+## 实际案例：ZappTech 产品交付数据分析  
+```r
+# 自动识别公共列作为连接键（此处为partID）
+fullDF <- delivDF %>% left_join(prodCatDF)  # 等价于 left_join(delivDF, prodCatDF, by = "partID")
+
+# 显式指定连接键（推荐写法，避免歧义）
+fullDF <- delivDF %>% left_join(prodCatDF, by = "partID")
+
+# 查看合并结果
+fullDF
+```
+
+
 # Example  
 ```r
 oneCatDelivIDs <- numitem_date %>% 
