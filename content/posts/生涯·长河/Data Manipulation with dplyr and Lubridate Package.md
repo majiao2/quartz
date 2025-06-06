@@ -21,6 +21,89 @@ tags:
 >     
 >     - Combine the observations in the data sets as if they were set elements  
 
+# Lubridate  
+## 安装与加载  
+```r
+# 安装包（首次使用需运行）
+# install.packages("lubridate") 
+
+# 加载包
+library(lubridate) 
+```
+
+## 日期解析  
+**功能**：将字符型日期转换为日期对象，支持多种格式解析  
+```r
+# 使用mdy()解析"月/日/年"格式（如"01/31/2023"）
+delivDF$plannedShipDate <- mdy(delivDF$plannedShipDate)  
+delivDF$actualShipDate <- mdy(delivDF$actualShipDate)  
+
+# 其他常用解析函数：
+# dmy() 解析"日/月/年"格式（如"31/01/2023"）
+# ymd() 解析"年/月/日"格式（如"2023-01-31"）
+```
+
+
+## 获取日期组件  
+**功能**：从日期对象中提取年、月、日、星期等信息  
+```r
+# 获取当前日期
+this_day <- today()  # 输出：2025-06-06（假设当前日期为2025年6月6日）
+
+# 提取年、月、日（数值型）
+year(this_day)  # 2025
+month(this_day)  # 6
+day(this_day)    # 6
+
+# 一年中的第几天（1-365/366）
+yday(this_day)  # 例如：6月6日是第157天（31+28+31+30+31+6=157）
+
+# 一个月中的第几天（与day()等价）
+mday(this_day)  # 6
+
+# 一周中的第几天（默认：1=星期日，2=星期一，...，7=星期六）
+wday(this_day)  # 例如：2025-06-06是星期五，输出6（因星期五是一周第6天，取决于系统设置）
+```
+
+## 星期格式控制  
+**功能**：调整星期输出为缩写或完整名称  
+```r
+# 返回缩写星期（如"Fri"），结果为factor类型
+wday(this_day, label = TRUE)  # "Fri"
+
+# 转换为字符型字符串
+as.character(wday(this_day, label = TRUE))  # "Fri"
+
+# 返回完整星期名称（如"Friday"）
+as.character(wday(this_day, label = TRUE, abbr = FALSE))  # "Friday"
+```
+
+## 日期算数运算  
+**功能**：计算日期差，支持逻辑比较  
+```r
+# 提取数据框第一行的日期
+first_actual <- delivDF$actualShipDate[1]
+first_planned <- delivDF$plannedShipDate[1]
+
+# 计算时间差（返回difftime对象，单位为天）
+date_diff <- first_actual - first_planned  
+print(date_diff)  # 输出：X days
+
+# 转换为数值型（仅保留天数）
+diff_days <- as.numeric(date_diff)  
+
+# 逻辑判断（是否延迟/准时/提前）
+is_late <- date_diff > 0       # 实际日期 > 计划日期 → 延迟
+is_on_time <- date_diff == 0  # 准时
+is_early <- date_diff < 0     # 提前
+```
+
+## 总结  
+1. **日期解析函数**：`mdy()`/`dmy()`/`ymd()`需根据数据实际格式选择，确保解析正确。
+2. **日期组件提取**：
+    - `yday()`：一年中的第几天，用于统计年内进度。
+    - `wday()`：星期几的数值表示，通过`label`和`abbr`参数控制输出格式。
+3. **日期差计算**：直接相减得到`difftime`对象，需用`as.numeric()`转换为数值型天数，以便后续分析（如准时率计算）。
 # Example  
 ```r
 oneCatDelivIDs <- numitem_date %>% 
