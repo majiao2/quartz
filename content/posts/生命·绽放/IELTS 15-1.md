@@ -10,5 +10,6 @@ ferry 渡轮
 cafeteria 自助餐厅  
 parliament 议会  
 pedestrian 行人  
-
-
+personal touch 个人特色  
+promenade 步行大道  
+shuttle bus 班车  
