@@ -5,5 +5,10 @@ tags:
   - IELTS
 ---
 # Listening  
-## Section 2  
+## Part 2  
+ferry 渡轮  
+cafeteria 自助餐厅  
+parliament 议会  
+pedestrian 行人  
+
 
