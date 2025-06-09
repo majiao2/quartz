@@ -180,13 +180,13 @@ console.log("第一个html元素的第一个子节点（预期为head元素）:"
 const bodyElement2 = document.getElementsByTagName("html")[0].lastChild;
 console.log("第一个html元素的最后一个子节点（预期为body元素）:", bodyElement2);
 
-// 获取页面中第一个h1元素的前一个兄弟节点，预期结果是a元素
+// 获取页面中第一个h1元素的前一个姐妹节点，预期结果是a元素
 const aElement = document.getElementsByTagName("h1")[0].previousSibling;
-console.log("第一个h1元素的前一个兄弟节点（预期为a元素）:", aElement);
+console.log("第一个h1元素的前一个姐妹节点（预期为a元素）:", aElement);
 
-// 获取页面中第一个a元素的后一个兄弟节点，预期结果是h1元素
+// 获取页面中第一个a元素的后一个姐妹节点，预期结果是h1元素
 const h1Element = document.getElementsByTagName("a")[0].nextSibling;
-console.log("第一个a元素的后一个兄弟节点（预期为h1元素）:", h1Element);
+console.log("第一个a元素的后一个姐妹节点（预期为h1元素）:", h1Element);
 ```
 
 ---  
