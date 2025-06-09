@@ -168,9 +168,9 @@ var yy = x.fullName.value; //get the user input value in fullName
 > - previousSibling  
 
 ```javascript
-// 获取页面中第一个h1元素的父节点，预期结果是body元素
+// 获取页面中第一个h1元素的母节点，预期结果是body元素
 const bodyElement = document.getElementsByTagName("h1")[0].parentNode;
-console.log("第一个h1元素的父节点（预期为body元素）:", bodyElement);
+console.log("第一个h1元素的母节点（预期为body元素）:", bodyElement);
 
 // 获取页面中第一个html元素的第一个子节点，预期结果是head元素
 const headElement = document.getElementsByTagName("html")[0].firstChild;
@@ -231,9 +231,9 @@ console.log("第一个a元素的后一个姐妹节点（预期为h1元素）:", 
 |Method|Description|
 |---|---|
 |`document.createElement(element)`|Create an HTML element|
-|`document.removeChild(element)`|Remove an HTML element（实际应在父元素上调用，非 document 方法 ）|
-|`document.appendChild(element)`|Add an HTML element（实际应在父元素上调用，非 document 方法 ）|
-|`document.replaceChild(element)`|Replace an HTML element（实际应在父元素上调用，非 document 方法 ）|
+|`document.removeChild(element)`|Remove an HTML element（实际应在母元素上调用，非 document 方法 ）|
+|`document.appendChild(element)`|Add an HTML element（实际应在母元素上调用，非 document 方法 ）|
+|`document.replaceChild(element)`|Replace an HTML element（实际应在母元素上调用，非 document 方法 ）|
 
 Note: `removeChild()`, `appendChild()`, `replaceChild()` are NOT document methods. They can be used with any parent element object, e.g.,
 
