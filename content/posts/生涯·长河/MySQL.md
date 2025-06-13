@@ -101,12 +101,29 @@ Sample Database
     - Data Control Language (DCL) - used to control access to the data in the database
     - Transaction Control Language (TCL) - used to manage transactions in the database
 
+# DELETE statement  
+![[Pasted image 20250611085216.png]]  
 
 
 
 
 
+```bash
+docker run --name -d -p 5005:5005 -v ./:/app -w /app flask_docker
+```
 
+- **`docker run`**: 这是用来创建并启动一个新的容器的基本命令。
+- **`--name`**: 用来指定容器的名字。通常，在这个位置后面应该跟容器的名称（例如 `--name my_flask_container`）。但是，命令中 `--name` 后面没有给出名称，这导致了错误。
+- **`-d`**: 这是 `detached` 模式的标志，表示容器会在后台运行，而不是阻塞终端。
+- **`-p 5005:5005`**: 将宿主机的 5005 端口映射到容器的 5005 端口。这样，你可以通过宿主机的 5005 端口访问容器内的应用。
+- **`-v ./:/app`**: 将当前目录（`./`）挂载到容器的 `/app` 目录。容器内部的 `/app` 目录将与当前主机的目录保持同步。
+- **`-w /app`**: 设置容器的工作目录为 `/app`。这意味着容器在启动后会在 `/app` 目录下执行命令。
+- **`flask_docker`**: 这是你想要运行的 Docker 镜像的名称。
+
+```bash
+docker run --name hw8 -d -p 5005:5005 -v ./:/app -w /app flask_docker
+```
+![[Pasted image 20250612194056.png]]  
 
 
 
