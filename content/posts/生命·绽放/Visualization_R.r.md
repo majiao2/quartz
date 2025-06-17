@@ -130,5 +130,18 @@ ggplot(faithful, aes(x = eruptions)) + geom_histogram(binwidth=.05)
 ggplot(faithful, aes(x = eruptions)) + geom_histogram(binwidth=1)
 ggplot(data=faithful, mapping=aes(x=eruptions, y=waiting)) + geom_line()
 ```
+![[Pasted image 20250617174341.png|550]]  
+
+```R
+# pressure数据集示例
+p = ggplot(pressure, aes(x=temperature, y=pressure))
+p + geom_point()
+p + geom_line()
+p + geom_line() + geom_point()
+p + geom_col()
+```
+![[Pasted image 20250617174450.png|575]]  
+
+·
 
 
