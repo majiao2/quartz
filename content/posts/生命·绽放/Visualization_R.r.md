@@ -44,5 +44,26 @@ g2 = ggplot(ansDF, aes(x = x2, y = y2)) + geom_point(size = 4) + theme_bw(30)
 g3 = ggplot(ansDF, aes(x = x3, y = y3)) + geom_point(size = 4) + theme_bw(30)
 grid.arrange(g1,g2,g3, ncol = 2)
 ```
+`grid.arrange(g1, g2, g3, ncol = 2)`: 这是 `gridExtra` 包的命令。
+- 它将前面创建的三个图 (`g1`, `g2`, `g3`) 组合到一个大的图表中。
+- `ncol = 2` 的意思是指定排列为 **2列**。
+![[Pasted image 20250617172319.png|225]]  
 
-
+```R
+# This is a dinosaur example (optional)
+install.packages("datasauRus")
+library(datasauRus)
+library(dplyr)
+dinodat = datasaurus_dozen %>% filter(dataset=="dino"|dataset=="bullseye"|dataset=="star")
+dinodat %>% group_by(dataset) %>% summarize(xm=mean(x),xsd=sd(x),ym=mean(y),ysd=sd(y))
+ggplot(dinodat, aes(x=x, y=y, colour=dataset))+
+  geom_point(size=6)+ theme_void()+ theme(legend.position = "none")+
+  facet_wrap(~dataset, ncol=3)
+```
+**参数: `legend.position = "none"`**: 这个参数专门用来控制图例（legend）的位置。
+- `"none"` 这个值表示**不显示图例**。在这个例子中，因为后面的 `facet_wrap` 会为每个子集创建带标题的面板，所以颜色图例就显得多余了，可以移除。
+`facet_wrap(~dataset, ncol=3)`
+这部分是 `ggplot2` 一个非常强大的功能，用于创建分面（或“子图”）。
+- **`facet_wrap()`**: 这个函数会根据某个分类变量，将数据分割成若干子集，然后为每个子集单独创建一个图表，最后将这些子图排列在一个网格中。
+- **第一个参数: `~dataset`**: 这是一个公式（formula），`~` 符号后面的 `dataset` 变量告诉 `facet_wrap` 要根据 `dataset` 列中的每一个唯一值来创建子图。
+- **第二个参数: `ncol=3`**: `ncol` 是 "number of columns" 的缩写，这个参数指定了子图网格的**列数**。这里设置为 `3`，意味着所有子图将被排列成一个3列的网格布局。行数会根据总的子图数量自动计算。
