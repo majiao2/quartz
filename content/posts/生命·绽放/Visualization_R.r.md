@@ -75,4 +75,36 @@ head(mtcars)
 ggplot(mtcars, aes(x=mpg, y= hp)) + geom_point(size = 4) + theme_bw(30) + 
   geom_text(label = rownames(mtcars), check_overlap = TRUE, nudge_y = 10)
 ```
+`geom_text(label = rownames(mtcars), check_overlap = TRUE, nudge_y = 10)`
+这部分是代码的关键，它在图上添加了文字标签。
+- **`geom_text()`**: 这个函数添加一个**文本图层**，可以在每个数据点的位置上显示文字。
+- **参数 `label = rownames(mtcars)`**: 这是最重要的参数，它指定了要显示的文本内容。
+    - `rownames(mtcars)` 会提取 `mtcars` 数据集的所有**行名**，而这些行名正好是汽车的型号（例如 "Mazda RX4", "Ford Pantera L"）。
+    - `label = ...` 将这些汽车型号映射为每个点的标签。
+- **参数 `check_overlap = TRUE`**: 这是一个非常实用的功能，用于**检查标签是否重叠**。
+    - 当设置为 `TRUE` 时，`ggplot` 会自动隐藏掉那些会与其他标签挤在一起的标签，以避免图表变得混乱不清。
+- **参数 `nudge_y = 10`**: 这个参数用于微调标签的位置。
+    - `nudge_y` 表示在 **y轴方向上“推动”** 标签。
+    - `10` 表示将每个标签相对于其对应的数据点，向上移动10个单位。这样做是为了让标签显示在点的正上方，而不是直接覆盖在点上。
+![[Pasted image 20250617173401.png|625]]  
+
+```R
+# 3. Visualization allows access to huge amounts of data
+quakes %>% tbl_df()
+
+fijiPlot = ggplot(data = quakes, aes(x = long,y = lat,colour = mag, size = mag)) + geom_point()
+fijiPlot
+fijiPlot + borders("world", colour="gray50", fill="gray50", xlim = c(100,200), ylim = c(-50,0)) 
+fijiPlot + borders("world", colour="gray50", fill="gray50", xlim = c(min(quakes$long),max(quakes$long)), ylim = c(min(quakes$lat),max(quakes$lat))) 
+```
+- `fijiPlot + ...`: 表示在 `fijiPlot` 的基础上增加新图层。
+- `borders("world", ...)`: 添加世界地图的边框和陆地。`colour`和`fill`是把地图设为灰色。
+- `xlim` 和 `ylim`: **手动限制**地图只显示经度100到200、纬度-50到0的区域，就像用手在地图上框选一个长方形区域来放大。
+**简单说：** 在地震图上加了灰色的世界地图，并手动放大到斐济附近区域。  
+- `xlim = c(min(quakes$long),max(quakes$long))`: 这里是**自动计算**地图的左右边界。它会找到所有地震数据中最西边（最小经度）和最东边（最大经度）的点，把地图的宽度设为刚好能容纳它们。
+- `ylim = ...`: 同理，自动计算地图的上下边界，刚好容纳最南和最北的地震点。
+**简单说：** 在地震图上加了灰色的世界地图，并**自动缩放**到恰好能包含所有地震点的范围。这是最常用的方法，可以确保所有数据都被看到。  
+![[Pasted image 20250617173733.png|675]]  
+
+
 
