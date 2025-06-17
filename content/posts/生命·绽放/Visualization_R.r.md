@@ -67,3 +67,12 @@ ggplot(dinodat, aes(x=x, y=y, colour=dataset))+
 - **`facet_wrap()`**: 这个函数会根据某个分类变量，将数据分割成若干子集，然后为每个子集单独创建一个图表，最后将这些子图排列在一个网格中。
 - **第一个参数: `~dataset`**: 这是一个公式（formula），`~` 符号后面的 `dataset` 变量告诉 `facet_wrap` 要根据 `dataset` 列中的每一个唯一值来创建子图。
 - **第二个参数: `ncol=3`**: `ncol` 是 "number of columns" 的缩写，这个参数指定了子图网格的**列数**。这里设置为 `3`，意味着所有子图将被排列成一个3列的网格布局。行数会根据总的子图数量自动计算。
+![[Pasted image 20250617173040.png|650]]  
+
+```R
+# 2. Visualization gives faster access to actionable insights
+head(mtcars)
+ggplot(mtcars, aes(x=mpg, y= hp)) + geom_point(size = 4) + theme_bw(30) + 
+  geom_text(label = rownames(mtcars), check_overlap = TRUE, nudge_y = 10)
+```
+
