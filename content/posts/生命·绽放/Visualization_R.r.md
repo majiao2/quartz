@@ -21,3 +21,28 @@ library(lubridate)
 - **`nycflights13`**: 一个数据包，包含了2013年纽约市所有航班的详细信息，通常用作数据分析的练习数据。
 - **`lubridate`**: 一个专门处理日期和时间的包，让解析、计算和操作日期变得非常简单。
 
+```R
+# 1. Visualization makes data accessible to the human brain
+ansDF = anscombe %>% tbl_df %>% select(x1,y1,x2,y2,x3,y3) %>% mutate(rowNum = 1:nrow(anscombe))
+```
+- **`anscombe %>% tbl_df`**: 选取 `anscombe` 这个经典数据集，并将它转换成更易于查看的 "tibble" 格式。
+- **`select(x1,y1,x2,y2,x3,y3)`**: 从数据集中只挑选出前三组的 x 和 y 变量（共6列）。
+- **`mutate(rowNum = 1:nrow(anscombe))`**: 添加一个名为 `rowNum` 的新列，内容就是行号 (1, 2, 3, ...)。
+- **`ansDF`**: 将上面所有操作的结果保存到一个名为 `ansDF` 的新变量中。
+
+```R
+mean(ansDF$y1)
+mean(ansDF$y2)
+mean(ansDF$y3)
+var(ansDF$y1)
+var(ansDF$y2)
+var(ansDF$y3)
+
+# 绘制散点图
+g1 = ggplot(ansDF, aes(x = x1, y = y1)) + geom_point(size = 4) + theme_bw(30)
+g2 = ggplot(ansDF, aes(x = x2, y = y2)) + geom_point(size = 4) + theme_bw(30)
+g3 = ggplot(ansDF, aes(x = x3, y = y3)) + geom_point(size = 4) + theme_bw(30)
+grid.arrange(g1,g2,g3, ncol = 2)
+```
+
+
