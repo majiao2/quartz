@@ -106,5 +106,29 @@ fijiPlot + borders("world", colour="gray50", fill="gray50", xlim = c(min(quakes$
 **简单说：** 在地震图上加了灰色的世界地图，并**自动缩放**到恰好能包含所有地震点的范围。这是最常用的方法，可以确保所有数据都被看到。  
 ![[Pasted image 20250617173733.png|675]]  
 
+```R
+ggplot(data=faithful, mapping=aes(x=eruptions, y=waiting))
+ggplot(data=faithful, mapping=aes(x=eruptions, y=waiting)) + 
+  geom_point()
+```
+![[Pasted image 20250617173908.png|750]]
+
+```R
+qplot(eruptions, waiting, data=faithful)
+plot(x=faithful$eruptions, y=faithful$waiting)
+```
+- **`qplot()`**: 这是 `ggplot2` 包里的一个函数，代表 "quick plot"（快速绘图）。它的设计初衷就是让你用最少的代码快速生成一张图。
+- **`eruptions`, `waiting`**: 这两个参数分别指定了图表的 **X轴** (喷发持续时间) 和 **Y轴** (等待下一次喷发的时间)。
+- **`data=faithful`**: 这个参数告诉 `qplot` 从哪里去寻找 `eruptions` 和 `waiting` 这两个变量，数据来源是 R 内置的 `faithful` (老忠实间歇泉) 数据集。
+**简单说：** 这行代码使用 `ggplot2` 的绘图引擎，快速地画出了一张关于“喷发时间”和“等待时间”关系的散点图。它的外观通常是灰色背景、带有白色网格线，这是 `ggplot2` 的默认风格。  
+![[Pasted image 20250617174150.png|500]]  
+![[Pasted image 20250617174206.png|500]]
+
+```R
+ggplot(faithful, aes(x = eruptions)) + geom_histogram()
+ggplot(faithful, aes(x = eruptions)) + geom_histogram(binwidth=.05)
+ggplot(faithful, aes(x = eruptions)) + geom_histogram(binwidth=1)
+ggplot(data=faithful, mapping=aes(x=eruptions, y=waiting)) + geom_line()
+```
 
 
