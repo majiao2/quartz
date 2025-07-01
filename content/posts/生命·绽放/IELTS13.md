@@ -42,3 +42,9 @@ proliferate v.扩散
 <mark style="background: #FF5582A6;">permanent 永久的  </mark>
 
 ---  
+recreational 娱乐的  
+novice 新手  
+excursion  
+leaflet 宣传单  
+trek n.长途跋涉  
+ 
