@@ -40,3 +40,5 @@ metabolic adj. 新陈代谢的
 predator  
 proliferate v.扩散  
 <mark style="background: #FF5582A6;">permanent 永久的  </mark>
+
+---  
