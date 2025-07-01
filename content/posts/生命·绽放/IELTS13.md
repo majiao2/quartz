@@ -49,8 +49,11 @@ leaflet 宣传单
 trek n.长途跋涉  
 conservation n.保护  
 outdated 过时的  
-dismissive adj. 拒绝的  
+<mark style="background: #FF5582A6;">dismissive adj. 拒绝的 </mark>
 tablet 便签簿  
 premise 地点，场地  
 
-
+nanotechnology  
+fascination n.着迷  
+chronological  
+<mark style="background: #FF5582A6;">repellent adj. 防水的</mark>
