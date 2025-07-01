@@ -57,3 +57,15 @@ nanotechnology
 fascination n.着迷  
 chronological  
 <mark style="background: #FF5582A6;">repellent adj. 防水的</mark>
+
+episodic 情节的  
+factual  
+consolidation n.巩固  
+retrieval n.收回  
+stabilise v.稳定  
+<mark style="background: #FF5582A6;">olfactory adj. 嗅觉的</mark>  
+auditory  
+neurological 神经学的  
+autism n.孤独症  
+medication 药物  
+intimate  
