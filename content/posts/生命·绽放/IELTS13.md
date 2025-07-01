@@ -69,3 +69,4 @@ neurological 神经学的
 autism n.孤独症  
 medication 药物  
 intimate  
+
