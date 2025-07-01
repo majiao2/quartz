@@ -47,4 +47,10 @@ novice 新手
 excursion  
 leaflet 宣传单  
 trek n.长途跋涉  
- 
+conservation n.保护  
+outdated 过时的  
+dismissive adj. 拒绝的  
+tablet 便签簿  
+premise 地点，场地  
+
+
