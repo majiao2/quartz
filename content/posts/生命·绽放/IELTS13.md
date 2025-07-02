@@ -53,7 +53,7 @@ outdated 过时的
 tablet 便签簿  
 premise 地点，场地  
 
-	nanotechnology  
+nanotechnology  
 fascination n.着迷  
 chronological  
 <mark style="background: #FF5582A6;">repellent adj. 防水的</mark>
