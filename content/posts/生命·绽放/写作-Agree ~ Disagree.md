@@ -2,6 +2,7 @@ outperform 胜过
 outperform peers  
 adolescent  
 
-It is a common belief that  
-However, I firmly believe that  
+<mark style="background: #FF5582A6;">It is a common belief that  </mark>
+<mark style="background: #FF5582A6;">However, I firmly believe that  </mark>
+
 
