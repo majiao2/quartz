@@ -20,7 +20,9 @@ To sum up, + 理由 1、2
 For these reasons, + 我的观点
 
 ---  
-It's is a common belief that the media has affected society in a negative way and made our once diverse wo
+It's is a common belief that the media has affected society in a negative way and made our once diverse world too <mark style="background: #bcddbe;">uniform</mark>. However, I firmly believe that culture has been <mark style="background: #bcddbe;">diversified</mark> by the positive influence of media because it has broadened people's overall outlook and made society more interesting.  
+
+To begin with, the media has helped develop tolerance for different ways of thinking. In the past, mant people were not aware the traditions and beliefs of other societies. However, we now know so much more about the world because of various types of media. For example, people now have access to movies and <mark style="background: #bcddbe;">documentaries</mark> that depict ways of life in different countries. This has led t
 
 
 
