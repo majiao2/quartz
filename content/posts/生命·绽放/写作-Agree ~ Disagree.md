@@ -19,6 +19,8 @@ One study, for example, shows that
 To sum up, + 理由 1、2  
 For these reasons, + 我的观点
 
+---  
+It's is a common belief that the media has affected society in a negative way and made our once diverse wo
 
 
 
@@ -52,4 +54,5 @@ influential 有影响力的
 outperform 表现优于  
 overwhelmingly 压倒性地，绝大多数地
 scholarly competition 学术竞争  
-interpersonal development 人际发展
+interpersonal development 人际发展  
+contemporary 当代的  
