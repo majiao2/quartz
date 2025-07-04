@@ -64,4 +64,5 @@ interpersonal development 人际发展
 contemporary 当代的  
 uniform 单一的  
 documentary 纪录片  
-versatile 多功能的
+versatile 多功能的  
+versatile medium 多功能媒介  
