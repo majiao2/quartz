@@ -31,7 +31,9 @@ To sum up, <mark style="background: #FFB86CA6;">the media has been a force</mark
 ---  
 It is a common belief that drivers should not be charged for using their vehicles during rush hour, even though it contributes to air pollution. However, I firmly believe that imposing a fee would do a lot good because it could reduce traffic and help protect the environment.  
 
-To begin with, implementing a rush hour fee would ease traffic congestion, diminishing some of the pollution in the atmosphere. Charging people would make them less likely to drive to work. Instead, they would opt to use alternative means of transportation. This is important because being stuck in traffic also adds significantly to the emission of pollutants. Moreover, enforcing a fee is not only simple, but it works well.  
+To begin with, implementing a rush hour fee would ease traffic congestion, diminishing some of the pollution in the atmosphere. Charging people would make them less likely to drive to work. Instead, they would opt to use alternative means of transportation. This is important because being stuck in traffic also adds significantly to the emission of pollutants. Moreover, enforcing a fee is not only simple, but it works well. In London, for example, the government introduced a congestion fee serveral years ago. As a result, many people started to carpool, walk, or use public transportation rather than drive to work. Fewer cars on the road eased traffic congestion, and pollution levels have been going down ever since.  
+
+
 
 
 
@@ -71,4 +73,6 @@ uniform 单一的
 documentary 纪录片  
 versatile 多功能的  
 versatile medium 多功能媒介  
-diminish 减少，降低，削弱
+diminish 减少，降低，削弱  
+carpool 拼车  
+alleviate 减轻，减少
