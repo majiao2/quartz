@@ -70,3 +70,7 @@ autism n.孤独症
 medication 药物  
 intimate  
 
+---  
+hall of residence 学生宿舍  
+outskirt 郊区  
+
