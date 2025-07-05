@@ -81,5 +81,17 @@ treadmill 跑步机
 
 textile 纺织品  
 dye 染料  
-fabric 布料  
+fabric 布料   
+fibre 纤维  
+nylon 尼龙
 botanic garden 植物园  
+allergic  
+ingest 摄入  
+persumably 大概  
+oxide 氧化物  
+dioxide
+cashmere 羊绒  
+elastic 有弹性的
+linen 亚麻织物  
+pigment 色素  
+polyester 涤纶  
