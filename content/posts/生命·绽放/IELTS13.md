@@ -95,3 +95,20 @@ elastic 有弹性的
 linen 亚麻织物  
 pigment 色素  
 polyester 涤纶  
+
+crocodile  
+lizard 蜥蜴  
+lining 膜  
+beetle 甲壳虫  
+predator  
+monogamous 一夫一妻的  
+hypothesis n.假设  
+herbivorous 食草的  
+carnivorous 食肉的  
+hoof 蹄  
+intact 完整的  
+mane 鬃毛  
+offspring 后代  
+ostrich 鸵鸟  
+parasite 寄生虫  
+vegetation 植被  
