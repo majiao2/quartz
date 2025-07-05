@@ -75,7 +75,7 @@ hall of residence 学生宿舍
 outskirt 郊区  
 incredibly  
 solitary adj. 孤独的  
-fanatic n.入迷者  
+<mark style="background: #FF5582A6;">fanatic n.入迷者  </mark>
 aerobic 有氧的  
 treadmill 跑步机
 
