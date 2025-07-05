@@ -73,4 +73,13 @@ intimate
 ---  
 hall of residence 学生宿舍  
 outskirt 郊区  
+incredibly  
+solitary adj. 孤独的  
+fanatic n.入迷者  
+aerobic 有氧的  
+treadmill 跑步机
 
+textile 纺织品  
+dye 染料  
+fabric 布料  
+botanic garden 植物园  
