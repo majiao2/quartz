@@ -101,8 +101,8 @@ lizard 蜥蜴
 lining 膜  
 beetle 甲壳虫  
 predator  
-monogamous 一夫一妻的  
-hypothesis n.假设  
+<mark style="background: #FF5582A6;">monogamous 一夫一妻的  </mark>
+	hypothesis n.假设  
 herbivorous 食草的  
 carnivorous 食肉的  
 hoof 蹄  
