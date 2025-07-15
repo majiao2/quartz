@@ -28,7 +28,7 @@ To begin with, the infringement of people's liberties can be justified when prot
 
 On top of that, the government can violate an individual's right to freedom in order to make sure that safely regulations are followed. Certain jobs can endanger innocent people's lives when employees do not act safety and responsibly. In this regard, it is important to ensure that these employees follow safety rules even if their rights are infringed upon during the process. Take the example of school bus drivers and pilots. If they are not functioning at full capacity, they will not be able to perform their tasks safety. Thus, it is acceptable to make them undergo random medical tests to ensure they are healthy and capable. This is necessary to guarantee that these people are not putting the lives of others <mark style="background: #FFB86CA6;">in jeopardy</mark>.  
 
-To sum up, intruding on people's freedom is inevitable if governments are to protect society from threats and make sure that individuals are following the necessary rules. For these reasons, imposing on individual freedom is sometimes necessary.  
+To sum up, intruding on people's freedom is inevitable if governments are to protect society from threats and make sure that individuals are following the necessary rules. For these reasons, imposing on individual freedom is sometimes necessary.    
 
 > [!note]
 > - infringe on your right 侵犯你的权利
@@ -64,39 +64,6 @@ To sum up, a small fee for rush-hour <mark style="background: #bcddbe;">motorist
 
 - vegetation 植被
 - motorist 驾车者
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---  
 influential 有影响力的  
