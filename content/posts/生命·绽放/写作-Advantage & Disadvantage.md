@@ -13,4 +13,12 @@ For example, /In fact 等 + 举例
 For instance, /A recently published study illustrates that 等 + 举例
 
 **结语**: 再次陈述我的观点
-To sum up, while there are some (dis) advantage
+To sum up, while there are some (dis)advantage + 反对观点，  
+It is evident that + 我的观点  
+
+---  
+科技的发展，人们的工作方式发生了变化。优点/缺点  
+
+It is a common belief that the changes brought about in the workplace by technological advances have been largely negative. However, there is a more persuasive argument that these changes have had an overall positive effect because they allow people to work and communicate from any location.   
+
+On the one hand, technology has blurred the line between work hours and off-time. This is because smartphones and other communication devices have made it much easier to contact workers after they are finished with work. As a result, supervisors can now encroach upon the private time of th
