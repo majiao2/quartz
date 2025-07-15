@@ -25,4 +25,4 @@ On the one hand, technology has blurred the line between work hours and off-time
 
 Nevertheless, the development of technology has benefited workers by giving them the ability to perform their jobs in any physical location. Due to advances in Internet technology, people can work closely together even if they are not in the same office. For instance, people nowadays can hold video conference meetings with clients in different countries, saving them the time and money it would take to travel to those destinations. Furthermore, the ability to check work communications on a phone or laptop offers people the freedom to work from anywhere.  
 
-To sum
+To sum up, while there are some disadvantages to using new technologies in the professional sphere, it is evident that the advantages of technological advances far outweigh the drawbacks.
