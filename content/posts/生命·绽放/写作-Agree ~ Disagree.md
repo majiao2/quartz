@@ -35,7 +35,12 @@ It is a common belief that drivers should not be charged for using their vehicle
 
 To begin with, implementing a rush hour fee would ease traffic congestion, diminishing some of the pollution in the atmosphere. Charging people would make them less likely to drive to work. Instead, they would opt to use alternative means of transportation. This is important because being stuck in traffic also adds significantly to the emission of pollutants. Moreover, enforcing a fee is not only simple, but it works well. In London, for example, the government introduced a congestion fee serveral years ago. As a result, many people started to carpool, walk, or use public transportation rather than drive to work. Fewer cars on the road eased traffic congestion, and pollution levels have been going down ever since.  
 
-On top of that, the revenue from those charges can be used to fund environmentally friendly projects. Government would be able to utilize the tax money to make their cities greener. In Stockholm, for instance, the city administration has been able to plant trees and flowers alongside roads with the funds from a rush 
+On top of that, the revenue from those charges can be used to fund environmentally friendly projects. Government would be able to utilize the tax money to make their cities greener. In Stockholm, for instance, the city administration has been able to plant trees and flowers alongside roads with the funds from a rush hour regulation. This vegetation adds to the beauty of the landscape, but more importantly, it improves the air quality overall. In effect, tax revenues from a rush hour fee can do much to alleviate the polluted air.  
+
+To sum up, a small fee for rush-hour motorists would lighten traffic and help cities maintain a healthy and clean environment. For these reasons, charging such drivers would be beneficial to the planet and to society.  
+
+
+
 
 
 
