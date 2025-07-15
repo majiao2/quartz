@@ -24,15 +24,19 @@ For these reasons, + 我的观点
 
 It is a common belief that the idea of intruding upon individual liberties is abhorrent. However, I firmly believe that one's freedom should be violated by the government when the ultimate purpose is to prevent potential dangers and to ensure that safety regulations are being observed.  
 
-To begin with, the infringement of people's liberties can be justified when protecting people from danger is the main priority. Given the recent increase in violence throughtout the world, measures must be taken to prevent potential attacks, such as those committed by terrorists. For instance, in order to prevent bombings or the transport of dangerous materals, airports around the world conduct security checks on people and their belongings. Even though this is intrusive and a violation of personal space, it is necessary to protect everyone from harm. Therefore, when this is the intention, government agencies and public institutions should have the right to carry out searches and trespass on one's privacy.  
+To begin with, the infringement of people's liberties can be justified when protecting people from danger is the main priority. Given the recent increase in violence throughout the world, measures must be taken to prevent potential attacks, such as those committed by terrorists. For instance, in order to prevent bombings or the transport of dangerous materals, airports around the world conduct security checks on people and their belongings. Even though this is intrusive and a violation of personal space, it is necessary to protect everyone from harm. Therefore, when this is the intention, government agencies and public institutions should have the right to carry out searches and trespass on one's privacy.  
 
-On top of that, the government can violate an individual's right to freedom in order to make sure that safely regulations are followed. Certain jobs can endanger innocent people's lives when employees do not act safety and responsibly. In this regard, it is important to ensure that these employees follow safety rules even if their rights are infringed upon during the process. Take the example of school bus drivers and pilots. If they are not functioning at full capacity, they will not be able to perform their tasks safety. Thus, it is acceptable to make them undergo random medi tests to ensure they are healthy and capable, This is necessary to grarantee that these people are not putting the lives of others in jeopardy.  
+On top of that, the government can violate an individual's right to freedom in order to make sure that safely regulations are followed. Certain jobs can endanger innocent people's lives when employees do not act safety and responsibly. In this regard, it is important to ensure that these employees follow safety rules even if their rights are infringed upon during the process. Take the example of school bus drivers and pilots. If they are not functioning at full capacity, they will not be able to perform their tasks safety. Thus, it is acceptable to make them undergo random medical tests to ensure they are healthy and capable, This is necessary to guarantee that these people are not putting the lives of others in jeopardy.  
 
 To sum up, intruding on people's freedom is inevitable if governments are to protect society from threats and make sure that individuals are following the necessary rules. For these reasons, imposing on individual freedom is sometimes necessary.  
 
 > [!note]
 > - infringe on your right  
-> - intride on sth 干涉
+> - intride on sth 干涉  
+> - liberty / freedom  
+> - abhorrent 可恶的  
+> - be the main priority 是首要任务  
+> - terrorist
 
 ---  
 媒体对现代社会的影响
@@ -50,7 +54,7 @@ To sum up, <mark style="background: #FFB86CA6;">the media has been a force</mark
 
 It is a common belief that drivers should not be charged for using their vehicles during rush hour, even though it contributes to air pollution. However, I firmly believe that imposing a fee would do a lot good because it could reduce traffic and help protect the environment.  
 
-To begin with, implementing a rush hour fee would ease traffic congestion, diminishing some of the pollution in the atmosphere. Charging people would make them less likely to drive to work. Instead, they would opt to use alternative means of transportation. This is important because being stuck in traffic also adds significantly to the emission of pollutants. Moreover, enforcing a fee is not only simple, but it works well. In London, for example, the government introduced a congestion fee serveral years ago. As a result, many people started to carpool, walk, or use public transportation rather than drive to work. Fewer cars on the road eased traffic congestion, and pollution levels have been going down ever since.  
+To begin with, implementing a rush hour fee would ease traffic congestion, diminishing some of the pollution in the atmosphere. Charging people would make them less likely to drive to work. Instead, they would opt to use alternative means of transportation. This is important because being stuck in traffic also adds significantly to the emission of pollutants. Moreover, enforcing a fee is not only simple, but it works well. In London, for example, the government introduced a congestion fee several years ago. As a result, many people started to carpool, walk, or use public transportation rather than drive to work. Fewer cars on the road eased traffic congestion, and pollution levels have been going down ever since.  
 
 On top of that, the revenue from those charges can be used to fund environmentally friendly projects. Government would be able to utilize the tax money to make their cities greener. In Stockholm, for instance, the city administration has been able to plant trees and flowers alongside roads with the funds from a rush hour regulation. This <mark style="background: #bcddbe;">vegetation</mark> adds to the beauty of the landscape, but more importantly, it improves the air quality overall. <mark style="background: #FFB86CA6;">In effect</mark>, tax revenues from a rush hour fee can do much to alleviate the polluted air.  
 
