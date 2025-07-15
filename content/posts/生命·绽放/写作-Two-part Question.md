@@ -24,6 +24,15 @@
 
 **结语**: 概括 + 结语  
 再次强调或概括本论部分叙述的中心内容
-<mark style="background: #FF5582A6;">T  </mark>
-<mark style="background: #FF5582A6;">Nevertheless, I firmly believe that + 我的观点  </mark>  
-<mark style="background: #FF5582A6;">For the most part, it is apparent that + 我的观点  </mark>  
+<mark style="background: #FF5582A6;">To sum up, it is clear that + 本论的内容概括  </mark>
+<mark style="background: #FF5582A6;">In this regard, the issue can only be resolved by + 解决对策  </mark>  
+<mark style="background: #FF5582A6;">However, /Therefore, it is evident/undeniable that + 我的观点  </mark>  
+
+---  
+如今，越来越多的青少年想要成为影星或歌星。  
+Why do you think this is happening?  
+Is this a positive or negative development?  
+
+It is true that many teenagers today desire to become celebrities. While there are various reasons that they feel this way, it is actually a negative development because it is leading them to aim for careers that do not match their talents.  
+
+The main cause of more teens wanting to become actors and singers is their desire to imitate the wealthy and elegant lives 
