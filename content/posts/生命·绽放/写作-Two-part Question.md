@@ -35,4 +35,6 @@ Is this a positive or negative development?
 
 It is true that many teenagers today desire to become celebrities. While there are various reasons that they feel this way, it is actually a negative development because it is leading them to aim for careers that do not match their talents.  
 
-The main cause of more teens wanting to become actors and singers is their desire to imitate the wealthy and elegant lives 
+The main cause of more teens wanting to become actors and singers is their desire to imitate the wealthy and elegant lives of the stars. Celebrities are portrayed television shows dedicated to describing the exiting and luxurious lives of certain celebrities. Those shows are very popular with teenagers who see the stars as role models and dream of attaining similar levels of fame and wealth.  
+
+Nevertheless, I firmly believe that the growing number of teenagers who want to become famous is having an overall negative effect because young people are choosing careers they are not particularly skilled at. Without taking into condiseration their natural talent and ability, they are likely to fail in their pursuit of fame. For example, in the Korean pop industy, only 0.1 percent of young trainees actually succeed. Those that fail are left with limited career prospects. They often invest so much time and money in their dreams of stardom that they do not consider their education and are unable to find a 
