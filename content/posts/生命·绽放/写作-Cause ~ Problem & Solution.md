@@ -21,4 +21,6 @@ Nevertheless, the issue can be resolved by/with + 解决对策
 现代的人们比以前承受着更大的压力，这对他们的幸福有消极的影响。  
 讨论产生这种现象的原因，并提出可能的解决办法。  
 
-It is true that many people feel more stress ne
+It is true that many people feel more stress nowadays than they used to, and this is leading to a general decline in people's mental health. While this is a serious problem, it can be solved by taking up a hobby.  
+
+The main cause of stress is that society is highly competitive and people are under intense perssure to succeed. The unstable job market has contributed to making people think that they will lose their jobs if they cannot compete. Furthermore, society demands constant self-development in order to remain successful. As a result, people experience a high degree of tension and pressure at work, which has an extremely negative effect on their health. In fact, in a recent survey conducted on workers in China, over 70 percent of those questioned stated that they are under intense emotional strain because of te
