@@ -24,7 +24,9 @@ For these reasons, + 我的观点
 
 It is a common belief that the idea of intruding upon individual liberties is abhorrent. However, I firmly believe that one's freedom should be violated by the government when the ultimate purpose is to prevent potential dangers and to ensure that safety regulations are being observed.  
 
-To begin with, the infrigement of people's 
+To begin with, the infrigement of people's liberties can be justified when protecting people from danger is the main priority. Given the recent increase in violence throught the world, measures must be taken to prevent protential attacks, such as those committed by terrorists. For instance, in order to prevent bombings or the transport of dangerous materals, airports around the world ocnduct security checks on people and their belongings. Even though this is intrusive and a violation of personal space, it is necessary to protect everyone from harm. Therefore, when this is the intention, government agencies and public institutions should have the right to carry out searches and trespass on one's privacy.  
+
+On top of that, the government can violate an individual's right to freedom in order to make sure that safety regulations are followed. Certain jobs can endanger innocent people's lives when employees do not act safety and responsibly. In this regard, it is important to
 
 ---  
 媒体对现代社会的影响
