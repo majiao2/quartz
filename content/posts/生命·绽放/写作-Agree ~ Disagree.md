@@ -17,7 +17,14 @@ One study, for example, shows that
 
 **结论**  
 To sum up, + 理由 1、2  
-For these reasons, + 我的观点
+For these reasons, + 我的观点  
+
+---  
+政府维护社会安全侵犯人民的自由  
+
+It is a common belief that the idea of intruding upon individual liberties is abhorrent. However, I firmly believe that one's freedom should be violated by the government when the ultimate purpose is to prevent potential dangers and to ensure that safety regulations are being observed.  
+
+To begin with, the infrigement of people's 
 
 ---  
 媒体对现代社会的影响
@@ -44,7 +51,7 @@ To sum up, a small fee for rush-hour <mark style="background: #bcddbe;">motorist
 - vegetation 植被
 - motorist 驾车者
 
----  
+
 
 
 
