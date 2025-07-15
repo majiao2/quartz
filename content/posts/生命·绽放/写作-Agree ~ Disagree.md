@@ -20,6 +20,8 @@ To sum up, + 理由 1、2
 For these reasons, + 我的观点
 
 ---  
+媒体对现代社会的影响
+
 It's is a common belief that the media has affected society in a negative way and made our once diverse world too <mark style="background: #bcddbe;">uniform</mark>. However, I firmly believe that culture has been <mark style="background: #bcddbe;">diversified</mark> by the positive influence of media because it has broadened people's overall outlook and made society more interesting.  
 
 To begin with, the media has helped develop tolerance for different ways of thinking. In the past, mant people were not aware the <mark style="background: #FFB86CA6;">traditions and beliefs</mark> of other societies. However, we now know so much more about the world because of various types of media. For example, people now have access to movies and <mark style="background: #bcddbe;">documentaries</mark> that depict ways of life in different countries. This has led not to a simplification of cultures but to a more accepting attitude towards the ideas and values of people from other backgrounds. This creates a more diverse and open-minded society.  
@@ -35,9 +37,14 @@ It is a common belief that drivers should not be charged for using their vehicle
 
 To begin with, implementing a rush hour fee would ease traffic congestion, diminishing some of the pollution in the atmosphere. Charging people would make them less likely to drive to work. Instead, they would opt to use alternative means of transportation. This is important because being stuck in traffic also adds significantly to the emission of pollutants. Moreover, enforcing a fee is not only simple, but it works well. In London, for example, the government introduced a congestion fee serveral years ago. As a result, many people started to carpool, walk, or use public transportation rather than drive to work. Fewer cars on the road eased traffic congestion, and pollution levels have been going down ever since.  
 
-On top of that, the revenue from those charges can be used to fund environmentally friendly projects. Government would be able to utilize the tax money to make their cities greener. In Stockholm, for instance, the city administration has been able to plant trees and flowers alongside roads with the funds from a rush hour regulation. This vegetation adds to the beauty of the landscape, but more importantly, it improves the air quality overall. In effect, tax revenues from a rush hour fee can do much to alleviate the polluted air.  
+On top of that, the revenue from those charges can be used to fund environmentally friendly projects. Government would be able to utilize the tax money to make their cities greener. In Stockholm, for instance, the city administration has been able to plant trees and flowers alongside roads with the funds from a rush hour regulation. This <mark style="background: #bcddbe;">vegetation</mark> adds to the beauty of the landscape, but more importantly, it improves the air quality overall. <mark style="background: #FFB86CA6;">In effect</mark>, tax revenues from a rush hour fee can do much to alleviate the polluted air.  
 
-To sum up, a small fee for rush-hour motorists would lighten traffic and help cities maintain a healthy and clean environment. For these reasons, charging such drivers would be beneficial to the planet and to society.  
+To sum up, a small fee for rush-hour <mark style="background: #bcddbe;">motorists</mark> would lighten traffic and help cities maintain a healthy and clean environment. For these reasons, charging such drivers would be beneficial to the planet and to society.  
+
+- vegetation 植被
+- motorist 驾车者
+
+---  
 
 
 
