@@ -15,4 +15,6 @@ For instance, /A recently published study illustrates that 等 + 举例
 **结语**  
 To sum up, while it is apparent that + 反对观点, it is undeniable that + 我的观点  
 
- 
+ It is a common belief that parents should invest more time in helping their children with schoolwork. However, there is a more persuasive argement that playing sports with children is more important because doing so can build a bond between parents and children.  
+
+On the one hand, when parents provide help with schoolwork, it encourages children to develop an interest in studying. Specifically, by assisting their children with any problems they have with their work, parents make their children's tasks seem less difficult. This can result in greater interest in classes and lead to better grades in the long run. For example, research has shown that children whose parents help them solve math problems get better grades than  
