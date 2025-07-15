@@ -26,7 +26,7 @@ It is a common belief that the idea of intruding upon individual liberties is ab
 
 To begin with, the infringement of people's liberties can be justified when protecting people from danger is the main priority. Given the recent increase in violence throughout the world, measures must be taken to prevent potential attacks, such as those committed by <mark style="background: #bcddbe;">terrorists</mark>. For instance, in order to prevent bombings or the transport of dangerous materials, airports around the world conduct security checks on people and their belongings. Even though this <mark style="background: #FFB86CA6;">is intrusive and a violation of personal space</mark>, it is necessary to protect everyone from harm. Therefore, when this is the intention, <mark style="background: #FFB86CA6;">government agencies and public institutions</mark> should have the right to carry out <mark style="background: #FFB86CA6;">searches and trespass</mark> on one's privacy.  
 
-On top of that, the government can violate an individual's right to freedom in order to make sure that safely regulations are followed. Certain jobs can endanger innocent people's lives when employees do not act safety and responsibly. In this regard, it is important to ensure that these employees follow safety rules even if their rights are infringed upon during the process. Take the example of school bus drivers and pilots. If they are not functioning at full capacity, they will not be able to perform their tasks safety. Thus, it is acceptable to make them undergo random medical tests to ensure they are healthy and capable, This is necessary to guarantee that these people are not putting the lives of others in jeopardy.  
+On top of that, the government can violate an individual's right to freedom in order to make sure that safely regulations are followed. Certain jobs can endanger innocent people's lives when employees do not act safety and responsibly. In this regard, it is important to ensure that these employees follow safety rules even if their rights are infringed upon during the process. Take the example of school bus drivers and pilots. If they are not functioning at full capacity, they will not be able to perform their tasks safety. Thus, it is acceptable to make them undergo random medical tests to ensure they are healthy and capable. This is necessary to guarantee that these people are not putting the lives of others <mark style="background: #FFB86CA6;">in jeopardy</mark>.  
 
 To sum up, intruding on people's freedom is inevitable if governments are to protect society from threats and make sure that individuals are following the necessary rules. For these reasons, imposing on individual freedom is sometimes necessary.  
 
@@ -37,7 +37,8 @@ To sum up, intruding on people's freedom is inevitable if governments are to pro
 > - liberty / freedom  
 > - abhorrent 可恶的  
 > - be the main priority 是首要任务  
-> - terrorist
+> - terrorist  
+> - in jeopardy 处于危险中
 
 ---  
 媒体对现代社会的影响
