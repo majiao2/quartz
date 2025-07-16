@@ -16,7 +16,7 @@
 
 增加 augment  
 加剧 exacerbate  
-支持 <mark style="background: #D2B3FFA6;">bolster </mark> 
+支持 <mark style="background: #D2B3FFA6;">bolster </mark> / bolster up
 破坏 undermine   
 限制 curtail  
 减轻 mitigate  
@@ -25,9 +25,9 @@
 即将发生的 imminent  
 禁止的 prohibitive  
 普遍存在的 pervasive  
-有帮助的 conducive 
+有帮助的 conducive / conducive to sth
 不可避免的 inevitable  
-关键的 pivotal  
+关键的 pivotal / a pivotal role
 
 副词  
 大幅度地 substantially  
