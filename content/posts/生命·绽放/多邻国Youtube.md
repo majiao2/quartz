@@ -11,7 +11,7 @@
 范例 paradigm  
 困境 dilemma  
 困境 predicament  
-危险 peril   
+危险 peril / in perira
 影响 ramification  
 
 增加 augment  
