@@ -23,3 +23,6 @@ On the one hand, when parents provide help with schoolwork, it encourages childr
 Nevertheless, playing sports is a better way for parents to connect with their children. It fosters open communication by making children feel more comfortable about sharing their thoughts with their parents. The experience of cooperation and bonding, which is a part of every sport, removes any feelings of nervousness children may have in the presence of their parents. In fact, a recent study revealed that children express their opinions more when their parents create a relaxed environment by playing sports with them. Topics that children may consider too embarrassing or difficult to discuss under normal circumstances are brought up more easily while playing sports. The result is that parents and children build closer relationships.  
 
 To sum up, while it is apparent that helping with schoolwork is one way parents can support their children, it is undeniable that playing sports together is more important.  
+
+- persuasive 令人信服的
+- 
