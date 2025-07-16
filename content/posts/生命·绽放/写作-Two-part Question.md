@@ -1,3 +1,9 @@
+---
+title: "写作-Two-part Question"
+date: "2025-07-16"
+tags:
+  - IELTS
+---
  **序论**：引入+我的观点  
 引入
 <mark style="background: #FF5582A6;">It is true that + 话题  </mark>

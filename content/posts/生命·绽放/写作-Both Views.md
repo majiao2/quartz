@@ -1,4 +1,11 @@
- **序论**：引入+我的观点（观点 1/观点 2）
+---
+title: "写作-Both Views"
+date: "2025-07-16"
+tags:
+  - IELTS
+  - 
+---
+**序论**：引入+我的观点（观点 1/观点 2）
 <mark style="background: #FF5582A6;">It is a common belief that  </mark>
 <mark style="background: #FF5582A6;">However, there is a more persuasive argument that  </mark>
 
@@ -25,4 +32,4 @@ Nevertheless, playing sports is a better way for parents to connect with their c
 To sum up, while it is apparent that helping with schoolwork is one way parents can support their children, it is undeniable that playing sports together is more important.  
 
 - persuasive 令人信服的
-- 
+- specifically 具体来说

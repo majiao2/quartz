@@ -1,3 +1,9 @@
+---
+title: "写作-Cause ~ Problem & Solution"
+date: "2025-07-16"
+tags:
+  - IELTS
+---
  **序论**：引入+我的观点
 <mark style="background: #FF5582A6;">It is true that + 话题情况或现象  </mark>
 <mark style="background: #FF5582A6;">While this is a serious problem, it can be solved by + 解决对策  </mark>

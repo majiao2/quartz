@@ -1,3 +1,9 @@
+---
+title: "写作-Advantage & Disadvantage"
+date: "2025-07-16"
+tags:
+  - IELTS
+---
  **序论**：引入+我的观点（偏向优点或偏向缺点）
 <mark style="background: #FF5582A6;">It is a common belief that  </mark>
 <mark style="background: #FF5582A6;">However, there is a more persuasive argument that  </mark>
