@@ -3,6 +3,7 @@ title: "写作-Cause ~ Problem & Solution"
 date: "2025-07-16"
 tags:
   - IELTS
+  - Writing-task-2
 ---
  **序论**：引入+我的观点
 <mark style="background: #FF5582A6;">It is true that + 话题情况或现象  </mark>

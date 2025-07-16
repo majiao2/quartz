@@ -3,6 +3,7 @@ title: "写作-Two-part Question"
 date: "2025-07-16"
 tags:
   - IELTS
+  - Writing-task-2
 ---
  **序论**：引入+我的观点  
 引入
