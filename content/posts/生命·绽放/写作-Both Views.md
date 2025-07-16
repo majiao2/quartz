@@ -27,10 +27,12 @@ It is a common belief that parents should invest more time in helping their chil
 
 On the one hand, when parents provide help with schoolwork, it encourages children to develop an interest in studying. Specifically, by assisting their children with any problems they have with their work, parents make their children's tasks seem less difficult. This can result in greater interest in classes and lead to better grades in the long run. <span style="background:#fff88f">For example, research has shown that children whose parents help them solve math problems get better grades than those who do their work on their own. Assisting them with their schoolwork makes children more enthusiastic about studying, thereby providing a basis for their academic success.</span>  
 
-Nevertheless, playing sports is a better way for parents to connect with their children. It fosters open communication by making children feel more comfortable about sharing their thoughts with their parents. The experience of <mark style="background: #FFB86CA6;">cooperation and bonding</mark>, which is a part of every sport, removes any feelings of nervousness children may have in the presence of their parents. In fact, a recent study revealed that children express their opinions more when their parents create a relaxed environment by playing sports with them. Topics that children may consider too embarrassing or difficult to discuss under normal circumstances are brought up more easily while playing sports. The result is that parents and children build closer relationships.  
+Nevertheless, playing sports is a better way for parents to connect with their children. It fosters open communication by making children feel more comfortable about sharing their thoughts with their parents. The experience of <mark style="background: #FFB86CA6;">cooperation and bonding</mark>, which is a part of every sport, removes any feelings of nervousness children may have in the presence of their parents. <span style="background:#fff88f">In fact, a recent study revealed that children express their opinions more when their parents create a relaxed environment by playing sports with them. Topics that children may consider too embarrassing or difficult to discuss under normal circumstances are brought up more easily while playing sports. The result is that parents and children build closer relationships.</span>  
 
-To sum up, while it is apparent that helping with schoolwork is one way parents can support their children, it is undeniable that playing sports together is more important.  
+<u>To sum up, while it is apparent that</u> helping with schoolwork is one way parents can support their children, <u>it is undeniable</u> that playing sports together is more important.  
 
-- persuasive 令人信服的
-- specifically 具体来说
-- be enthusiastic about
+> [!note]
+> - persuasive 令人信服的
+> - specifically 具体来说
+> - be enthusiastic about  
+
