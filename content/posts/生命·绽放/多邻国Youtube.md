@@ -5,7 +5,7 @@
 
 
 ---  
-【雅思大作文高级词｜用上 10 个作文直接涨 0.5 分｜从语料库的角度分析词汇的高级度】https://www.bilibili.com/video/BV1to4y1L7CL?vd_source=7fbfcafaa5f6bc905794f813aab975a0  
+  [雅思大作文高级词｜用上10个作文直接涨0.5分｜从语料库的角度分析词汇的高级度\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1to4y1L7CL/?vd_source=7fbfcafaa5f6bc905794f813aab975a0)  
 
 难题 conundrum  
 范例 paradigm  
@@ -19,8 +19,7 @@
 支持 <mark style="background: #D2B3FFA6;">bolster </mark> / bolster up
 破坏 undermine   
 限制 curtail  
-减轻 mitigate  
-
+减轻 mitigate 
 形容词 
 即将发生的 imminent  
 禁止的 prohibitive  
@@ -31,6 +30,6 @@
 
 副词  
 大幅度地 substantially  
-非常 remarkable  
+非常 remarkable 非凡的
 尽管 nevertheless/nonetheless  
 因此 consequently  
