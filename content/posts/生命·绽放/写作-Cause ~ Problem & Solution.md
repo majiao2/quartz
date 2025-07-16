@@ -36,6 +36,7 @@ However, there are solutions to this problem. One of the ways to deal with stres
 
 To sum up, it is clear that intense pressure to succeed is generating high levels of stress, which is harmful to people's health. Nevertheless, the issue can be resolved by finding a hobby one can enjoy.  
 
-- a recreational activity / hobby
-- unwind 放松
-- vitalize 使有生气
+> [!note]
+> - a recreational activity / hobby
+> - unwind 放松
+> - vitalize 使有生气

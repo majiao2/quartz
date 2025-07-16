@@ -42,13 +42,16 @@ Is this a positive or negative development?
 
 It is true that many teenagers today desire to become celebrities. While there are various reasons that they <mark style="background: #FFB86CA6;">feel this way</mark>, it is actually a negative development because it is leading them to <mark style="background: #FFB86CA6;">aim for careers that</mark> do not match their talents.  
 
-The main cause of more teens wanting to become actors and singers is their desire to imitate the wealthy and elegant lives of the stars. Celebrities are portrayed in the media as having glamorous lifestyles, which makes teenages want to emulate them. For instance, there are <mark style="background: #FFB86CA6;">reality television</mark> shows dedicated to describing the exciting and luxurious lives of certain celebrities. Those shows are very popular with teenagers who see the stars as role models and dream of attaining similar levels of fame and wealth.  
+The main cause of more teens wanting to become actors and singers is their desire to imitate the wealthy and elegant lives of the stars. Celebrities are portrayed in the media as having glamorous lifestyles, which makes teenages want to emulate them. For instance, there are <mark style="background: #FFB86CA6;">reality television</mark> shows dedicated to describing the exciting and luxurious lives of certain celebrities. Those shows are very popular with teenagers who see the stars as role models and dream of attaining similar levels of <mark style="background: #FFB86CA6;">fame and wealth</mark>.  
 
-Nevertheless, I firmly believe that the growing number of teenagers who want to become famous is having an overall negative effect because young people are choosing careers they are not particularly skilled at. Without taking into consideration their natural talent and ability, they are likely to fail in their pursuit of fame. For example, in the Korean pop industry, only 0.1 percent of young trainees actually succeed. Those that fail are left with limited career prospects. They often invest so much time and money in their dreams of stardom that they do not consider their education and are unable to find a backup career.   
+Nevertheless, I firmly believe that the growing number of teenagers who want to become famous is having an overall negative effect because young people are choosing careers they are not particularly skilled at. Without taking into consideration their natural talent and ability, they are likely to fail in their pursuit of fame. For example, in the Korean pop industry, only 0.1 percent of young trainees actually succeed. Those that fail are left with limited career prospects. They often invest so much time and money in their dreams of stardom that they do not consider their education and are unable to find a <mark style="background: #FFB86CA6;">backup career</mark>.   
 
 To sum up, it is clear that exposure to the lifestyles of the stars leads many in the younger generation to aspire to the wealth of these celebrities. However, it is evident that the drawbacks of so many teenagers trying to become entertainers makes it a negative phenomenon.  
 
-- aim for careers that 以职业（发展）为目标
-- glamorous lifestyle 光鲜亮丽的生活
-- imitate 模仿 / emulate 效仿
-- dedicated to describing 
+> [!note]
+> - aim for careers that 以职业（发展）为目标
+> - glamorous lifestyle 光鲜亮丽的生活
+> - imitate 模仿 / emulate 效仿
+> - dedicated to describing 专门致力于描述
+> - stardom 明星的地位 / rise to stardom 一举成名
+> - aspire to 渴望
