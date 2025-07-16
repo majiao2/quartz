@@ -9,4 +9,28 @@
 
 难题 conundrum  
 范例 paradigm  
-kun'jin
+困境 dilemma  
+困境 predicament  
+危险 peril   
+影响 ramification  
+
+增加 augment  
+加剧 exacerbate  
+支持 <mark style="background: #D2B3FFA6;">bolster </mark> 
+破坏 undermine   
+限制 curtail  
+减轻 mitigate  
+
+形容词 
+即将发生的 imminent  
+禁止的 prohibitive  
+普遍存在的 pervasive  
+有帮助的 conducive 
+不可避免的 inevitable  
+关键的 pivotal  
+
+副词  
+大幅度地 substantially  
+非常 remarkable  
+尽管 nevertheless/nonetheless  
+因此 consequently  
