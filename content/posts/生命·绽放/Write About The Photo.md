@@ -25,7 +25,8 @@ Action Verbs
 ![[Pasted image 20250719122645.png]]  
 
 in close proximity to 紧邻  
-in the background/foreground 
+in the background/foreground 在背景中/在前景中  
+
 
 
 
