@@ -32,6 +32,7 @@ Action Verbs
 - braid 辫子 with braids
 - studious 勤奋的，好学的
 
+- scenic 风景优美的 scenic view
 
 
 
