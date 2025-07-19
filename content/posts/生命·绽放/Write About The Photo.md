@@ -15,7 +15,14 @@ Action Verbs
 - guiding
 
 - walking
-- 
+- wandering
+- marching
+- enjoying
+- talking
+- chatting
+- holding hands
+
+
 
 
 
