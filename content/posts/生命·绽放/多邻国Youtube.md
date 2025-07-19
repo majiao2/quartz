@@ -35,3 +35,4 @@
 因此 consequently  
 
 hinder 阻碍，妨碍
+optimize 优化  
