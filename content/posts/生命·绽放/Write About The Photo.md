@@ -24,8 +24,12 @@ Action Verbs
 
 ![[Pasted image 20250719122645.png]]  
 
-in close proximity to 紧邻  
-in the background/foreground 在背景中/在前景中  
+- in the background/foreground 在背景中/在前景中  
+- <mark style="background: #FFB86CA6;">in close proximity to 紧邻  </mark>
+
+- retro car 复古风格的汽车
+
+
 
 
 
