@@ -29,6 +29,8 @@ Action Verbs
 
 - retro car 复古风格的汽车
 
+- braid 辫子
+- studious 
 
 
 
