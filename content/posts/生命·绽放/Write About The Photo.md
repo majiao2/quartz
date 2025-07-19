@@ -22,6 +22,13 @@ Action Verbs
 - chatting
 - holding hands
 
+![[Pasted image 20250719122645.png]]  
+
+in close proximity to 紧邻  
+in the background/foreground 
+
+
+
 
 
 
