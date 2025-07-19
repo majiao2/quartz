@@ -29,8 +29,9 @@ Action Verbs
 
 - retro car 复古风格的汽车
 
-- braid 辫子
-- studious 
+- braid 辫子 with braids
+- studious 勤奋的，好学的
+
 
 
 
