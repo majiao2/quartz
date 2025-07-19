@@ -5,6 +5,18 @@
 - This image depicts
 - In this photograph there is/are
 
+Action Verbs  
+- explaining
+- demonstrating
+- gesturing
+- pointing
+- instructing
+- engaging
+- guiding
+
+- walking
+- 
+
 
 
 
