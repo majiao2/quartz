@@ -12,7 +12,7 @@
 困境 dilemma  
 困境 predicament  
 危险 peril / in perira
-影响 ramification  
+<mark style="background: #D2B3FFA6;">影响 ramification</mark>  
 
 增加 augment  
 加剧 exacerbate  
@@ -33,3 +33,5 @@
 非常 remarkable 非凡的
 尽管 nevertheless/nonetheless  
 因此 consequently  
+
+hinder 阻碍，妨碍

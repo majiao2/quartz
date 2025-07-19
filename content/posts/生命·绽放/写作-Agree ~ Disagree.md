@@ -24,7 +24,7 @@ One study, for example, shows that
 
 **结论**  
 To sum up, + 理由 1、2  
-For these reasons, + 我的观点  
+Given these reasons, + 我的观点  
 
 ---  
 政府维护社会安全侵犯人民的自由  
@@ -86,3 +86,4 @@ versatile medium 多功能媒介
 diminish 减少，降低，削弱  
 carpool 拼车  
 alleviate 减轻，减少
+
