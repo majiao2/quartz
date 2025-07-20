@@ -38,5 +38,18 @@ scientific breakthroughs
 <mark style="background: #D2B3FFA6;">the advent of sth</mark> 
 <mark style="background: #D2B3FFA6;">supersede</mark> | be supersede by sth 取代（过去的某种事物）  
 welcome sth with open arms 热情迎接  
-popularise sth
+<mark style="background: #D2B3FFA6;">popularise sth</mark> 让某种新生事物得到普及  
+dependency on sth  
+genetic engineering  
+genetically-modified food  
+<mark style="background: #D2B3FFA6;">minimise the risk of sth</mark>
+cloud computing  
+telecommuting 远程上班  
+teleconferencing 远程会议  
+astronaut 宇航员  
+experiment with sth  
+satisfy human curiosity  
+<mark style="background: #D2B3FFA6;">a hard-won discovey </mark> 难得的发现  
+social networking website  
+interact with 相互交流, 互动
 
