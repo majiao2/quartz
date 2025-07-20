@@ -29,3 +29,14 @@ an outlet for creativity and problem-solving
 repress individuality 压制个性
 joys and sorrows of adolescence   
 
+---  
+# Science & Technology  
+become wildly available  
+<mark style="background: #D2B3FFA6;">be shrouded in secrecy</mark> = not be able to known 没有被大家所熟知
+break new ground 开拓新的领域  
+scientific breakthroughs  
+<mark style="background: #D2B3FFA6;">the advent of sth</mark> 
+<mark style="background: #D2B3FFA6;">supersede</mark> | be supersede by sth 取代（过去的某种事物）  
+welcome sth with open arms 热情迎接  
+popularise sth
+
