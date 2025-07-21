@@ -62,4 +62,4 @@ artificial intelligence
 a high-tech gizmo 体积小巧的高科技产品  
 superconductor 超导  
 supersonic 超音速的  
-be mechanised 
+be mechanised 机械化的
