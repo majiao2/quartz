@@ -3,6 +3,8 @@ title: Education
 date: 2025-05-22
 tags:
   - 句型
+created: 2025-05-22T19:04
+updated: 2025-07-22T05:58
 ---
 an arduous process 艰苦努力  
 someone's aspiration/pursuit  
@@ -53,3 +55,4 @@ satisfy human curiosity
 social networking website  
 interact with 相互交流, 互动
 
+abcd
