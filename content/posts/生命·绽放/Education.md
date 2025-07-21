@@ -75,4 +75,21 @@ automation 自动化
 boost crop yield  
 <mark style="background: #D2B3FFA6;">It is conceivable that</mark> 可以想见的是  
 <mark style="background: #D2B3FFA6;">realise the uptapped potential of</mark> 发挥某事物尚未发挥出的潜力  
-Some scientific evidence 
+Some scientific evidence has emerged to the contrary.  
+<mark style="background: #D2B3FFA6;">There is considerable evidence suggesting that</mark>  
+
+# Likes and Dislikes  
+<mark style="background: #D2B3FFA6;">get carried away</mark> 非常激动的  
+remain calm  
+adore sb./sth.  
+be passionate about 对某事非常热衷  
+avid 热切的 = very enthusiastic  
+have a yearning of sth 渴望得到某物  
+be superior to 相比其它事物更出色的  
+<mark style="background: #D2B3FFA6;">be fond of sth </mark> 
+quite like sb./sth.  
+be indifferent to sth 无动于衷的  
+preference  
+be concerned about  
+dislike sb./sth.  
+have a strong aversion to 
