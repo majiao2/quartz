@@ -107,6 +107,21 @@ make up one's mind
 <mark style="background: #D2B3FFA6;">have mixed feeling about sth</mark> 对某事的态度不是很明确  
 will determine sth  
 be up in the air 悬而未决的  
-sb is still 
+<mark style="background: #D2B3FFA6;">sb is still wavering between ... and ...</mark> 某人仍然在两事物间犹豫不决  
+convince sb to do sth  
+sb has no say in sth 没有发言权  
+pay off 给人以  
+<mark style="background: #D2B3FFA6;">bear fruit</mark> 产生成果  
+fruitful 成果丰硕的  
+You reap what you sow.  
+a golden opportunity  
+seize the opportunity  
+go down the drain 付诸东流  
+be in vain  
+<mark style="background: #D2B3FFA6;">exert oneself</mark> 尽力  
+apply oneself  
+<mark style="background: #D2B3FFA6;">come to fruition</mark> 得到实现
+<mark style="background: #D2B3FFA6;">fall by the wayside</mark> 落空  
+
 
 
