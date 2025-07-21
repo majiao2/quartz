@@ -20,8 +20,8 @@ For example, /In fact 等 + 举例
 For instance, /A recently published study illustrates that 等 + 举例
 
 **结语**: 再次陈述我的观点
-To sum up, while there are some (dis)advantage + 反对观点，  
-It is evident that + 我的观点  
+To sum up, while there are some (dis)advantage to + 反对观点，  
+It is evident that + the advantage of 我的观点  
 
 ---  
 科技的发展，人们的工作方式发生了变化。优点/缺点  
@@ -42,4 +42,5 @@ To sum up, while there are some disadvantages to using new technologies in the p
 > - in the professional sphere 职业领域  
 
 <mark style="background: #FFB86CA6;">far outweigh 远远超过 </mark>   
+
 
