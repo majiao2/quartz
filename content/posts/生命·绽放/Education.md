@@ -55,4 +55,11 @@ satisfy human curiosity
 social networking website  
 interact with 相互交流, 互动
 
-abcd
+identity theft 盗用用户名  
+e-mail fraud 电子邮件诈骗  
+e-mail spamming  
+artificial intelligence  
+a high-tech gizmo 体积小巧的高科技产品  
+superconductor 超导  
+supersonic 超音速的  
+be mechanised 
