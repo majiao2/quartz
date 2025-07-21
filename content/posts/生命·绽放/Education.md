@@ -122,6 +122,14 @@ be in vain
 apply oneself  
 <mark style="background: #D2B3FFA6;">come to fruition</mark> 得到实现
 <mark style="background: #D2B3FFA6;">fall by the wayside</mark> 落空  
+a weak link  
+<mark style="background: #D2B3FFA6;">The only fly in the ointment is</mark> 美中不足的是  
+<mark style="background: #D2B3FFA6;">cut both ways</mark> 有利有弊  
+<mark style="background: #D2B3FFA6;">a recipe for disaster</mark> 肯定会导致问题的计划或方案（存在某种隐患）  
+<mark style="background: #D2B3FFA6;">infallible</mark> 绝对可靠的，万无一失的  
 
+# Clothing and Fashion  
+hand-me-downs 亲人穿过的旧衣物  
+tattered thing 破旧的衣服
 
 
