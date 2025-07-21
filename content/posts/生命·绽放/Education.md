@@ -92,4 +92,21 @@ be indifferent to sth 无动于衷的
 preference  
 be concerned about  
 dislike sb./sth.  
-have a strong aversion to 
+<mark style="background: #D2B3FFA6;">have a strong aversion to sb./sth.</mark>  
+be reluctant to do sth  
+loathe sth 非常厌恶某人或某物  
+detest sb./sth. 非常憎恨某人或某事 
+
+# Effort, Plan and Decision  
+in advance  
+beforehand 预先  
+draw up a plan/ a list  
+intend to do sth  
+<mark style="background: #D2B3FFA6;">have one's heart set on sth</mark> 非常渴望某事发生  
+make up one's mind  
+<mark style="background: #D2B3FFA6;">have mixed feeling about sth</mark> 对某事的态度不是很明确  
+will determine sth  
+be up in the air 悬而未决的  
+sb is still 
+
+
