@@ -62,4 +62,17 @@ artificial intelligence
 a high-tech gizmo 体积小巧的高科技产品  
 superconductor 超导  
 supersonic 超音速的  
-be mechanised 机械化的
+be mechanised 机械化的  
+mass production  
+Silicon Valley  
+<mark style="background: #D2B3FFA6;">information highway</mark> = the Internet  
+speed up the pace of sth  
+set priorities  
+virtual reality  
+high-definition 高清晰度的  
+<mark style="background: #D2B3FFA6;">bring liberation from sth</mark> = free a person from sth  
+automation 自动化  
+boost crop yield  
+<mark style="background: #D2B3FFA6;">It is conceivable that</mark> 可以想见的是  
+<mark style="background: #D2B3FFA6;">realise the uptapped potential of</mark> 发挥某事物尚未发挥出的潜力  
+Some scientific evidence 
