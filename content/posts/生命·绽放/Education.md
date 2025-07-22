@@ -34,7 +34,7 @@ joys and sorrows of adolescence
 ---  
 # Science & Technology  
 become wildly available  
-<mark style="background: #D2B3FFA6;">be shrouded in secrecy</mark> = not be able to known 没有被大家所熟知
+<mark style="background: #D2B3FFA6;">be shrouded in secrecy</mark> = not be able to known 没有被大家所熟知  
 break new ground 开拓新的领域  
 scientific breakthroughs  
 <mark style="background: #D2B3FFA6;">the advent of sth</mark> 
@@ -134,14 +134,14 @@ hand-me-downs 亲人穿过的旧衣物
 dress for success  
 dress for comfort  
 sb. has impeccable taste in clothing  
-<mark style="background: #D2B3FFA6;">tacky clothing</mark> 没品位的服装
-Clothes make the man.
-casual clothes
+<mark style="background: #D2B3FFA6;">tacky clothing</mark> 没品位的服装  
+Clothes make the man.  
+casual clothes  
 dressy clothes 风格正式的服装
-elegant clothes
-fashion-consious 对时尚非常敏感的
-a fashion victim 过于追求时尚的人
-breathable clothing 透气的衣服  
+elegant clothes  
+fashion-consious 对时尚非常敏感的  
+a fashion victim 过于追求时尚的人  
+breathable clothing 透气的衣服    
 waterproof clothes 防水的衣服
   
 
